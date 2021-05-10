@@ -1,0 +1,8282 @@
+[
+    {
+        "type": "way",
+        "id": 5302169,
+        "nodes": [
+            37634883,
+            60779162,
+            249740784,
+            4882098604,
+            4882098603,
+            7655794383,
+            37634879,
+            55479886,
+            55478166,
+            4500792233,
+            103573866,
+            37634873,
+            6304454909,
+            6304454912
+        ],
+        "tags": {
+            "bicycle": "use_sidepath",
+            "highway": "secondary",
+            "lanes": "2",
+            "lanes:backward": "1",
+            "lanes:forward": "1",
+            "lit": "yes",
+            "maxspeed": "50",
+            "name": "Einsteinstraße",
+            "old_ref": "L 843",
+            "ref": "K 4",
+            "segregated": "yes",
+            "surface": "asphalt"
+        },
+        "length": 0.49416227855133105
+    },
+    {
+        "type": "way",
+        "id": 5608009,
+        "nodes": [
+            41662302,
+            2923607178,
+            41665132,
+            2923607181,
+            41665009,
+            2327128424
+        ],
+        "tags": {
+            "highway": "residential",
+            "lit": "yes",
+            "maxspeed": "30",
+            "name": "Am Schlossgarten",
+            "surface": "asphalt"
+        },
+        "sub_id": 0,
+        "length": 0.25722340725725523
+    },
+    {
+        "type": "way",
+        "id": 5736764,
+        "nodes": [
+            445873099,
+            43599892,
+            3966596462,
+            65145426
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "service",
+            "motor_vehicle": "no",
+            "name": "Promenade",
+            "psv": "no",
+            "surface": "paving_stones"
+        },
+        "length": 0.04828497792956204
+    },
+    {
+        "type": "way",
+        "id": 7656162,
+        "nodes": [
+            55478588,
+            4057919593,
+            4057934820,
+            55478469,
+            55478855
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 0,
+        "length": 0.062191209028743644
+    },
+    {
+        "type": "way",
+        "id": 7656164,
+        "nodes": [
+            55478051,
+            988085940
+        ],
+        "tags": {
+            "bridge": "yes",
+            "highway": "footway",
+            "layer": "1",
+            "surface": "wood"
+        },
+        "length": 0.01984558649163328
+    },
+    {
+        "type": "way",
+        "id": 7656179,
+        "nodes": [
+            55480087,
+            4057919543
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 0,
+        "length": 0.00704360765366967
+    },
+    {
+        "type": "way",
+        "id": 7656190,
+        "nodes": [
+            2161805806,
+            4057919620,
+            55480130,
+            8693726808,
+            55479043
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 0,
+        "length": 0.04287477035222885
+    },
+    {
+        "type": "way",
+        "id": 7656201,
+        "nodes": [
+            4882098573,
+            55478166,
+            5237073178,
+            55478392,
+            55479954,
+            55479266
+        ],
+        "tags": {
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted",
+            "width": "1"
+        },
+        "length": 0.13305009064137754
+    },
+    {
+        "type": "way",
+        "id": 7656217,
+        "nodes": [
+            55480048,
+            6937292645,
+            8693733020,
+            6937292643,
+            55478202,
+            55479997,
+            55479965
+        ],
+        "tags": {
+            "highway": "service",
+            "oneway": "yes",
+            "service": "parking_aisle",
+            "surface": "asphalt"
+        },
+        "sub_id": 0,
+        "length": 0.03323892634306139
+    },
+    {
+        "type": "way",
+        "id": 7656221,
+        "nodes": [
+            55479266,
+            55479843,
+            4057919634,
+            4057919632,
+            4057919631,
+            55478902,
+            55478106
+        ],
+        "tags": {
+            "highway": "footway",
+            "lit": "no",
+            "source": "survey"
+        },
+        "sub_id": 0,
+        "length": 0.11714331086799175
+    },
+    {
+        "type": "way",
+        "id": 8068250,
+        "nodes": [
+            60358403,
+            4057919110
+        ],
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        },
+        "sub_id": 0,
+        "length": 0.008938661700357382
+    },
+    {
+        "type": "way",
+        "id": 8068252,
+        "nodes": [
+            60358414,
+            8690937474,
+            60358417
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 0,
+        "length": 0.08084977666388551
+    },
+    {
+        "type": "way",
+        "id": 8068253,
+        "nodes": [
+            60358414,
+            8690937507,
+            60358438,
+            60358439
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 0,
+        "length": 0.06688165704939741
+    },
+    {
+        "type": "way",
+        "id": 8068255,
+        "nodes": [
+            60358476,
+            4057917369,
+            4057917374,
+            4057917382,
+            4057917385,
+            4057919093,
+            4057919097,
+            4057919101,
+            60358525,
+            60358523
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "length": 0.08538209941362701
+    },
+    {
+        "type": "way",
+        "id": 8110011,
+        "nodes": [
+            336101881,
+            1398610877,
+            65143849,
+            5211743623
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "service",
+            "motor_vehicle": "private",
+            "name": "Schlossplatz",
+            "smoothness": "bad",
+            "surface": "cobblestone"
+        },
+        "length": 0.0340887391962825
+    },
+    {
+        "type": "way",
+        "id": 8110185,
+        "nodes": [
+            55478106,
+            4205332602,
+            4205332601,
+            60779169,
+            4205332598,
+            60779167,
+            8693726800,
+            60779172,
+            4057919353,
+            8693733019,
+            8693733043,
+            60779174,
+            3016302633,
+            3016299632,
+            3016299631,
+            2327128418,
+            8693733033,
+            2327128424
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no"
+        },
+        "length": 0.2367014027300436
+    },
+    {
+        "type": "way",
+        "id": 8110187,
+        "nodes": [
+            60358413,
+            8691575950,
+            60358428,
+            65144486
+        ],
+        "tags": {
+            "highway": "footway",
+            "lit": "no"
+        },
+        "length": 0.02257332556259178
+    },
+    {
+        "type": "way",
+        "id": 8110190,
+        "nodes": [
+            60358420,
+            60358506
+        ],
+        "tags": {
+            "highway": "footway",
+            "lit": "no"
+        },
+        "length": 0.012563944904998597
+    },
+    {
+        "type": "way",
+        "id": 8110191,
+        "nodes": [
+            60779193,
+            60779194,
+            60779203,
+            60779206,
+            60779207,
+            60779208
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "paving_stones"
+        },
+        "length": 0.06478412556930546
+    },
+    {
+        "type": "way",
+        "id": 8110192,
+        "nodes": [
+            60358398,
+            60779209,
+            60779211,
+            60779212,
+            60358410,
+            8690937486
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "length": 0.09619082478321647
+    },
+    {
+        "type": "way",
+        "id": 8110193,
+        "nodes": [
+            60358417,
+            60358503
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "length": 0.009585059590859462
+    },
+    {
+        "type": "way",
+        "id": 8902445,
+        "nodes": [
+            127290728,
+            127290995,
+            127289846,
+            984785570
+        ],
+        "tags": {
+            "highway": "service",
+            "name": "Schlossplatz",
+            "surface": "sett"
+        },
+        "sub_id": 0,
+        "length": 0.031220422143311465
+    },
+    {
+        "type": "way",
+        "id": 8902446,
+        "nodes": [
+            4057919615,
+            4057919610
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 0,
+        "length": 0.007577747223005507
+    },
+    {
+        "type": "way",
+        "id": 8902462,
+        "nodes": [
+            65145085,
+            2337213717,
+            65143610,
+            2337213719,
+            2337213669,
+            65145893,
+            2337213712,
+            2337213675,
+            65144511
+        ],
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "private",
+            "surface": "sett"
+        },
+        "sub_id": 0,
+        "length": 0.02903610768749498
+    },
+    {
+        "type": "way",
+        "id": 8902469,
+        "nodes": [
+            65145139,
+            65144178,
+            65145636,
+            65145237,
+            65143833,
+            65145451,
+            65144099
+        ],
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "designated",
+            "name": "Schlossplatz",
+            "surface": "asphalt"
+        },
+        "sub_id": 0,
+        "length": 0.10823707128334285
+    },
+    {
+        "type": "way",
+        "id": 8902472,
+        "nodes": [
+            65144112,
+            2039728295,
+            245424244,
+            5387963282,
+            65145417,
+            5387963284,
+            5387963283,
+            5387963285,
+            5387963286,
+            5387963316
+        ],
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "private",
+            "surface": "asphalt"
+        },
+        "sub_id": 0,
+        "length": 0.139034046149768
+    },
+    {
+        "type": "way",
+        "id": 8902475,
+        "nodes": [
+            65144203,
+            65145717
+        ],
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "private",
+            "name": "Schlossplatz",
+            "surface": "asphalt"
+        },
+        "sub_id": 0,
+        "length": 0.06815958697880933
+    },
+    {
+        "type": "way",
+        "id": 8902476,
+        "nodes": [
+            65144486,
+            65143376,
+            65144599,
+            65143987,
+            8692906118,
+            4057919313
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 0,
+        "length": 0.08162725052412349
+    },
+    {
+        "type": "way",
+        "id": 8902477,
+        "nodes": [
+            60358439,
+            60358503
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 0,
+        "length": 0.023462724852327328
+    },
+    {
+        "type": "way",
+        "id": 8902479,
+        "nodes": [
+            65145085,
+            944523048,
+            65144203
+        ],
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "private",
+            "surface": "sett"
+        },
+        "length": 0.017558317057106074
+    },
+    {
+        "type": "way",
+        "id": 8902495,
+        "nodes": [
+            65145057,
+            65145868,
+            8694801595
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "sett"
+        },
+        "length": 0.015592806260621572
+    },
+    {
+        "type": "way",
+        "id": 8902497,
+        "nodes": [
+            5387963316,
+            65144674,
+            65145139
+        ],
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "private",
+            "name": "Schlossplatz",
+            "surface": "asphalt"
+        },
+        "length": 0.0863856483788289
+    },
+    {
+        "type": "way",
+        "id": 8902499,
+        "nodes": [
+            65144582,
+            65144634
+        ],
+        "tags": {
+            "highway": "service",
+            "surface": "sett"
+        },
+        "length": 0.018101267017734624
+    },
+    {
+        "type": "way",
+        "id": 8902500,
+        "nodes": [
+            65144099,
+            65144315,
+            8694737780
+        ],
+        "tags": {
+            "highway": "track",
+            "lit": "no",
+            "surface": "asphalt",
+            "tracktype": "grade1"
+        },
+        "length": 0.010621040053076153
+    },
+    {
+        "type": "way",
+        "id": 8902501,
+        "nodes": [
+            65145412,
+            2087753148
+        ],
+        "tags": {
+            "highway": "service",
+            "service": "parking_aisle"
+        },
+        "sub_id": 0,
+        "length": 0.017245340455352077
+    },
+    {
+        "type": "way",
+        "id": 8902504,
+        "nodes": [
+            65144203,
+            5626447469,
+            127289520
+        ],
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "private",
+            "surface": "sett"
+        },
+        "sub_id": 0,
+        "length": 0.08284953793576
+    },
+    {
+        "type": "way",
+        "id": 8902505,
+        "nodes": [
+            65143760,
+            4057919611
+        ],
+        "tags": {
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "paving_stones"
+        },
+        "sub_id": 0,
+        "length": 0.007256163519051032
+    },
+    {
+        "type": "way",
+        "id": 8902526,
+        "nodes": [
+            65145503,
+            2161805808,
+            4057919651,
+            65144709,
+            4057919650,
+            65144530,
+            55478218
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "length": 0.04649318460616023
+    },
+    {
+        "type": "way",
+        "id": 8902533,
+        "nodes": [
+            65145494,
+            8694737781,
+            65144490,
+            65145617
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "length": 0.03629874712046563
+    },
+    {
+        "type": "way",
+        "id": 8902539,
+        "nodes": [
+            65144717,
+            65144173,
+            65145440
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "length": 0.024734333184350088
+    },
+    {
+        "type": "way",
+        "id": 8902589,
+        "nodes": [
+            60358499,
+            4057934819,
+            55479071
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "length": 0.06718679258282581
+    },
+    {
+        "type": "way",
+        "id": 13742031,
+        "nodes": [
+            336101885,
+            127289635
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted"
+        },
+        "sub_id": 0,
+        "length": 0.046205895880506685
+    },
+    {
+        "type": "way",
+        "id": 13742086,
+        "nodes": [
+            336101876,
+            127289520
+        ],
+        "tags": {
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted"
+        },
+        "length": 0.05015789933023413
+    },
+    {
+        "type": "way",
+        "id": 16307065,
+        "nodes": [
+            166868548,
+            166867878,
+            166867224
+        ],
+        "tags": {
+            "highway": "service",
+            "service": "parking_aisle",
+            "surface": "paving_stones"
+        },
+        "sub_id": 0,
+        "length": 0.04913442708403487
+    },
+    {
+        "type": "way",
+        "id": 16307081,
+        "nodes": [
+            166868391,
+            166868991
+        ],
+        "tags": {
+            "highway": "service",
+            "service": "parking_aisle",
+            "surface": "paving_stones"
+        },
+        "length": 0.049669590602577536
+    },
+    {
+        "type": "way",
+        "id": 16307084,
+        "nodes": [
+            166868204,
+            3405206348
+        ],
+        "tags": {
+            "highway": "service",
+            "name": "Schlossplatz",
+            "service": "parking_aisle",
+            "surface": "asphalt"
+        },
+        "length": 0.014750319228516783
+    },
+    {
+        "type": "way",
+        "id": 16307095,
+        "nodes": [
+            166865279,
+            43602424,
+            3966596466,
+            166865739,
+            166868548
+        ],
+        "tags": {
+            "highway": "service",
+            "service": "parking_aisle",
+            "smoothness": "bad",
+            "surface": "paving_stones"
+        },
+        "sub_id": 0,
+        "length": 0.0317087882994756
+    },
+    {
+        "type": "way",
+        "id": 16307099,
+        "nodes": [
+            336101870,
+            5626447463,
+            5387963328,
+            65144203
+        ],
+        "tags": {
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted"
+        },
+        "length": 0.049287539005434124
+    },
+    {
+        "type": "way",
+        "id": 16307103,
+        "nodes": [
+            166868337,
+            3405206354
+        ],
+        "tags": {
+            "highway": "service",
+            "name": "Schlossplatz",
+            "service": "parking_aisle",
+            "surface": "asphalt"
+        },
+        "length": 0.015151489556763412
+    },
+    {
+        "type": "way",
+        "id": 16307119,
+        "nodes": [
+            166864904,
+            166867224
+        ],
+        "tags": {
+            "highway": "service",
+            "service": "parking_aisle",
+            "surface": "paving_stones"
+        },
+        "length": 0.04221990583487589
+    },
+    {
+        "type": "way",
+        "id": 17438331,
+        "nodes": [
+            180445100,
+            180446391,
+            180445244
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "source": "survey"
+        },
+        "length": 0.10787773658438156
+    },
+    {
+        "type": "way",
+        "id": 17438369,
+        "nodes": [
+            180444302,
+            180444872,
+            180446127
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted",
+            "width": "2.5"
+        },
+        "sub_id": 0,
+        "length": 0.0217671686236061
+    },
+    {
+        "type": "way",
+        "id": 17438374,
+        "nodes": [
+            6156010690,
+            249810667,
+            180444521,
+            180445522,
+            180444365,
+            180446045,
+            180444781,
+            8693733031,
+            180445831,
+            180444625,
+            180445100
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "source": "survey"
+        },
+        "sub_id": 0,
+        "length": 0.21639946798525303
+    },
+    {
+        "type": "way",
+        "id": 17438407,
+        "nodes": [
+            180445395,
+            8693733035,
+            180445715,
+            5237073179
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "source": "survey"
+        },
+        "length": 0.07404415948344475
+    },
+    {
+        "type": "way",
+        "id": 17438418,
+        "nodes": [
+            180446005,
+            4057919186,
+            4057919297
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "compacted",
+            "width": "2.5"
+        },
+        "sub_id": 0,
+        "length": 0.013517689403226993
+    },
+    {
+        "type": "way",
+        "id": 17438437,
+        "nodes": [
+            55479043,
+            180444546,
+            8693733017,
+            8693726791,
+            180446365,
+            55479836
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "length": 0.04358322766475557
+    },
+    {
+        "type": "way",
+        "id": 41319685,
+        "nodes": [
+            505164545,
+            60358414
+        ],
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        },
+        "length": 0.02560310858953746
+    },
+    {
+        "type": "way",
+        "id": 41319686,
+        "nodes": [
+            55479126,
+            505164545
+        ],
+        "tags": {
+            "bicycle": "permissive",
+            "bridge": "yes",
+            "foot": "permissive",
+            "highway": "service",
+            "layer": "1",
+            "maxweight:signed": "no",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        },
+        "length": 0.016204173349123094
+    },
+    {
+        "type": "way",
+        "id": 41865875,
+        "nodes": [
+            65144261,
+            65144000,
+            5211743628,
+            5211743625,
+            5211743623
+        ],
+        "tags": {
+            "area": "yes",
+            "bicycle": "yes",
+            "highway": "pedestrian",
+            "lit": "yes",
+            "name": "Schlossplatz",
+            "smoothness": "bad",
+            "surface": "sett"
+        },
+        "sub_id": 0,
+        "length": 0.17263067094134743
+    },
+    {
+        "type": "way",
+        "id": 41865876,
+        "nodes": [
+            517738928,
+            1123662058
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "paving_stones"
+        },
+        "sub_id": 0,
+        "length": 0.004297337051488597
+    },
+    {
+        "type": "way",
+        "id": 42110530,
+        "nodes": [
+            446138395,
+            4057919138
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "asphalt",
+            "width": "2.5"
+        },
+        "length": 0.0029723244079947154
+    },
+    {
+        "type": "way",
+        "id": 42110532,
+        "nodes": [
+            60358396,
+            523343730
+        ],
+        "tags": {
+            "highway": "service",
+            "lit": "yes",
+            "surface": "asphalt"
+        },
+        "length": 0.05823145848531132
+    },
+    {
+        "type": "way",
+        "id": 48535195,
+        "nodes": [
+            644931297,
+            616591817,
+            616591818,
+            4057919339
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "name": "Erlebnispfad Duft- und Riechgarten",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "1"
+        },
+        "sub_id": 0,
+        "length": 0.01244285860638904
+    },
+    {
+        "type": "way",
+        "id": 48535196,
+        "nodes": [
+            616591841,
+            619778131
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "3"
+        },
+        "sub_id": 0,
+        "length": 0.022053061215863774
+    },
+    {
+        "type": "way",
+        "id": 48535264,
+        "nodes": [
+            616592506,
+            616592484
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        },
+        "sub_id": 0,
+        "length": 0.010961387876047262
+    },
+    {
+        "type": "way",
+        "id": 48535265,
+        "nodes": [
+            616592480,
+            616592489
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        },
+        "length": 0.008788335560786712
+    },
+    {
+        "type": "way",
+        "id": 48535266,
+        "nodes": [
+            616593770,
+            4057919163,
+            616592511
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 0,
+        "length": 0.011789475627617988
+    },
+    {
+        "type": "way",
+        "id": 48535267,
+        "nodes": [
+            616592484,
+            616592501
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        },
+        "length": 0.003792650690135102
+    },
+    {
+        "type": "way",
+        "id": 48535268,
+        "nodes": [
+            616592504,
+            616592497
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        },
+        "length": 0.009643651991817392
+    },
+    {
+        "type": "way",
+        "id": 48535269,
+        "nodes": [
+            616592488,
+            616592502
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        },
+        "length": 0.0040777760169167275
+    },
+    {
+        "type": "way",
+        "id": 48535270,
+        "nodes": [
+            616592486,
+            616592489
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        },
+        "sub_id": 0,
+        "length": 0.0010457064876353136
+    },
+    {
+        "type": "way",
+        "id": 48535361,
+        "nodes": [
+            4057919498,
+            4057919511,
+            616593796,
+            616593790,
+            616593762,
+            4057919535
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "paved",
+            "width": "4"
+        },
+        "sub_id": 0,
+        "length": 0.06291788786362813
+    },
+    {
+        "type": "way",
+        "id": 48535362,
+        "nodes": [
+            616593770,
+            616593771,
+            4057919177
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 0,
+        "length": 0.008799909418563932
+    },
+    {
+        "type": "way",
+        "id": 48535363,
+        "nodes": [
+            616593757,
+            4057919327,
+            4057919326,
+            616593776
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 0,
+        "length": 0.02276597096007826
+    },
+    {
+        "type": "way",
+        "id": 48535364,
+        "nodes": [
+            616593792,
+            616593793,
+            616593794
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 0,
+        "length": 0.008463382231344034
+    },
+    {
+        "type": "way",
+        "id": 48535365,
+        "nodes": [
+            4057919364,
+            6937288345,
+            8690937488,
+            616593772
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "length": 0.012031076012701807
+    },
+    {
+        "type": "way",
+        "id": 48535367,
+        "nodes": [
+            4057919535,
+            4057919542,
+            4057919546,
+            4057919545
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "paving_stones",
+            "width": "1.5"
+        },
+        "sub_id": 0,
+        "length": 0.01811720867392018
+    },
+    {
+        "type": "way",
+        "id": 48535368,
+        "nodes": [
+            616593811,
+            4057919156,
+            616593852,
+            616593851,
+            616593849,
+            620405364
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "surface": "ground",
+            "width": "0.5"
+        },
+        "length": 0.048224761504054275
+    },
+    {
+        "type": "way",
+        "id": 48535370,
+        "nodes": [
+            616593869,
+            8692906139,
+            8692906125,
+            8692906146,
+            644931295,
+            644931292,
+            616593818
+        ],
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "ground",
+            "width": "0.5"
+        },
+        "length": 0.01989223759630909
+    },
+    {
+        "type": "way",
+        "id": 48535371,
+        "nodes": [
+            4057919162,
+            6937288366,
+            616593817,
+            616593812
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "surface": "ground",
+            "width": "0.5"
+        },
+        "sub_id": 0,
+        "length": 0.016503307730186052
+    },
+    {
+        "type": "way",
+        "id": 48535372,
+        "nodes": [
+            4057926097,
+            4057926096,
+            8692906145,
+            4057919307,
+            4057919300,
+            6937288379,
+            616593830
+        ],
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "ground",
+            "width": "0.5"
+        },
+        "length": 0.018298142021180984
+    },
+    {
+        "type": "way",
+        "id": 48535373,
+        "nodes": [
+            616593818,
+            616593827,
+            616593828,
+            4057919302,
+            4057926097
+        ],
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "ground",
+            "width": "0.5"
+        },
+        "sub_id": 0,
+        "length": 0.01447723755491023
+    },
+    {
+        "type": "way",
+        "id": 48535376,
+        "nodes": [
+            616593892,
+            616593889
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "paved",
+            "width": "3"
+        },
+        "sub_id": 0,
+        "length": 0.011798372977218564
+    },
+    {
+        "type": "way",
+        "id": 48535377,
+        "nodes": [
+            616593843,
+            616593844,
+            616593845
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        },
+        "sub_id": 0,
+        "length": 0.018775332850567095
+    },
+    {
+        "type": "way",
+        "id": 48535379,
+        "nodes": [
+            616593845,
+            616593847,
+            620405364
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        },
+        "sub_id": 0,
+        "length": 0.07265586354670872
+    },
+    {
+        "type": "way",
+        "id": 48535381,
+        "nodes": [
+            616593858,
+            8692906119,
+            4057919185
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        },
+        "sub_id": 0,
+        "length": 0.004278324876536476
+    },
+    {
+        "type": "way",
+        "id": 48535382,
+        "nodes": [
+            616593841,
+            616593882
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        },
+        "sub_id": 0,
+        "length": 0.016742758610726112
+    },
+    {
+        "type": "way",
+        "id": 48588848,
+        "nodes": [
+            4057919332,
+            4057919349,
+            616593794
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "length": 0.025495504757701806
+    },
+    {
+        "type": "way",
+        "id": 48700270,
+        "nodes": [
+            618264378,
+            4057919315
+        ],
+        "tags": {
+            "foot": "yes",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 0,
+        "length": 0.0035630346184888574
+    },
+    {
+        "type": "way",
+        "id": 48700271,
+        "nodes": [
+            616592511,
+            8690937496,
+            616593784
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "length": 0.013966189106857575
+    },
+    {
+        "type": "way",
+        "id": 48851840,
+        "nodes": [
+            619777972,
+            619777976,
+            8692906151,
+            619777978,
+            619777974
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted"
+        },
+        "length": 0.018846166101146866
+    },
+    {
+        "type": "way",
+        "id": 48851841,
+        "nodes": [
+            619778131,
+            619778133
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 0,
+        "length": 0.0017977915756287792
+    },
+    {
+        "type": "way",
+        "id": 48851842,
+        "nodes": [
+            619777904,
+            619777913,
+            619778080
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "pebblestone",
+            "width": "1"
+        },
+        "length": 0.006911786475428722
+    },
+    {
+        "type": "way",
+        "id": 48851843,
+        "nodes": [
+            616593889,
+            4057919540
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        },
+        "sub_id": 0,
+        "length": 0.0048594314497161974
+    },
+    {
+        "type": "way",
+        "id": 48851846,
+        "nodes": [
+            619778108,
+            619778110,
+            4057919387,
+            4057919379,
+            4057919367,
+            4057919359,
+            619778133
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "surface": "gravel",
+            "width": "0.5"
+        },
+        "length": 0.020600314269484395
+    },
+    {
+        "type": "way",
+        "id": 48851847,
+        "nodes": [
+            619778108,
+            619778112
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "sub_id": 0,
+        "length": 0.0020143655661905616
+    },
+    {
+        "type": "way",
+        "id": 48851848,
+        "nodes": [
+            616591841,
+            619778108
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "paved",
+            "width": "4"
+        },
+        "length": 0.006987231134343807
+    },
+    {
+        "type": "way",
+        "id": 48851849,
+        "nodes": [
+            619778082,
+            4057919372,
+            619778084,
+            619777913,
+            4057919354,
+            4057919352
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "length": 0.01080996402513999
+    },
+    {
+        "type": "way",
+        "id": 48851850,
+        "nodes": [
+            619778093,
+            619778095,
+            4057919523,
+            619778126
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "length": 0.012320452080988628
+    },
+    {
+        "type": "way",
+        "id": 48851851,
+        "nodes": [
+            619778112,
+            8692901311,
+            4057919525,
+            4057919533,
+            619778126
+        ],
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "length": 0.01500265148244577
+    },
+    {
+        "type": "way",
+        "id": 48851852,
+        "nodes": [
+            619778080,
+            8692906150,
+            619778086
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "sub_id": 0,
+        "length": 0.010705214835827898
+    },
+    {
+        "type": "way",
+        "id": 48851853,
+        "nodes": [
+            619778126,
+            619778124
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "paved",
+            "width": "3"
+        },
+        "length": 0.004240120032809041
+    },
+    {
+        "type": "way",
+        "id": 48851854,
+        "nodes": [
+            619778086,
+            619778039
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "sub_id": 0,
+        "length": 0.0018261465959441444
+    },
+    {
+        "type": "way",
+        "id": 48851855,
+        "nodes": [
+            619778004,
+            4057919530,
+            619778025
+        ],
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "sub_id": 0,
+        "length": 0.004451304784102096
+    },
+    {
+        "type": "way",
+        "id": 48851856,
+        "nodes": [
+            619778008,
+            4057919536,
+            619778025
+        ],
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "length": 0.007800803211316219
+    },
+    {
+        "type": "way",
+        "id": 48851857,
+        "nodes": [
+            619778008,
+            8692906153,
+            8692906147,
+            619778029,
+            619778030
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "sub_id": 0,
+        "length": 0.009090020925902576
+    },
+    {
+        "type": "way",
+        "id": 48851858,
+        "nodes": [
+            619778030,
+            4057919538,
+            8692906149,
+            619778047
+        ],
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "sub_id": 0,
+        "length": 0.00872759337424533
+    },
+    {
+        "type": "way",
+        "id": 48851859,
+        "nodes": [
+            619778033,
+            619778034,
+            619778040
+        ],
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "sub_id": 0,
+        "length": 0.011092240266068804
+    },
+    {
+        "type": "way",
+        "id": 48851860,
+        "nodes": [
+            619778040,
+            619778042
+        ],
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "sub_id": 0,
+        "length": 0.0014466219678901289
+    },
+    {
+        "type": "way",
+        "id": 48851861,
+        "nodes": [
+            619778053,
+            619778100
+        ],
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "length": 0.00625897845379364
+    },
+    {
+        "type": "way",
+        "id": 48851862,
+        "nodes": [
+            619778042,
+            619778057,
+            619778059,
+            619778047
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "length": 0.01598594488670112
+    },
+    {
+        "type": "way",
+        "id": 48851863,
+        "nodes": [
+            616591816,
+            619777939,
+            4057919318
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "cobblestone",
+            "width": "1.5"
+        },
+        "length": 0.014784321259641253
+    },
+    {
+        "type": "way",
+        "id": 48893631,
+        "nodes": [
+            620401538,
+            4057919157,
+            620401535,
+            4057919148
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 0,
+        "length": 0.009457492682971472
+    },
+    {
+        "type": "way",
+        "id": 48893632,
+        "nodes": [
+            620401516,
+            620401526,
+            620401530,
+            4057919137,
+            620401510,
+            4057919136
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "length": 0.023666058717214753
+    },
+    {
+        "type": "way",
+        "id": 48893633,
+        "nodes": [
+            616593884,
+            8692901314,
+            620401513,
+            8065152847
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 0,
+        "length": 0.021515877786915126
+    },
+    {
+        "type": "way",
+        "id": 48893635,
+        "nodes": [
+            616593888,
+            620401523,
+            620401511,
+            8065152824
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "3"
+        },
+        "sub_id": 0,
+        "length": 0.01662690199599315
+    },
+    {
+        "type": "way",
+        "id": 59180869,
+        "nodes": [
+            733941374,
+            733941416,
+            8694801600,
+            517738933
+        ],
+        "tags": {
+            "foot": "yes",
+            "highway": "footway",
+            "surface": "paving_stones"
+        },
+        "length": 0.053207218328416
+    },
+    {
+        "type": "way",
+        "id": 76118453,
+        "nodes": [
+            180446127,
+            897971173,
+            6937292649
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted",
+            "width": "2.5"
+        },
+        "length": 0.026869820045097005
+    },
+    {
+        "type": "way",
+        "id": 85202864,
+        "nodes": [
+            8692906127,
+            619778071,
+            619778021,
+            616593889
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "paved",
+            "width": "1.5"
+        },
+        "length": 0.022512727294341735
+    },
+    {
+        "type": "way",
+        "id": 85202867,
+        "nodes": [
+            988085940,
+            55478588
+        ],
+        "tags": {
+            "highway": "footway",
+            "lit": "no"
+        },
+        "length": 0.0012451567316006875
+    },
+    {
+        "type": "way",
+        "id": 85332378,
+        "nodes": [
+            65145717,
+            65144372,
+            65145139
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "segregated": "no",
+            "surface": "paving_stones"
+        },
+        "length": 0.059340756719175054
+    },
+    {
+        "type": "way",
+        "id": 96970060,
+        "nodes": [
+            1123662065,
+            1149169178,
+            4200769753,
+            4200769751,
+            5626447473,
+            1123662063,
+            1149169179,
+            4200769756,
+            4200769760,
+            4200769765,
+            1123662060
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "length": 0.13032282108235516
+    },
+    {
+        "type": "way",
+        "id": 96970061,
+        "nodes": [
+            1123662058,
+            4200769778,
+            1123662060
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 0,
+        "length": 0.024785386093069003
+    },
+    {
+        "type": "way",
+        "id": 111499289,
+        "nodes": [
+            60358414,
+            60358403
+        ],
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        },
+        "sub_id": 0,
+        "length": 0.013090929502162497
+    },
+    {
+        "type": "way",
+        "id": 111499290,
+        "nodes": [
+            180445395,
+            8693726803,
+            180446506,
+            180445215,
+            55479266
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "source": "survey"
+        },
+        "length": 0.10217462828869749
+    },
+    {
+        "type": "way",
+        "id": 122066100,
+        "nodes": [
+            245424236,
+            1364839820,
+            1364839834,
+            1364839816
+        ],
+        "tags": {
+            "access": "private",
+            "highway": "service",
+            "surface": "asphalt"
+        },
+        "sub_id": 0,
+        "length": 0.10483984901806737
+    },
+    {
+        "type": "way",
+        "id": 122484105,
+        "nodes": [
+            1368587527,
+            1368587520
+        ],
+        "tags": {
+            "highway": "footway"
+        },
+        "sub_id": 0,
+        "length": 0.016024865281961485
+    },
+    {
+        "type": "way",
+        "id": 122484106,
+        "nodes": [
+            65144634,
+            8694801598
+        ],
+        "tags": {
+            "highway": "service",
+            "surface": "sett"
+        },
+        "sub_id": 0,
+        "length": 0.028927019072651217
+    },
+    {
+        "type": "way",
+        "id": 130293852,
+        "nodes": [
+            55479965,
+            1435492810,
+            6937292642,
+            6937292641,
+            6937292640
+        ],
+        "tags": {
+            "highway": "service",
+            "oneway": "yes",
+            "service": "parking_aisle",
+            "surface": "grass_paver"
+        },
+        "sub_id": 0,
+        "length": 0.04856710983800368
+    },
+    {
+        "type": "way",
+        "id": 185094059,
+        "nodes": [
+            180444707,
+            1956710221,
+            8694737787,
+            8694737784
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "source": "Bing",
+            "surface": "compacted",
+            "width": "2.5"
+        },
+        "length": 0.04062300014159595
+    },
+    {
+        "type": "way",
+        "id": 198670765,
+        "nodes": [
+            2087752665,
+            2087752664
+        ],
+        "tags": {
+            "highway": "service",
+            "service": "parking_aisle"
+        },
+        "length": 0.012303815356050858
+    },
+    {
+        "type": "way",
+        "id": 198670835,
+        "nodes": [
+            2087753148,
+            2087753150
+        ],
+        "tags": {
+            "highway": "service",
+            "service": "parking_aisle",
+            "surface": "asphalt"
+        },
+        "sub_id": 0,
+        "length": 0.037493789882251036
+    },
+    {
+        "type": "way",
+        "id": 198670866,
+        "nodes": [
+            65146016,
+            65143768
+        ],
+        "tags": {
+            "highway": "service",
+            "service": "parking_aisle"
+        },
+        "length": 0.021252746504502897
+    },
+    {
+        "type": "way",
+        "id": 206175592,
+        "nodes": [
+            2161805806,
+            2161805819,
+            2161805807
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 0,
+        "length": 0.07324690758526178
+    },
+    {
+        "type": "way",
+        "id": 206175596,
+        "nodes": [
+            55480048,
+            8693733021,
+            4057919609,
+            8693726802
+        ],
+        "tags": {
+            "highway": "footway"
+        },
+        "sub_id": 0,
+        "length": 0.0667468060242255
+    },
+    {
+        "type": "way",
+        "id": 206175597,
+        "nodes": [
+            620405424,
+            2161805810,
+            616593892
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        },
+        "sub_id": 0,
+        "length": 0.0141901185469864
+    },
+    {
+        "type": "way",
+        "id": 259627976,
+        "nodes": [
+            2650589500,
+            2650591588
+        ],
+        "tags": {
+            "access": "no",
+            "highway": "service",
+            "service": "parking_aisle"
+        },
+        "sub_id": 0,
+        "length": 0.030246905615075904
+    },
+    {
+        "type": "way",
+        "id": 259627979,
+        "nodes": [
+            2650596249,
+            2650591585,
+            2650592657
+        ],
+        "tags": {
+            "access": "no",
+            "highway": "service",
+            "service": "parking_aisle"
+        },
+        "sub_id": 0,
+        "length": 0.014788857688518658
+    },
+    {
+        "type": "way",
+        "id": 259628035,
+        "nodes": [
+            2650592660,
+            2650592657
+        ],
+        "tags": {
+            "access": "no",
+            "highway": "service",
+            "service": "parking_aisle"
+        },
+        "length": 0.032800698161815287
+    },
+    {
+        "type": "way",
+        "id": 259628089,
+        "nodes": [
+            2650593673,
+            2650593675
+        ],
+        "tags": {
+            "access": "no",
+            "highway": "service",
+            "service": "parking_aisle"
+        },
+        "length": 0.03075446862534614
+    },
+    {
+        "type": "way",
+        "id": 259628108,
+        "nodes": [
+            2650594548,
+            2650594550
+        ],
+        "tags": {
+            "access": "no",
+            "highway": "service",
+            "service": "parking_aisle"
+        },
+        "length": 0.030109796398568443
+    },
+    {
+        "type": "way",
+        "id": 259629188,
+        "nodes": [
+            2650597297,
+            2650597299,
+            2650597298,
+            2650596249
+        ],
+        "tags": {
+            "access": "no",
+            "area": "yes",
+            "highway": "service"
+        },
+        "sub_id": 0,
+        "length": 0.05242299994133595
+    },
+    {
+        "type": "way",
+        "id": 259629276,
+        "nodes": [
+            2650598308,
+            1364839816
+        ],
+        "tags": {
+            "access": "no",
+            "highway": "service",
+            "service": "parking_aisle"
+        },
+        "length": 0.04347903528190905
+    },
+    {
+        "type": "way",
+        "id": 259629432,
+        "nodes": [
+            2650600465
+        ],
+        "tags": {
+            "access": "no",
+            "highway": "service",
+            "service": "parking_aisle"
+        },
+        "sub_id": 0,
+        "length": 0
+    },
+    {
+        "type": "way",
+        "id": 332354814,
+        "nodes": [
+            3394695348,
+            3394695349
+        ],
+        "tags": {
+            "highway": "steps",
+            "incline": "down"
+        },
+        "length": 0.0018423658192913918
+    },
+    {
+        "type": "way",
+        "id": 332354815,
+        "nodes": [
+            3394695347,
+            3394695348
+        ],
+        "tags": {
+            "highway": "footway"
+        },
+        "length": 0.0016708220253279843
+    },
+    {
+        "type": "way",
+        "id": 332354816,
+        "nodes": [
+            3394695349,
+            3394695350
+        ],
+        "tags": {
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "paving_stones"
+        },
+        "length": 0.005402882027754203
+    },
+    {
+        "type": "way",
+        "id": 333054652,
+        "nodes": [
+            2291087403,
+            3401699487
+        ],
+        "tags": {
+            "highway": "steps",
+            "incline": "down",
+            "step.condition": "even",
+            "step_count": "3"
+        },
+        "length": 0.001470901714351595
+    },
+    {
+        "type": "way",
+        "id": 333406630,
+        "nodes": [
+            3405206351,
+            3405206352
+        ],
+        "tags": {
+            "bridge": "yes",
+            "highway": "path",
+            "layer": "1",
+            "level": "1"
+        },
+        "length": 0.002195371885694624
+    },
+    {
+        "type": "way",
+        "id": 333406631,
+        "nodes": [
+            3405206348,
+            3405206349
+        ],
+        "tags": {
+            "highway": "path",
+            "surface": "paving_stones"
+        },
+        "length": 0.010907578699528265
+    },
+    {
+        "type": "way",
+        "id": 333406632,
+        "nodes": [
+            3405206350,
+            2087752664
+        ],
+        "tags": {
+            "highway": "path",
+            "surface": "paved"
+        },
+        "length": 0.005880512721381396
+    },
+    {
+        "type": "way",
+        "id": 333406633,
+        "nodes": [
+            3405206352,
+            3405206349
+        ],
+        "tags": {
+            "handrail:right": "yes",
+            "highway": "steps",
+            "incline": "down",
+            "layer": "1",
+            "material": "metal",
+            "ramp": "no",
+            "wheelchair": "no"
+        },
+        "length": 0.008722935331810863
+    },
+    {
+        "type": "way",
+        "id": 333406634,
+        "nodes": [
+            3405206354,
+            3405206353
+        ],
+        "tags": {
+            "highway": "path",
+            "surface": "paving_stones"
+        },
+        "length": 0.003443145209739702
+    },
+    {
+        "type": "way",
+        "id": 333406635,
+        "nodes": [
+            3405206352,
+            3405206353
+        ],
+        "tags": {
+            "handrail:left": "yes",
+            "highway": "steps",
+            "incline": "down",
+            "layer": "1",
+            "material": "metal",
+            "ramp": "no",
+            "wheelchair": "no"
+        },
+        "length": 0.008655917244305427
+    },
+    {
+        "type": "way",
+        "id": 393466913,
+        "nodes": [
+            2472513739,
+            5082500228,
+            2472513857,
+            2472513846,
+            2472513745,
+            984785562,
+            984785570
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "paving_stones"
+        },
+        "length": 0.09713168446126372
+    },
+    {
+        "type": "way",
+        "id": 393467548,
+        "nodes": [
+            3966596468,
+            6164521824,
+            65143992
+        ],
+        "tags": {
+            "highway": "cycleway",
+            "surface": "asphalt"
+        },
+        "length": 0.04820489260553239
+    },
+    {
+        "type": "way",
+        "id": 403444402,
+        "nodes": [
+            619777931,
+            644931297
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "name": "Erlebnispfad Duft- und Riechgarten",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "tunnel": "building_passage",
+            "width": "1"
+        },
+        "length": 0.00280521045670155
+    },
+    {
+        "type": "way",
+        "id": 403444403,
+        "nodes": [
+            616591810,
+            616591811,
+            8692906121,
+            619777931
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "name": "Erlebnispfad Duft- und Riechgarten",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "1"
+        },
+        "length": 0.009409214521875486
+    },
+    {
+        "type": "way",
+        "id": 403444409,
+        "nodes": [
+            4057919294,
+            4057919289
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway"
+        },
+        "sub_id": 0,
+        "length": 0.004518259790688537
+    },
+    {
+        "type": "way",
+        "id": 403444410,
+        "nodes": [
+            2161805806,
+            8693733026,
+            6937292645,
+            4057919624,
+            4057919626,
+            4057919628,
+            4057919627,
+            4057919625,
+            4057919622,
+            8694737798,
+            4057919621,
+            55478360,
+            8694737773,
+            8694737778,
+            8694737805,
+            8694737799,
+            8694737804
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "length": 0.34180868775094175
+    },
+    {
+        "type": "way",
+        "id": 403444411,
+        "nodes": [
+            4057919521,
+            4057919516,
+            8692906144,
+            4057919514
+        ],
+        "tags": {
+            "highway": "path"
+        },
+        "sub_id": 0,
+        "length": 0.005783669257203167
+    },
+    {
+        "type": "way",
+        "id": 403444412,
+        "nodes": [
+            616593795,
+            4057919364
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "paved",
+            "width": "4"
+        },
+        "sub_id": 0,
+        "length": 0.0011855027745638692
+    },
+    {
+        "type": "way",
+        "id": 403444414,
+        "nodes": [
+            4057919320,
+            4057919303
+        ],
+        "tags": {
+            "highway": "path",
+            "surface": "grass"
+        },
+        "length": 0.03746661002618044
+    },
+    {
+        "type": "way",
+        "id": 403444415,
+        "nodes": [
+            4057919299,
+            4057919177
+        ],
+        "tags": {
+            "highway": "path",
+            "surface": "grass"
+        },
+        "length": 0.04517460224115324
+    },
+    {
+        "type": "way",
+        "id": 403444416,
+        "nodes": [
+            4057919602,
+            65145806
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "length": 0.008324335211875998
+    },
+    {
+        "type": "way",
+        "id": 403444417,
+        "nodes": [
+            4057919545,
+            4057919549
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "paving_stones"
+        },
+        "length": 0.0020139384996605016
+    },
+    {
+        "type": "way",
+        "id": 403444418,
+        "nodes": [
+            4057919117,
+            4057919121
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "length": 0.013073075559765907
+    },
+    {
+        "type": "way",
+        "id": 403444419,
+        "nodes": [
+            4057919549,
+            4057919563
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "paving_stones",
+            "tunnel": "building_passage"
+        },
+        "length": 0.005163097066362376
+    },
+    {
+        "type": "way",
+        "id": 403444420,
+        "nodes": [
+            4057919309,
+            8690937492,
+            616593757
+        ],
+        "tags": {
+            "highway": "path",
+            "surface": "grass"
+        },
+        "length": 0.014463074652620641
+    },
+    {
+        "type": "way",
+        "id": 403444421,
+        "nodes": [
+            4057919172,
+            4057919181
+        ],
+        "tags": {
+            "highway": "path",
+            "surface": "grass"
+        },
+        "length": 0.009974468382530691
+    },
+    {
+        "type": "way",
+        "id": 403444422,
+        "nodes": [
+            4057919514,
+            4057919518,
+            8692906133,
+            619778008
+        ],
+        "tags": {
+            "highway": "path"
+        },
+        "length": 0.003539752329622005
+    },
+    {
+        "type": "way",
+        "id": 403444423,
+        "nodes": [
+            55480117,
+            4057919627,
+            8693733029,
+            4057919619
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "length": 0.03043860258375665
+    },
+    {
+        "type": "way",
+        "id": 403444424,
+        "nodes": [
+            616593812,
+            616593814,
+            616593854
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "surface": "ground",
+            "width": "0.5"
+        },
+        "length": 0.008960442854807803
+    },
+    {
+        "type": "way",
+        "id": 403444425,
+        "nodes": [
+            4057919169,
+            4057919166,
+            4057919167
+        ],
+        "tags": {
+            "highway": "path",
+            "surface": "grass"
+        },
+        "length": 0.006430320832342835
+    },
+    {
+        "type": "way",
+        "id": 403444426,
+        "nodes": [
+            616593835,
+            4057919135,
+            616593882
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        },
+        "length": 0.0324475396721632
+    },
+    {
+        "type": "way",
+        "id": 403444427,
+        "nodes": [
+            4057919566,
+            4057919573,
+            8694737803,
+            4057919584,
+            180444707
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted"
+        },
+        "length": 0.03739889116701087
+    },
+    {
+        "type": "way",
+        "id": 403444428,
+        "nodes": [
+            616593830,
+            4057919179,
+            4057919171,
+            4057919164,
+            4057919162
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "surface": "ground",
+            "width": "0.5"
+        },
+        "length": 0.01594298820970358
+    },
+    {
+        "type": "way",
+        "id": 403444429,
+        "nodes": [
+            4057919159,
+            4057919169
+        ],
+        "tags": {
+            "highway": "path",
+            "surface": "grass"
+        },
+        "sub_id": 0,
+        "length": 0.023362776579523802
+    },
+    {
+        "type": "way",
+        "id": 403444430,
+        "nodes": [
+            4057919505,
+            4057919494,
+            619778106,
+            4057919362,
+            619777925
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "surface": "gravel",
+            "width": "0.5"
+        },
+        "length": 0.01303056120036936
+    },
+    {
+        "type": "way",
+        "id": 403444431,
+        "nodes": [
+            4057919561,
+            4057919559,
+            4057919562,
+            4057919560,
+            4057919556
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted"
+        },
+        "length": 0.044922131290786274
+    },
+    {
+        "type": "way",
+        "id": 403444432,
+        "nodes": [
+            616593797,
+            5515171294
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "paved",
+            "width": "4"
+        },
+        "sub_id": 0,
+        "length": 0.0030402765612100088
+    },
+    {
+        "type": "way",
+        "id": 403444433,
+        "nodes": [
+            180445443,
+            4057919566
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 0,
+        "length": 0.02194223009382073
+    },
+    {
+        "type": "way",
+        "id": 403444435,
+        "nodes": [
+            4057919289,
+            4057919299
+        ],
+        "tags": {
+            "highway": "path"
+        },
+        "sub_id": 0,
+        "length": 0.0035362613316227923
+    },
+    {
+        "type": "way",
+        "id": 403444436,
+        "nodes": [
+            4057919563,
+            4057919565,
+            4057919568,
+            4057919569,
+            4057919572,
+            4057919574,
+            4057919576
+        ],
+        "tags": {
+            "highway": "footway"
+        },
+        "length": 0.02991437180466224
+    },
+    {
+        "type": "way",
+        "id": 403444437,
+        "nodes": [
+            4057919610,
+            8694737777,
+            4057919605,
+            4057919602
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 0,
+        "length": 0.011598267158885494
+    },
+    {
+        "type": "way",
+        "id": 403444438,
+        "nodes": [
+            616593866,
+            4057919319,
+            4057919311,
+            4057919301,
+            4057919291,
+            616593874,
+            4057919185
+        ],
+        "tags": {
+            "highway": "path"
+        },
+        "length": 0.024411197733348086
+    },
+    {
+        "type": "way",
+        "id": 403444439,
+        "nodes": [
+            616592467,
+            4057919173,
+            4057919175,
+            4057919183,
+            4057919292,
+            4057919295,
+            4057919305,
+            618264377
+        ],
+        "tags": {
+            "highway": "footway"
+        },
+        "length": 0.02427684646161301
+    },
+    {
+        "type": "way",
+        "id": 403444440,
+        "nodes": [
+            4057919543,
+            4057919388,
+            4057919382,
+            4057919371,
+            4057919350,
+            4057919334,
+            4057919322,
+            4057919313
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "length": 0.09052580600970173
+    },
+    {
+        "type": "way",
+        "id": 403445328,
+        "nodes": [
+            60779208,
+            4057927919,
+            8690937477,
+            4057919138
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "surface": "asphalt"
+        },
+        "length": 0.035553325004898655
+    },
+    {
+        "type": "way",
+        "id": 558781724,
+        "nodes": [
+            336101841,
+            43602107,
+            336101867
+        ],
+        "tags": {
+            "highway": "service",
+            "loc_name": "Hindenburgplatz",
+            "motor_vehicle": "private",
+            "name": "Schlossplatz",
+            "surface": "sett"
+        },
+        "sub_id": 0,
+        "length": 0.014554693136095545
+    },
+    {
+        "type": "way",
+        "id": 584762833,
+        "nodes": [
+            60778440,
+            336101881
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "service",
+            "motor_vehicle": "private",
+            "name": "Schlossplatz",
+            "smoothness": "bad",
+            "surface": "cobblestone"
+        },
+        "length": 0.0073803851813018725
+    },
+    {
+        "type": "way",
+        "id": 584762834,
+        "nodes": [
+            336101881,
+            336101885
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "asphalt"
+        },
+        "sub_id": 0,
+        "length": 0.09008976828538175
+    },
+    {
+        "type": "way",
+        "id": 584762835,
+        "nodes": [
+            65143992,
+            3966596464,
+            336101891
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "asphalt"
+        },
+        "length": 0.03450176930842933
+    },
+    {
+        "type": "way",
+        "id": 584762836,
+        "nodes": [
+            65143992,
+            65145426
+        ],
+        "tags": {
+            "highway": "cycleway",
+            "surface": "asphalt"
+        },
+        "length": 0.009198344738946759
+    },
+    {
+        "type": "way",
+        "id": 589209927,
+        "nodes": [
+            5626447462,
+            166869280
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "sett"
+        },
+        "length": 0.010358403959726432
+    },
+    {
+        "type": "way",
+        "id": 589209930,
+        "nodes": [
+            5626447457,
+            5626447443
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "length": 0.08227551392769111
+    },
+    {
+        "type": "way",
+        "id": 589209938,
+        "nodes": [
+            336101867,
+            336101870
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "lit": "no",
+            "surface": "asphalt"
+        },
+        "sub_id": 0,
+        "length": 0.03106943294206435
+    },
+    {
+        "type": "way",
+        "id": 589209942,
+        "nodes": [
+            127289635,
+            127289099
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "sett"
+        },
+        "length": 0.014914769341424253
+    },
+    {
+        "type": "way",
+        "id": 589209945,
+        "nodes": [
+            5626447474,
+            5626447470
+        ],
+        "tags": {
+            "highway": "path",
+            "surface": "compacted"
+        },
+        "length": 0.01306904609622302
+    },
+    {
+        "type": "way",
+        "id": 685624824,
+        "nodes": [
+            6425521874,
+            5237073175,
+            8663984652,
+            8663984642,
+            8663984659,
+            5237073176,
+            7655794384,
+            5237073177,
+            5237073178,
+            5237073179
+        ],
+        "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "path",
+            "oneway": "yes",
+            "segregated": "yes",
+            "surface": "paving_stones"
+        },
+        "sub_id": 0,
+        "length": 0.3435954629204585
+    },
+    {
+        "type": "way",
+        "id": 740980405,
+        "nodes": [
+            616593818,
+            6937288365,
+            6937288373,
+            6937288372,
+            6937288371,
+            6937288370,
+            6937288369,
+            6937288368,
+            6937288367,
+            6937288376
+        ],
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "ground",
+            "width": "0.5"
+        },
+        "length": 0.023400134475914366
+    },
+    {
+        "type": "way",
+        "id": 740980406,
+        "nodes": [
+            616593854,
+            6937288377,
+            6937288376
+        ],
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "ground",
+            "width": "0.5"
+        },
+        "sub_id": 0,
+        "length": 0.00878884414513693
+    },
+    {
+        "type": "way",
+        "id": 740980407,
+        "nodes": [
+            616593867,
+            8692906143,
+            8692906136,
+            616593868,
+            616593869
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "surface": "ground",
+            "width": "0.5"
+        },
+        "sub_id": 0,
+        "length": 0.008733719695533295
+    },
+    {
+        "type": "way",
+        "id": 865287704,
+        "nodes": [
+            8065152824,
+            8065152825,
+            8065152826,
+            8065152827,
+            8065152828,
+            8065152829,
+            8065152830,
+            8065152831,
+            8065152832,
+            8065152833,
+            8065152834,
+            8065152835,
+            8065152836,
+            8065152837,
+            8065152838,
+            8065152839,
+            8065152840,
+            8065152841,
+            8065152842,
+            8065152843,
+            8065152844,
+            8065152845,
+            8065152846,
+            8065152847
+        ],
+        "tags": {
+            "highway": "footway"
+        },
+        "length": 0.040514273372957765
+    },
+    {
+        "type": "way",
+        "id": 906532518,
+        "nodes": [
+            8418049695,
+            8418049696,
+            8418049697,
+            8418049698,
+            8418049700
+        ],
+        "tags": {
+            "highway": "service",
+            "surface": "asphalt"
+        },
+        "length": 0.07655618680200153
+    },
+    {
+        "type": "way",
+        "id": 938103467,
+        "nodes": [
+            60779208,
+            60358398
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "asphalt"
+        },
+        "length": 0.0067179946195720245
+    },
+    {
+        "type": "way",
+        "id": 938103468,
+        "nodes": [
+            616593784,
+            616593785,
+            616593787,
+            6937288342,
+            616593788,
+            6937288343,
+            6937288344,
+            616593772
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "length": 0.05488051318956575
+    },
+    {
+        "type": "way",
+        "id": 938103469,
+        "nodes": [
+            4057919110,
+            60358410,
+            60358411,
+            4057919113,
+            60358413
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 0,
+        "length": 0.3871340126607809
+    },
+    {
+        "type": "way",
+        "id": 938103471,
+        "nodes": [
+            4057919138,
+            8690937472,
+            461606162,
+            461606173,
+            461606175,
+            5626447474
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "compacted",
+            "width": "2.5"
+        },
+        "sub_id": 0,
+        "length": 0.08539209187634936
+    },
+    {
+        "type": "way",
+        "id": 938103472,
+        "nodes": [
+            616593772,
+            8690937500,
+            8690937490,
+            6937288340,
+            6937288339,
+            616593784
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        },
+        "length": 0.03376716304936908
+    },
+    {
+        "type": "way",
+        "id": 938103473,
+        "nodes": [
+            8690937476,
+            8690937468,
+            8690937506
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 0,
+        "length": 0.011195585549353949
+    },
+    {
+        "type": "way",
+        "id": 938103474,
+        "nodes": [
+            8690937506,
+            8690937487,
+            8690937493
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "length": 0.00421199260729945
+    },
+    {
+        "type": "way",
+        "id": 938318458,
+        "nodes": [
+            4057919502,
+            4057919512,
+            4057919515
+        ],
+        "tags": {
+            "highway": "path"
+        },
+        "length": 0.0037834772657568934
+    },
+    {
+        "type": "way",
+        "id": 938318459,
+        "nodes": [
+            620401532,
+            620401534,
+            8690937505,
+            616593759
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "length": 0.02410976060017545
+    },
+    {
+        "type": "way",
+        "id": 938318460,
+        "nodes": [
+            4057919502,
+            4057919507
+        ],
+        "tags": {
+            "highway": "path"
+        },
+        "sub_id": 0,
+        "length": 0.0008542295850419084
+    },
+    {
+        "type": "way",
+        "id": 938318461,
+        "nodes": [
+            616593888,
+            8692906140,
+            616591816
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 0,
+        "length": 0.009275930869910751
+    },
+    {
+        "type": "way",
+        "id": 938407118,
+        "nodes": [
+            55479923,
+            8693726802
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "length": 0.011545396487255399
+    },
+    {
+        "type": "way",
+        "id": 938407119,
+        "nodes": [
+            55478855,
+            55478128,
+            55479836
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 0,
+        "length": 0.028657812736301115
+    },
+    {
+        "type": "way",
+        "id": 938407120,
+        "nodes": [
+            616593834,
+            2161812645,
+            2161812643,
+            620405424
+        ],
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        },
+        "length": 0.060912191811760365
+    },
+    {
+        "type": "way",
+        "id": 938407121,
+        "nodes": [
+            55480048,
+            55479923
+        ],
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "grass_paver"
+        },
+        "sub_id": 0,
+        "length": 0.07207111045780805
+    },
+    {
+        "type": "way",
+        "id": 938407122,
+        "nodes": [
+            55480117,
+            8693733042,
+            6937292640
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "length": 0.007088737172878622
+    },
+    {
+        "type": "way",
+        "id": 938407123,
+        "nodes": [
+            2161805807,
+            8693733040
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "length": 0.010041791996020323
+    },
+    {
+        "type": "way",
+        "id": 938550319,
+        "nodes": [
+            8694737780,
+            65145494
+        ],
+        "tags": {
+            "highway": "track",
+            "lit": "no",
+            "surface": "compacted",
+            "tracktype": "grade2"
+        },
+        "sub_id": 0,
+        "length": 0.01835418229880806
+    },
+    {
+        "type": "way",
+        "id": 938550320,
+        "nodes": [
+            1368587520,
+            8694737800,
+            8694737791,
+            1368587521
+        ],
+        "tags": {
+            "highway": "footway"
+        },
+        "length": 0.02456944372853011
+    },
+    {
+        "type": "way",
+        "id": 938561910,
+        "nodes": [
+            3405206348,
+            166864918
+        ],
+        "tags": {
+            "highway": "service",
+            "name": "Schlossplatz",
+            "service": "parking_aisle",
+            "surface": "paving_stones"
+        },
+        "length": 0.029189523859632104
+    },
+    {
+        "type": "way",
+        "id": 938561911,
+        "nodes": [
+            8694801598,
+            2087753150
+        ],
+        "tags": {
+            "foot": "yes",
+            "highway": "path",
+            "surface": "paving_stones"
+        },
+        "length": 0.006350822017053659
+    },
+    {
+        "type": "way",
+        "id": 938561912,
+        "nodes": [
+            3405206354,
+            166864770
+        ],
+        "tags": {
+            "highway": "service",
+            "name": "Schlossplatz",
+            "service": "parking_aisle",
+            "surface": "paving_stones"
+        },
+        "length": 0.028840727307209862
+    },
+    {
+        "type": "way",
+        "id": 938561913,
+        "nodes": [
+            8694801595,
+            65144739,
+            65146016
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "asphalt"
+        },
+        "length": 0.029564348495329316
+    },
+    {
+        "type": "way",
+        "id": 938561914,
+        "nodes": [
+            1368587522,
+            65145057
+        ],
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "private",
+            "name": "Schlossplatz",
+            "surface": "sett"
+        },
+        "sub_id": 0,
+        "length": 0.006906578837923395
+    },
+    {
+        "type": "way",
+        "id": 5608009,
+        "nodes": [
+            2327128424,
+            41664928,
+            41664932,
+            41662857,
+            41662496,
+            41662400,
+            8693733023,
+            41662324
+        ],
+        "tags": {
+            "highway": "residential",
+            "lit": "yes",
+            "maxspeed": "30",
+            "name": "Am Schlossgarten",
+            "surface": "asphalt"
+        },
+        "sub_id": 1,
+        "length": 0.17246729956623263
+    },
+    {
+        "type": "way",
+        "id": 7656162,
+        "nodes": [
+            55478855,
+            8693726794,
+            8693726790,
+            8693726799,
+            65145503
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 1,
+        "length": 0.11095311193740495
+    },
+    {
+        "type": "way",
+        "id": 7656179,
+        "nodes": [
+            4057919543,
+            55479071
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 1,
+        "length": 0.014940415135529307
+    },
+    {
+        "type": "way",
+        "id": 7656190,
+        "nodes": [
+            55479043,
+            55478628,
+            55478749,
+            55478093,
+            4057919643,
+            4057919645,
+            4057919646,
+            4057919649,
+            4057919647,
+            55478218
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 1,
+        "length": 0.11615546739050044
+    },
+    {
+        "type": "way",
+        "id": 7656217,
+        "nodes": [
+            55479965,
+            8693726807,
+            6937292644,
+            8693726792,
+            4057919628,
+            55480211
+        ],
+        "tags": {
+            "highway": "service",
+            "oneway": "yes",
+            "service": "parking_aisle",
+            "surface": "asphalt"
+        },
+        "sub_id": 1,
+        "length": 0.030033066330944352
+    },
+    {
+        "type": "way",
+        "id": 7656221,
+        "nodes": [
+            55478106,
+            55478051
+        ],
+        "tags": {
+            "highway": "footway",
+            "lit": "no",
+            "source": "survey"
+        },
+        "sub_id": 1,
+        "length": 0.0035822927995450846
+    },
+    {
+        "type": "way",
+        "id": 8068250,
+        "nodes": [
+            4057919110,
+            60358400,
+            60358404,
+            60358398
+        ],
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        },
+        "sub_id": 1,
+        "length": 0.06999277469421228
+    },
+    {
+        "type": "way",
+        "id": 8068252,
+        "nodes": [
+            60358417,
+            60358419,
+            8690937486
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 1,
+        "length": 0.05618895141777359
+    },
+    {
+        "type": "way",
+        "id": 8068253,
+        "nodes": [
+            60358439,
+            60358441,
+            60358444,
+            60358447,
+            505827367,
+            8690937498,
+            60358449,
+            8690937465,
+            8690937497,
+            8690937513,
+            60358452,
+            60358453,
+            4057917366,
+            4057917365,
+            60358529,
+            60358476
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 1,
+        "length": 0.24645856460145968
+    },
+    {
+        "type": "way",
+        "id": 8902445,
+        "nodes": [
+            984785570,
+            166868120
+        ],
+        "tags": {
+            "highway": "service",
+            "name": "Schlossplatz",
+            "surface": "sett"
+        },
+        "sub_id": 1,
+        "length": 0.009932796104241583
+    },
+    {
+        "type": "way",
+        "id": 8902446,
+        "nodes": [
+            4057919610,
+            1956710221,
+            897971173,
+            4057919611
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 1,
+        "length": 0.15900282944593408
+    },
+    {
+        "type": "way",
+        "id": 8902462,
+        "nodes": [
+            65144511,
+            2337213725,
+            2337213691,
+            65145997,
+            2337213685,
+            65144687,
+            2337213695,
+            65145569
+        ],
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "private",
+            "surface": "sett"
+        },
+        "sub_id": 1,
+        "length": 0.02770848954784599
+    },
+    {
+        "type": "way",
+        "id": 8902469,
+        "nodes": [
+            65144099,
+            65145412
+        ],
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "designated",
+            "name": "Schlossplatz",
+            "surface": "asphalt"
+        },
+        "sub_id": 1,
+        "length": 0.015337561718842754
+    },
+    {
+        "type": "way",
+        "id": 8902472,
+        "nodes": [
+            5387963316,
+            65145569
+        ],
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "private",
+            "surface": "asphalt"
+        },
+        "sub_id": 1,
+        "length": 0.009572884581084413
+    },
+    {
+        "type": "way",
+        "id": 8902475,
+        "nodes": [
+            65145717,
+            1368587530,
+            166868337
+        ],
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "private",
+            "name": "Schlossplatz",
+            "surface": "asphalt"
+        },
+        "sub_id": 1,
+        "length": 0.028774382069938015
+    },
+    {
+        "type": "way",
+        "id": 8902476,
+        "nodes": [
+            4057919313,
+            8692906122,
+            65143698
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 1,
+        "length": 0.014972265668358669
+    },
+    {
+        "type": "way",
+        "id": 8902477,
+        "nodes": [
+            60358503,
+            8690937466,
+            60358504,
+            60358506
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 1,
+        "length": 0.07868065234275713
+    },
+    {
+        "type": "way",
+        "id": 8902501,
+        "nodes": [
+            2087753148,
+            65146016
+        ],
+        "tags": {
+            "highway": "service",
+            "service": "parking_aisle"
+        },
+        "sub_id": 1,
+        "length": 0.016237256462829152
+    },
+    {
+        "type": "way",
+        "id": 8902504,
+        "nodes": [
+            127289520,
+            5626447456,
+            65145256
+        ],
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "private",
+            "surface": "sett"
+        },
+        "sub_id": 1,
+        "length": 0.014742836155262696
+    },
+    {
+        "type": "way",
+        "id": 8902505,
+        "nodes": [
+            4057919611,
+            65143417
+        ],
+        "tags": {
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "paving_stones"
+        },
+        "sub_id": 1,
+        "length": 0.004201932674299512
+    },
+    {
+        "type": "way",
+        "id": 13742031,
+        "nodes": [
+            127289635,
+            5626447462
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted"
+        },
+        "sub_id": 1,
+        "length": 0.004433871429857219
+    },
+    {
+        "type": "way",
+        "id": 16307065,
+        "nodes": [
+            166867224,
+            166868991
+        ],
+        "tags": {
+            "highway": "service",
+            "service": "parking_aisle",
+            "surface": "paving_stones"
+        },
+        "sub_id": 1,
+        "length": 0.01860451349792021
+    },
+    {
+        "type": "way",
+        "id": 16307095,
+        "nodes": [
+            166868548,
+            166864904
+        ],
+        "tags": {
+            "highway": "service",
+            "service": "parking_aisle",
+            "smoothness": "bad",
+            "surface": "paving_stones"
+        },
+        "sub_id": 1,
+        "length": 0.014688046596212537
+    },
+    {
+        "type": "way",
+        "id": 17438369,
+        "nodes": [
+            180446127,
+            180444964,
+            180444687,
+            180445848,
+            180444707
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted",
+            "width": "2.5"
+        },
+        "sub_id": 1,
+        "length": 0.04404271879609424
+    },
+    {
+        "type": "way",
+        "id": 17438374,
+        "nodes": [
+            180445100,
+            180446232,
+            180444960,
+            180446114,
+            2647609819,
+            8693726813,
+            180445395
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "source": "survey"
+        },
+        "sub_id": 1,
+        "length": 0.09276695013964671
+    },
+    {
+        "type": "way",
+        "id": 17438418,
+        "nodes": [
+            4057919297,
+            4057919331,
+            5626447470
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "compacted",
+            "width": "2.5"
+        },
+        "sub_id": 1,
+        "length": 0.06291444122994205
+    },
+    {
+        "type": "way",
+        "id": 41865875,
+        "nodes": [
+            5211743623,
+            5211743624,
+            5211743627,
+            5211743626,
+            127290728
+        ],
+        "tags": {
+            "area": "yes",
+            "bicycle": "yes",
+            "highway": "pedestrian",
+            "lit": "yes",
+            "name": "Schlossplatz",
+            "smoothness": "bad",
+            "surface": "sett"
+        },
+        "sub_id": 1,
+        "length": 0.1726298598629252
+    },
+    {
+        "type": "way",
+        "id": 41865876,
+        "nodes": [
+            1123662058,
+            5626447443
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "paving_stones"
+        },
+        "sub_id": 1,
+        "length": 0.043235727487133495
+    },
+    {
+        "type": "way",
+        "id": 48535195,
+        "nodes": [
+            4057919339,
+            616591800,
+            8692901316,
+            8692901315,
+            4057919346,
+            616591803,
+            4057919343,
+            8692906142,
+            4057919335,
+            4057919329,
+            616591794,
+            4057919330,
+            616591798,
+            4057919337,
+            4057919340,
+            616591808,
+            4057919339
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "name": "Erlebnispfad Duft- und Riechgarten",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "1"
+        },
+        "sub_id": 1,
+        "length": 0.035159162176803586
+    },
+    {
+        "type": "way",
+        "id": 48535196,
+        "nodes": [
+            619778131,
+            619777972
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "3"
+        },
+        "sub_id": 1,
+        "length": 0.002107894644861069
+    },
+    {
+        "type": "way",
+        "id": 48535264,
+        "nodes": [
+            616592484,
+            616592479,
+            616592480
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        },
+        "sub_id": 1,
+        "length": 0.014977707812601508
+    },
+    {
+        "type": "way",
+        "id": 48535266,
+        "nodes": [
+            616592511,
+            8690937489,
+            616592513,
+            8690937478,
+            616592504
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 1,
+        "length": 0.012750844982622021
+    },
+    {
+        "type": "way",
+        "id": 48535270,
+        "nodes": [
+            616592489,
+            616592492,
+            616592501
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        },
+        "sub_id": 1,
+        "length": 0.0019674073443442276
+    },
+    {
+        "type": "way",
+        "id": 48535361,
+        "nodes": [
+            4057919535,
+            616591841
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "paved",
+            "width": "4"
+        },
+        "sub_id": 1,
+        "length": 0.04956098344402517
+    },
+    {
+        "type": "way",
+        "id": 48535362,
+        "nodes": [
+            4057919177,
+            616593773,
+            4563466880,
+            616593774,
+            616593775,
+            4057919320
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 1,
+        "length": 0.022137933421782503
+    },
+    {
+        "type": "way",
+        "id": 48535363,
+        "nodes": [
+            616593776,
+            4057919332
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 1,
+        "length": 0.004756162007755146
+    },
+    {
+        "type": "way",
+        "id": 48535364,
+        "nodes": [
+            616593794,
+            4057919338,
+            4057919333,
+            616593757
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 1,
+        "length": 0.02567383411050638
+    },
+    {
+        "type": "way",
+        "id": 48535367,
+        "nodes": [
+            4057919545,
+            4057919544,
+            4057919537,
+            616593790,
+            616593792
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "paving_stones",
+            "width": "1.5"
+        },
+        "sub_id": 1,
+        "length": 0.01865866857447222
+    },
+    {
+        "type": "way",
+        "id": 48535371,
+        "nodes": [
+            616593812,
+            8692906137,
+            616593811
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "surface": "ground",
+            "width": "0.5"
+        },
+        "sub_id": 1,
+        "length": 0.0070629730827722285
+    },
+    {
+        "type": "way",
+        "id": 48535373,
+        "nodes": [
+            4057926097,
+            4057919310
+        ],
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "ground",
+            "width": "0.5"
+        },
+        "sub_id": 1,
+        "length": 0.0033604592888165797
+    },
+    {
+        "type": "way",
+        "id": 48535376,
+        "nodes": [
+            616593889,
+            619778031
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "paved",
+            "width": "3"
+        },
+        "sub_id": 1,
+        "length": 0.013458567363084133
+    },
+    {
+        "type": "way",
+        "id": 48535377,
+        "nodes": [
+            616593845,
+            616593885
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        },
+        "sub_id": 1,
+        "length": 0.0043738620141429005
+    },
+    {
+        "type": "way",
+        "id": 48535379,
+        "nodes": [
+            620405364,
+            616593835
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        },
+        "sub_id": 1,
+        "length": 0.007695533881246433
+    },
+    {
+        "type": "way",
+        "id": 48535381,
+        "nodes": [
+            4057919185,
+            4057919174,
+            8692906154,
+            616593863,
+            616593856
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        },
+        "sub_id": 1,
+        "length": 0.027580574042757967
+    },
+    {
+        "type": "way",
+        "id": 48535382,
+        "nodes": [
+            616593882,
+            616593838,
+            616593884
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        },
+        "sub_id": 1,
+        "length": 0.033829635857269946
+    },
+    {
+        "type": "way",
+        "id": 48700270,
+        "nodes": [
+            4057919315,
+            4057919294
+        ],
+        "tags": {
+            "foot": "yes",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 1,
+        "length": 0.007056478531005207
+    },
+    {
+        "type": "way",
+        "id": 48851841,
+        "nodes": [
+            619778133,
+            619777925
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 1,
+        "length": 0.007344011974293641
+    },
+    {
+        "type": "way",
+        "id": 48851843,
+        "nodes": [
+            4057919540,
+            619777994,
+            619778006
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        },
+        "sub_id": 1,
+        "length": 0.011173441158020093
+    },
+    {
+        "type": "way",
+        "id": 48851847,
+        "nodes": [
+            619778112,
+            4057919519,
+            4057919505
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "sub_id": 1,
+        "length": 0.006044283829018519
+    },
+    {
+        "type": "way",
+        "id": 48851852,
+        "nodes": [
+            619778086,
+            4057919504,
+            619778100
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "sub_id": 1,
+        "length": 0.011047068177604156
+    },
+    {
+        "type": "way",
+        "id": 48851854,
+        "nodes": [
+            619778039,
+            619778037,
+            619778035,
+            619778000,
+            4057919515
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "sub_id": 1,
+        "length": 0.023294347946807018
+    },
+    {
+        "type": "way",
+        "id": 48851855,
+        "nodes": [
+            619778025,
+            4057919540
+        ],
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "sub_id": 1,
+        "length": 0.004033405244763615
+    },
+    {
+        "type": "way",
+        "id": 48851857,
+        "nodes": [
+            619778030,
+            619778031
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "sub_id": 1,
+        "length": 0.0026213440951269
+    },
+    {
+        "type": "way",
+        "id": 48851858,
+        "nodes": [
+            619778047,
+            8692906120,
+            619778033
+        ],
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "sub_id": 1,
+        "length": 0.0037902432948558737
+    },
+    {
+        "type": "way",
+        "id": 48851859,
+        "nodes": [
+            619778040,
+            8692906128,
+            8692901313,
+            619778039
+        ],
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "sub_id": 1,
+        "length": 0.006692966071971082
+    },
+    {
+        "type": "way",
+        "id": 48851860,
+        "nodes": [
+            619778042,
+            4057919528,
+            619778053
+        ],
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "sub_id": 1,
+        "length": 0.005884976010776357
+    },
+    {
+        "type": "way",
+        "id": 48893631,
+        "nodes": [
+            4057919148,
+            4057919151,
+            4057919149,
+            4057919147,
+            4057919143,
+            4057919140,
+            4057919142,
+            4057919146,
+            4057919148
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 1,
+        "length": 0.01536853170672228
+    },
+    {
+        "type": "way",
+        "id": 48893633,
+        "nodes": [
+            8065152847,
+            4057919144,
+            620401516
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 1,
+        "length": 0.026260326326010743
+    },
+    {
+        "type": "way",
+        "id": 48893635,
+        "nodes": [
+            8065152824,
+            8690937504,
+            620401532
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "3"
+        },
+        "sub_id": 1,
+        "length": 0.011096599239795469
+    },
+    {
+        "type": "way",
+        "id": 96970061,
+        "nodes": [
+            1123662060,
+            5626447445,
+            1149169177,
+            4200769771,
+            4200769762,
+            4200769757,
+            1123662065
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 1,
+        "length": 0.06971302097686141
+    },
+    {
+        "type": "way",
+        "id": 111499289,
+        "nodes": [
+            60358403,
+            5626447472,
+            60779193
+        ],
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        },
+        "sub_id": 1,
+        "length": 0.06899437633828621
+    },
+    {
+        "type": "way",
+        "id": 122066100,
+        "nodes": [
+            1364839816,
+            1364839818,
+            8418049695
+        ],
+        "tags": {
+            "access": "private",
+            "highway": "service",
+            "surface": "asphalt"
+        },
+        "sub_id": 1,
+        "length": 0.03132582977312577
+    },
+    {
+        "type": "way",
+        "id": 122484105,
+        "nodes": [
+            1368587520,
+            8694737806
+        ],
+        "tags": {
+            "highway": "footway"
+        },
+        "sub_id": 1,
+        "length": 0.011630923291453927
+    },
+    {
+        "type": "way",
+        "id": 122484106,
+        "nodes": [
+            8694801598,
+            65143490
+        ],
+        "tags": {
+            "highway": "service",
+            "surface": "sett"
+        },
+        "sub_id": 1,
+        "length": 0.019355968878517083
+    },
+    {
+        "type": "way",
+        "id": 130293852,
+        "nodes": [
+            6937292640,
+            6937292639,
+            8693733044,
+            6937292638,
+            6937292637,
+            6937292636,
+            8693733048,
+            6937292635,
+            6937292634,
+            6937292633,
+            6937292632,
+            55479965
+        ],
+        "tags": {
+            "highway": "service",
+            "oneway": "yes",
+            "service": "parking_aisle",
+            "surface": "grass_paver"
+        },
+        "sub_id": 1,
+        "length": 0.08307216947314083
+    },
+    {
+        "type": "way",
+        "id": 198670835,
+        "nodes": [
+            2087753150,
+            8694801602
+        ],
+        "tags": {
+            "highway": "service",
+            "service": "parking_aisle",
+            "surface": "asphalt"
+        },
+        "sub_id": 1,
+        "length": 0.01928950968124964
+    },
+    {
+        "type": "way",
+        "id": 206175592,
+        "nodes": [
+            2161805807,
+            55480087
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 1,
+        "length": 0.074411450881184
+    },
+    {
+        "type": "way",
+        "id": 206175596,
+        "nodes": [
+            8693726802,
+            2161805816,
+            2161805809
+        ],
+        "tags": {
+            "highway": "footway"
+        },
+        "sub_id": 1,
+        "length": 0.0866934824871855
+    },
+    {
+        "type": "way",
+        "id": 206175597,
+        "nodes": [
+            616593892,
+            616593893,
+            616593872,
+            8692906131,
+            616593866
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        },
+        "sub_id": 1,
+        "length": 0.05463864298268379
+    },
+    {
+        "type": "way",
+        "id": 259627976,
+        "nodes": [
+            2650591588,
+            2650589503
+        ],
+        "tags": {
+            "access": "no",
+            "highway": "service",
+            "service": "parking_aisle"
+        },
+        "sub_id": 1,
+        "length": 0.01872839779205894
+    },
+    {
+        "type": "way",
+        "id": 259627979,
+        "nodes": [
+            2650592657,
+            2650593675
+        ],
+        "tags": {
+            "access": "no",
+            "highway": "service",
+            "service": "parking_aisle"
+        },
+        "sub_id": 1,
+        "length": 0.02148987862722836
+    },
+    {
+        "type": "way",
+        "id": 259629188,
+        "nodes": [
+            2650596249,
+            2650597300,
+            2650597297
+        ],
+        "tags": {
+            "access": "no",
+            "area": "yes",
+            "highway": "service"
+        },
+        "sub_id": 1,
+        "length": 0.055604887017375586
+    },
+    {
+        "type": "way",
+        "id": 259629432,
+        "nodes": [
+            2650600465,
+            2650585860,
+            2650585861,
+            2650585870,
+            2650585857,
+            2650585862,
+            2650585864,
+            2650585868,
+            2650585856,
+            2650600465,
+            2650585866
+        ],
+        "tags": {
+            "access": "no",
+            "highway": "service",
+            "service": "parking_aisle"
+        },
+        "sub_id": 1,
+        "length": 0.1620461154887141
+    },
+    {
+        "type": "way",
+        "id": 403444409,
+        "nodes": [
+            4057919289,
+            4057919188,
+            4057919181
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway"
+        },
+        "sub_id": 1,
+        "length": 0.00867572591278654
+    },
+    {
+        "type": "way",
+        "id": 403444411,
+        "nodes": [
+            4057919514,
+            4057919507
+        ],
+        "tags": {
+            "highway": "path"
+        },
+        "sub_id": 1,
+        "length": 0.0022346552835330893
+    },
+    {
+        "type": "way",
+        "id": 403444412,
+        "nodes": [
+            4057919364,
+            4057919368,
+            4057919377,
+            4057919383,
+            4057919493,
+            4057919498
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "paved",
+            "width": "4"
+        },
+        "sub_id": 1,
+        "length": 0.007417740593666581
+    },
+    {
+        "type": "way",
+        "id": 403444429,
+        "nodes": [
+            4057919169,
+            4057919172
+        ],
+        "tags": {
+            "highway": "path",
+            "surface": "grass"
+        },
+        "sub_id": 1,
+        "length": 0.0023187434191837934
+    },
+    {
+        "type": "way",
+        "id": 403444432,
+        "nodes": [
+            5515171294,
+            616593798,
+            4057919381
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "paved",
+            "width": "4"
+        },
+        "sub_id": 1,
+        "length": 0.01492797020780303
+    },
+    {
+        "type": "way",
+        "id": 403444433,
+        "nodes": [
+            4057919566,
+            4057919561
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 1,
+        "length": 0.012120926365553527
+    },
+    {
+        "type": "way",
+        "id": 403444435,
+        "nodes": [
+            4057919299,
+            4057919303
+        ],
+        "tags": {
+            "highway": "path"
+        },
+        "sub_id": 1,
+        "length": 0.0015952224191468241
+    },
+    {
+        "type": "way",
+        "id": 403444437,
+        "nodes": [
+            4057919602,
+            4057919560,
+            4057919186,
+            60779194,
+            4057919110
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 1,
+        "length": 0.23807940948251705
+    },
+    {
+        "type": "way",
+        "id": 558781724,
+        "nodes": [
+            336101867,
+            65144511
+        ],
+        "tags": {
+            "highway": "service",
+            "loc_name": "Hindenburgplatz",
+            "motor_vehicle": "private",
+            "name": "Schlossplatz",
+            "surface": "sett"
+        },
+        "sub_id": 1,
+        "length": 0.022044534121341476
+    },
+    {
+        "type": "way",
+        "id": 584762834,
+        "nodes": [
+            336101885,
+            65143992
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "asphalt"
+        },
+        "sub_id": 1,
+        "length": 0.0412456319535297
+    },
+    {
+        "type": "way",
+        "id": 589209938,
+        "nodes": [
+            336101870,
+            5389555526,
+            336101876
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "lit": "no",
+            "surface": "asphalt"
+        },
+        "sub_id": 1,
+        "length": 0.0809960975598488
+    },
+    {
+        "type": "way",
+        "id": 685624824,
+        "nodes": [
+            5237073179,
+            180445244
+        ],
+        "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "path",
+            "oneway": "yes",
+            "segregated": "yes",
+            "surface": "paving_stones"
+        },
+        "sub_id": 1,
+        "length": 0.11423560324649408
+    },
+    {
+        "type": "way",
+        "id": 740980406,
+        "nodes": [
+            6937288376,
+            6937288378,
+            6937288375,
+            6937288374
+        ],
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "ground",
+            "width": "0.5"
+        },
+        "sub_id": 1,
+        "length": 0.014602029118800283
+    },
+    {
+        "type": "way",
+        "id": 740980407,
+        "nodes": [
+            616593869,
+            8692906117,
+            8692906152,
+            4057919310
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "surface": "ground",
+            "width": "0.5"
+        },
+        "sub_id": 1,
+        "length": 0.00791181885887857
+    },
+    {
+        "type": "way",
+        "id": 938103469,
+        "nodes": [
+            60358413,
+            4057919316,
+            4057919342,
+            2161805809
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 1,
+        "length": 0.05902837510005326
+    },
+    {
+        "type": "way",
+        "id": 938103471,
+        "nodes": [
+            5626447474,
+            461606176,
+            5515171294
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "compacted",
+            "width": "2.5"
+        },
+        "sub_id": 1,
+        "length": 0.021071991042663774
+    },
+    {
+        "type": "way",
+        "id": 938103473,
+        "nodes": [
+            8690937506,
+            8690937479,
+            8690937493
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 1,
+        "length": 0.004092161304916915
+    },
+    {
+        "type": "way",
+        "id": 938318460,
+        "nodes": [
+            4057919507,
+            4057919495,
+            4057919492,
+            4563466883,
+            4057919489,
+            4563466884,
+            4057919496,
+            4057919502
+        ],
+        "tags": {
+            "highway": "path"
+        },
+        "sub_id": 1,
+        "length": 0.005789260092870374
+    },
+    {
+        "type": "way",
+        "id": 938318461,
+        "nodes": [
+            616591816,
+            616591823,
+            616591824,
+            616593759
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 1,
+        "length": 0.02222168938396636
+    },
+    {
+        "type": "way",
+        "id": 938407119,
+        "nodes": [
+            55479836,
+            2161805807,
+            55479923
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 1,
+        "length": 0.02277994324318429
+    },
+    {
+        "type": "way",
+        "id": 938407121,
+        "nodes": [
+            55479923,
+            8693733040
+        ],
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "grass_paver"
+        },
+        "sub_id": 1,
+        "length": 0.013339477123392132
+    },
+    {
+        "type": "way",
+        "id": 938550319,
+        "nodes": [
+            65145494,
+            65143745
+        ],
+        "tags": {
+            "highway": "track",
+            "lit": "no",
+            "surface": "compacted",
+            "tracktype": "grade2"
+        },
+        "sub_id": 1,
+        "length": 0.00782345668089014
+    },
+    {
+        "type": "way",
+        "id": 938561914,
+        "nodes": [
+            65145057,
+            65144634
+        ],
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "private",
+            "name": "Schlossplatz",
+            "surface": "sett"
+        },
+        "sub_id": 1,
+        "length": 0.012791213530753113
+    },
+    {
+        "type": "way",
+        "id": 7656162,
+        "nodes": [
+            65145503,
+            8693733039,
+            8693726788,
+            8693733027,
+            8693726798,
+            8693726796,
+            8693733036,
+            8693733038,
+            8693733046,
+            8693733028,
+            8693733034,
+            8693726793,
+            8694737786,
+            8694737775,
+            8694737801,
+            8694737770,
+            8694737771,
+            8694737776,
+            8694737790,
+            8694737795,
+            65143745
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 2,
+        "length": 0.34240165176943416
+    },
+    {
+        "type": "way",
+        "id": 7656179,
+        "nodes": [
+            55479071,
+            55478957,
+            4057919587,
+            55479836
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 2,
+        "length": 0.06829826447643397
+    },
+    {
+        "type": "way",
+        "id": 7656190,
+        "nodes": [
+            55478218,
+            4057919644,
+            4057919642,
+            55479863,
+            4057919635,
+            8693726814,
+            55480117
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 2,
+        "length": 0.07612264301125629
+    },
+    {
+        "type": "way",
+        "id": 8068250,
+        "nodes": [
+            60358398,
+            60358396
+        ],
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        },
+        "sub_id": 2,
+        "length": 0.032678730090472605
+    },
+    {
+        "type": "way",
+        "id": 8068252,
+        "nodes": [
+            8690937486,
+            60358420
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 2,
+        "length": 0.022428655169440093
+    },
+    {
+        "type": "way",
+        "id": 8068253,
+        "nodes": [
+            60358476,
+            4057917367,
+            4057917370,
+            4057917377,
+            60358478,
+            60358479,
+            4057919100,
+            60358482,
+            4057919112,
+            60358483,
+            60358485,
+            4057919128,
+            8691575946,
+            8691575948,
+            60358489,
+            60358491,
+            60358493,
+            4057919312,
+            8692906130,
+            65143698
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 2,
+        "length": 0.31682019114537885
+    },
+    {
+        "type": "way",
+        "id": 8902445,
+        "nodes": [
+            166868120,
+            127289099
+        ],
+        "tags": {
+            "highway": "service",
+            "name": "Schlossplatz",
+            "surface": "sett"
+        },
+        "sub_id": 2,
+        "length": 0.06949997667629212
+    },
+    {
+        "type": "way",
+        "id": 8902462,
+        "nodes": [
+            65145569,
+            65144002,
+            2337213689,
+            65144883,
+            2337213723,
+            65143394,
+            2337213677,
+            2337213727,
+            65145085
+        ],
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "private",
+            "surface": "sett"
+        },
+        "sub_id": 2,
+        "length": 0.03396240830269513
+    },
+    {
+        "type": "way",
+        "id": 8902469,
+        "nodes": [
+            65145412,
+            1368587521
+        ],
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "designated",
+            "name": "Schlossplatz",
+            "surface": "asphalt"
+        },
+        "sub_id": 2,
+        "length": 0.03314947979252689
+    },
+    {
+        "type": "way",
+        "id": 8902475,
+        "nodes": [
+            166868337,
+            2087752665
+        ],
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "private",
+            "name": "Schlossplatz",
+            "surface": "asphalt"
+        },
+        "sub_id": 2,
+        "length": 0.015860513086880006
+    },
+    {
+        "type": "way",
+        "id": 8902477,
+        "nodes": [
+            60358506,
+            4057919105,
+            60358509,
+            8690937476
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 2,
+        "length": 0.03580389288043339
+    },
+    {
+        "type": "way",
+        "id": 8902505,
+        "nodes": [
+            65143417,
+            65144778
+        ],
+        "tags": {
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "paving_stones"
+        },
+        "sub_id": 2,
+        "length": 0.023905030309628737
+    },
+    {
+        "type": "way",
+        "id": 13742031,
+        "nodes": [
+            5626447462,
+            3966596469,
+            43600848
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted"
+        },
+        "sub_id": 2,
+        "length": 0.07204850928617736
+    },
+    {
+        "type": "way",
+        "id": 16307065,
+        "nodes": [
+            166868991,
+            166869280
+        ],
+        "tags": {
+            "highway": "service",
+            "service": "parking_aisle",
+            "surface": "paving_stones"
+        },
+        "sub_id": 2,
+        "length": 0.018598358547648082
+    },
+    {
+        "type": "way",
+        "id": 16307095,
+        "nodes": [
+            166864904,
+            166868391
+        ],
+        "tags": {
+            "highway": "service",
+            "service": "parking_aisle",
+            "smoothness": "bad",
+            "surface": "paving_stones"
+        },
+        "sub_id": 2,
+        "length": 0.020410585457645004
+    },
+    {
+        "type": "way",
+        "id": 17438369,
+        "nodes": [
+            180444707,
+            180445443
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted",
+            "width": "2.5"
+        },
+        "sub_id": 2,
+        "length": 0.027490075635082437
+    },
+    {
+        "type": "way",
+        "id": 17438418,
+        "nodes": [
+            5626447470,
+            4057919380,
+            5515171294,
+            180445483
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "compacted",
+            "width": "2.5"
+        },
+        "sub_id": 2,
+        "length": 0.04417552441571619
+    },
+    {
+        "type": "way",
+        "id": 41865875,
+        "nodes": [
+            127290728,
+            517738931,
+            517738928
+        ],
+        "tags": {
+            "area": "yes",
+            "bicycle": "yes",
+            "highway": "pedestrian",
+            "lit": "yes",
+            "name": "Schlossplatz",
+            "smoothness": "bad",
+            "surface": "sett"
+        },
+        "sub_id": 2,
+        "length": 0.021442638814542142
+    },
+    {
+        "type": "way",
+        "id": 41865876,
+        "nodes": [
+            5626447443,
+            60779193
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "paving_stones"
+        },
+        "sub_id": 2,
+        "length": 0.0062152793199354225
+    },
+    {
+        "type": "way",
+        "id": 48535196,
+        "nodes": [
+            619777972,
+            619777974
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "3"
+        },
+        "sub_id": 2,
+        "length": 0.005708342042541183
+    },
+    {
+        "type": "way",
+        "id": 48535264,
+        "nodes": [
+            616592480,
+            616592478,
+            616592488
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        },
+        "sub_id": 2,
+        "length": 0.015112628252432174
+    },
+    {
+        "type": "way",
+        "id": 48535270,
+        "nodes": [
+            616592501,
+            616592495,
+            616592497
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        },
+        "sub_id": 2,
+        "length": 0.001996522856280984
+    },
+    {
+        "type": "way",
+        "id": 48535362,
+        "nodes": [
+            4057919320,
+            616593776
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 2,
+        "length": 0.004195158808588617
+    },
+    {
+        "type": "way",
+        "id": 48535363,
+        "nodes": [
+            4057919332,
+            8690937494,
+            6937288341,
+            8690937481,
+            616593772
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 2,
+        "length": 0.015413453797380542
+    },
+    {
+        "type": "way",
+        "id": 48535364,
+        "nodes": [
+            616593757,
+            618264378
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 2,
+        "length": 0.016152162979598986
+    },
+    {
+        "type": "way",
+        "id": 48535367,
+        "nodes": [
+            616593792,
+            616593791
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "paving_stones",
+            "width": "1.5"
+        },
+        "sub_id": 2,
+        "length": 0.0046817894025939335
+    },
+    {
+        "type": "way",
+        "id": 48535371,
+        "nodes": [
+            616593811,
+            616593855,
+            620405372,
+            616593854
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "surface": "ground",
+            "width": "0.5"
+        },
+        "sub_id": 2,
+        "length": 0.012716715447399943
+    },
+    {
+        "type": "way",
+        "id": 48535376,
+        "nodes": [
+            619778031,
+            619778051
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "paved",
+            "width": "3"
+        },
+        "sub_id": 2,
+        "length": 0.024357354307738766
+    },
+    {
+        "type": "way",
+        "id": 48535381,
+        "nodes": [
+            616593856,
+            616593835
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        },
+        "sub_id": 2,
+        "length": 0.02282219891017125
+    },
+    {
+        "type": "way",
+        "id": 48700270,
+        "nodes": [
+            4057919294,
+            4057919180
+        ],
+        "tags": {
+            "foot": "yes",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 2,
+        "length": 0.005930576840203854
+    },
+    {
+        "type": "way",
+        "id": 48851841,
+        "nodes": [
+            619777925,
+            619777904
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 2,
+        "length": 0.008717993440696624
+    },
+    {
+        "type": "way",
+        "id": 48851843,
+        "nodes": [
+            619778006,
+            616593891,
+            616593875,
+            616593877,
+            616593873,
+            8692906138,
+            616593858
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        },
+        "sub_id": 2,
+        "length": 0.044908010940931165
+    },
+    {
+        "type": "way",
+        "id": 48851847,
+        "nodes": [
+            4057919505,
+            619778093
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "sub_id": 2,
+        "length": 0.0038951253249287056
+    },
+    {
+        "type": "way",
+        "id": 48851852,
+        "nodes": [
+            619778100,
+            619778126
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "sub_id": 2,
+        "length": 0.0030784466888856125
+    },
+    {
+        "type": "way",
+        "id": 48851854,
+        "nodes": [
+            4057919515,
+            619778002
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "sub_id": 2,
+        "length": 0.003260374282492036
+    },
+    {
+        "type": "way",
+        "id": 48851858,
+        "nodes": [
+            619778033,
+            8692906126,
+            619778010,
+            619778002
+        ],
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "sub_id": 2,
+        "length": 0.010536937583715404
+    },
+    {
+        "type": "way",
+        "id": 48851860,
+        "nodes": [
+            619778053,
+            619778049,
+            619778051
+        ],
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "sub_id": 2,
+        "length": 0.0052928463756872265
+    },
+    {
+        "type": "way",
+        "id": 48893633,
+        "nodes": [
+            620401516,
+            8690937471,
+            620401532
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 2,
+        "length": 0.008907173549808637
+    },
+    {
+        "type": "way",
+        "id": 96970061,
+        "nodes": [
+            1123662065,
+            5626447458,
+            5626447457
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 2,
+        "length": 0.01474111828275873
+    },
+    {
+        "type": "way",
+        "id": 111499289,
+        "nodes": [
+            60779193,
+            3394695350
+        ],
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        },
+        "sub_id": 2,
+        "length": 0.05513072472195146
+    },
+    {
+        "type": "way",
+        "id": 122066100,
+        "nodes": [
+            8418049695,
+            1364839807,
+            8694801599,
+            1364839810,
+            1364839812,
+            2650589503
+        ],
+        "tags": {
+            "access": "private",
+            "highway": "service",
+            "surface": "asphalt"
+        },
+        "sub_id": 2,
+        "length": 0.1001903346299195
+    },
+    {
+        "type": "way",
+        "id": 206175592,
+        "nodes": [
+            55480087,
+            2161805809
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 2,
+        "length": 0.01302209330131561
+    },
+    {
+        "type": "way",
+        "id": 206175597,
+        "nodes": [
+            616593866,
+            616593867
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        },
+        "sub_id": 2,
+        "length": 0.0069462753398632955
+    },
+    {
+        "type": "way",
+        "id": 259627979,
+        "nodes": [
+            2650593675,
+            2650594550
+        ],
+        "tags": {
+            "access": "no",
+            "highway": "service",
+            "service": "parking_aisle"
+        },
+        "sub_id": 2,
+        "length": 0.021799964353184348
+    },
+    {
+        "type": "way",
+        "id": 403444409,
+        "nodes": [
+            4057919181,
+            4057919178,
+            4057919170,
+            4057919165,
+            4057919161,
+            4057919159
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway"
+        },
+        "sub_id": 2,
+        "length": 0.02390188778090069
+    },
+    {
+        "type": "way",
+        "id": 403444412,
+        "nodes": [
+            4057919498,
+            4057919506,
+            4057919509,
+            4057919503,
+            4057919497,
+            4057919490,
+            4057919381
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "paved",
+            "width": "4"
+        },
+        "sub_id": 2,
+        "length": 0.00919692924709324
+    },
+    {
+        "type": "way",
+        "id": 403444429,
+        "nodes": [
+            4057919172,
+            4057919176,
+            4057919180
+        ],
+        "tags": {
+            "highway": "path",
+            "surface": "grass"
+        },
+        "sub_id": 2,
+        "length": 0.004491721407977796
+    },
+    {
+        "type": "way",
+        "id": 403444433,
+        "nodes": [
+            4057919561,
+            4057919348,
+            4057919297
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 2,
+        "length": 0.06706734667323802
+    },
+    {
+        "type": "way",
+        "id": 403444435,
+        "nodes": [
+            4057919303,
+            4057919309
+        ],
+        "tags": {
+            "highway": "path"
+        },
+        "sub_id": 2,
+        "length": 0.0014992358689245742
+    },
+    {
+        "type": "way",
+        "id": 589209938,
+        "nodes": [
+            336101876,
+            336101881
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "lit": "no",
+            "surface": "asphalt"
+        },
+        "sub_id": 2,
+        "length": 0.08899357223468397
+    },
+    {
+        "type": "way",
+        "id": 685624824,
+        "nodes": [
+            180445244,
+            6304454906,
+            6304454907,
+            6304454908,
+            249810668
+        ],
+        "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "path",
+            "oneway": "yes",
+            "segregated": "yes",
+            "surface": "paving_stones"
+        },
+        "sub_id": 2,
+        "length": 0.04314781246263899
+    },
+    {
+        "type": "way",
+        "id": 938103473,
+        "nodes": [
+            8690937493,
+            8690937485
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 2,
+        "length": 0.014710917525435864
+    },
+    {
+        "type": "way",
+        "id": 938407121,
+        "nodes": [
+            8693733040,
+            2161812647,
+            2161805816,
+            616593834
+        ],
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "grass_paver"
+        },
+        "sub_id": 2,
+        "length": 0.0650230671225181
+    },
+    {
+        "type": "way",
+        "id": 938550319,
+        "nodes": [
+            65143745,
+            55478360,
+            8694737797
+        ],
+        "tags": {
+            "highway": "track",
+            "lit": "no",
+            "surface": "compacted",
+            "tracktype": "grade2"
+        },
+        "sub_id": 2,
+        "length": 0.022702086306969495
+    },
+    {
+        "type": "way",
+        "id": 938561914,
+        "nodes": [
+            65144634,
+            65145603
+        ],
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "private",
+            "name": "Schlossplatz",
+            "surface": "sett"
+        },
+        "sub_id": 2,
+        "length": 0.016708302132910413
+    },
+    {
+        "type": "way",
+        "id": 7656190,
+        "nodes": [
+            55480117,
+            8693726787,
+            8693726797,
+            55479028,
+            4057919625,
+            55478243
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 3,
+        "length": 0.06091814799480513
+    },
+    {
+        "type": "way",
+        "id": 8068250,
+        "nodes": [
+            60358396,
+            446138395
+        ],
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        },
+        "sub_id": 3,
+        "length": 0.02506949392196076
+    },
+    {
+        "type": "way",
+        "id": 8068252,
+        "nodes": [
+            60358420,
+            8690937485
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 3,
+        "length": 0.03729206861993519
+    },
+    {
+        "type": "way",
+        "id": 8068253,
+        "nodes": [
+            65143698,
+            60358495,
+            60358497,
+            60358499
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 3,
+        "length": 0.03475646458586337
+    },
+    {
+        "type": "way",
+        "id": 8902445,
+        "nodes": [
+            127289099,
+            127290040,
+            127289115,
+            127290198,
+            65143849,
+            127290029,
+            65144850,
+            65144006,
+            65145429,
+            65145256
+        ],
+        "tags": {
+            "highway": "service",
+            "name": "Schlossplatz",
+            "surface": "sett"
+        },
+        "sub_id": 3,
+        "length": 0.16901159476411312
+    },
+    {
+        "type": "way",
+        "id": 8902469,
+        "nodes": [
+            1368587521,
+            8694801602
+        ],
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "designated",
+            "name": "Schlossplatz",
+            "surface": "asphalt"
+        },
+        "sub_id": 3,
+        "length": 0.004523856911466386
+    },
+    {
+        "type": "way",
+        "id": 8902475,
+        "nodes": [
+            2087752665,
+            166868204
+        ],
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "private",
+            "name": "Schlossplatz",
+            "surface": "asphalt"
+        },
+        "sub_id": 3,
+        "length": 0.015920680323901433
+    },
+    {
+        "type": "way",
+        "id": 8902477,
+        "nodes": [
+            8690937476,
+            8690937499,
+            60358510,
+            60358512,
+            4057919092,
+            60358513,
+            4057919091,
+            60358516,
+            4057919095,
+            60358518,
+            4057919099,
+            60358523
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 3,
+        "length": 0.12752129617850388
+    },
+    {
+        "type": "way",
+        "id": 16307065,
+        "nodes": [
+            166869280,
+            166867381,
+            166869147
+        ],
+        "tags": {
+            "highway": "service",
+            "service": "parking_aisle",
+            "surface": "paving_stones"
+        },
+        "sub_id": 3,
+        "length": 0.05535907441346781
+    },
+    {
+        "type": "way",
+        "id": 16307095,
+        "nodes": [
+            166868391,
+            166869147
+        ],
+        "tags": {
+            "highway": "service",
+            "service": "parking_aisle",
+            "smoothness": "bad",
+            "surface": "paving_stones"
+        },
+        "sub_id": 3,
+        "length": 0.015553937141396761
+    },
+    {
+        "type": "way",
+        "id": 17438369,
+        "nodes": [
+            180445443,
+            180445483
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted",
+            "width": "2.5"
+        },
+        "sub_id": 3,
+        "length": 0.027970276179800392
+    },
+    {
+        "type": "way",
+        "id": 17438418,
+        "nodes": [
+            180445483,
+            4057919576
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "compacted",
+            "width": "2.5"
+        },
+        "sub_id": 3,
+        "length": 0.028017683585490095
+    },
+    {
+        "type": "way",
+        "id": 41865875,
+        "nodes": [
+            517738928,
+            2611356110,
+            127290322,
+            2611356136,
+            2611356138,
+            2611356150,
+            2611356141,
+            2611356133,
+            127289360,
+            2611356166,
+            2611356209,
+            3401699487
+        ],
+        "tags": {
+            "area": "yes",
+            "bicycle": "yes",
+            "highway": "pedestrian",
+            "lit": "yes",
+            "name": "Schlossplatz",
+            "smoothness": "bad",
+            "surface": "sett"
+        },
+        "sub_id": 3,
+        "length": 0.0825205959975446
+    },
+    {
+        "type": "way",
+        "id": 48535196,
+        "nodes": [
+            619777974,
+            4057919318
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "3"
+        },
+        "sub_id": 3,
+        "length": 0.016377213799992903
+    },
+    {
+        "type": "way",
+        "id": 48535264,
+        "nodes": [
+            616592488,
+            616592509,
+            616592504
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        },
+        "sub_id": 3,
+        "length": 0.016027227274156758
+    },
+    {
+        "type": "way",
+        "id": 48535270,
+        "nodes": [
+            616592497,
+            616592494,
+            616592502
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        },
+        "sub_id": 3,
+        "length": 0.0019170795743801005
+    },
+    {
+        "type": "way",
+        "id": 48535364,
+        "nodes": [
+            618264378,
+            618264377
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 3,
+        "length": 0.005586755530984654
+    },
+    {
+        "type": "way",
+        "id": 48535376,
+        "nodes": [
+            619778051,
+            619778124
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "paved",
+            "width": "3"
+        },
+        "sub_id": 3,
+        "length": 0.00834397094624471
+    },
+    {
+        "type": "way",
+        "id": 48535381,
+        "nodes": [
+            616593835,
+            4057919133,
+            616593839,
+            616593841
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        },
+        "sub_id": 3,
+        "length": 0.043550798682387794
+    },
+    {
+        "type": "way",
+        "id": 48700270,
+        "nodes": [
+            4057919180,
+            616592464,
+            4057919167
+        ],
+        "tags": {
+            "foot": "yes",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 3,
+        "length": 0.007523715757487203
+    },
+    {
+        "type": "way",
+        "id": 48851841,
+        "nodes": [
+            619777904,
+            4057919344,
+            619777907,
+            619777921,
+            620401517,
+            620401521
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 3,
+        "length": 0.041449996870227795
+    },
+    {
+        "type": "way",
+        "id": 48851843,
+        "nodes": [
+            616593858,
+            4057919182,
+            4057919168,
+            8692906123,
+            616593861,
+            4057919153,
+            4057919145,
+            616593880,
+            4057919141,
+            616593881,
+            616593886,
+            620401521
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        },
+        "sub_id": 3,
+        "length": 0.12003453551711564
+    },
+    {
+        "type": "way",
+        "id": 48851847,
+        "nodes": [
+            619778093,
+            619778082
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "sub_id": 3,
+        "length": 0.0036672602948095187
+    },
+    {
+        "type": "way",
+        "id": 48851854,
+        "nodes": [
+            619778002,
+            8692906134,
+            619778008
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "sub_id": 3,
+        "length": 0.005309263786708262
+    },
+    {
+        "type": "way",
+        "id": 96970061,
+        "nodes": [
+            5626447457,
+            60358414
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 3,
+        "length": 0.006649398258856331
+    },
+    {
+        "type": "way",
+        "id": 111499289,
+        "nodes": [
+            3394695350,
+            180446005
+        ],
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        },
+        "sub_id": 3,
+        "length": 0.004067184750532892
+    },
+    {
+        "type": "way",
+        "id": 122066100,
+        "nodes": [
+            2650589503,
+            1364839814,
+            1364839819,
+            7564858745,
+            2650585865,
+            2650585866
+        ],
+        "tags": {
+            "access": "private",
+            "highway": "service",
+            "surface": "asphalt"
+        },
+        "sub_id": 3,
+        "length": 0.05819725610797423
+    },
+    {
+        "type": "way",
+        "id": 206175597,
+        "nodes": [
+            616593867,
+            616593870,
+            6937288374
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        },
+        "sub_id": 3,
+        "length": 0.011202228857237678
+    },
+    {
+        "type": "way",
+        "id": 259627979,
+        "nodes": [
+            2650594550,
+            2650591588
+        ],
+        "tags": {
+            "access": "no",
+            "highway": "service",
+            "service": "parking_aisle"
+        },
+        "sub_id": 3,
+        "length": 0.02159952232316196
+    },
+    {
+        "type": "way",
+        "id": 403444409,
+        "nodes": [
+            4057919159,
+            616593763
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway"
+        },
+        "sub_id": 3,
+        "length": 0.003788922016120146
+    },
+    {
+        "type": "way",
+        "id": 403444412,
+        "nodes": [
+            4057919381,
+            4057919375,
+            4057919369,
+            4057919365,
+            616593795
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "paved",
+            "width": "4"
+        },
+        "sub_id": 3,
+        "length": 0.005405527468215726
+    },
+    {
+        "type": "way",
+        "id": 403444435,
+        "nodes": [
+            4057919309,
+            4057919314,
+            4057919315
+        ],
+        "tags": {
+            "highway": "path"
+        },
+        "sub_id": 3,
+        "length": 0.005284430703268404
+    },
+    {
+        "type": "way",
+        "id": 8068250,
+        "nodes": [
+            446138395,
+            4057919131,
+            1014998390,
+            1014998381,
+            4057919136
+        ],
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        },
+        "sub_id": 4,
+        "length": 0.08279739761874301
+    },
+    {
+        "type": "way",
+        "id": 8068252,
+        "nodes": [
+            8690937485,
+            60358424,
+            60358426,
+            65144717
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 4,
+        "length": 0.10249997346290457
+    },
+    {
+        "type": "way",
+        "id": 8068253,
+        "nodes": [
+            60358499,
+            8692906124,
+            8692906132,
+            60358501,
+            55478588
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 4,
+        "length": 0.09344562631764126
+    },
+    {
+        "type": "way",
+        "id": 8902445,
+        "nodes": [
+            65145256,
+            65144582
+        ],
+        "tags": {
+            "highway": "service",
+            "name": "Schlossplatz",
+            "surface": "sett"
+        },
+        "sub_id": 4,
+        "length": 0.0632306830691003
+    },
+    {
+        "type": "way",
+        "id": 8902469,
+        "nodes": [
+            8694801602,
+            65143490
+        ],
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "designated",
+            "name": "Schlossplatz",
+            "surface": "asphalt"
+        },
+        "sub_id": 4,
+        "length": 0.0060689208617598885
+    },
+    {
+        "type": "way",
+        "id": 8902475,
+        "nodes": [
+            166868204,
+            1368587522
+        ],
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "private",
+            "name": "Schlossplatz",
+            "surface": "asphalt"
+        },
+        "sub_id": 4,
+        "length": 0.00261335059167385
+    },
+    {
+        "type": "way",
+        "id": 8902477,
+        "nodes": [
+            60358523,
+            4057919107,
+            4057919111,
+            65145440
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 4,
+        "length": 0.046752385507154236
+    },
+    {
+        "type": "way",
+        "id": 16307095,
+        "nodes": [
+            166869147,
+            166864855,
+            166868120
+        ],
+        "tags": {
+            "highway": "service",
+            "service": "parking_aisle",
+            "smoothness": "bad",
+            "surface": "paving_stones"
+        },
+        "sub_id": 4,
+        "length": 0.026115425370181633
+    },
+    {
+        "type": "way",
+        "id": 17438418,
+        "nodes": [
+            4057919576,
+            180444302
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "compacted",
+            "width": "2.5"
+        },
+        "sub_id": 4,
+        "length": 0.0061619889067668476
+    },
+    {
+        "type": "way",
+        "id": 41865875,
+        "nodes": [
+            3401699487,
+            2611356218,
+            2611356257,
+            127289417,
+            2611356305,
+            2611356304,
+            2611356302,
+            2611356303,
+            2611356301,
+            2611356300,
+            2611356299,
+            2611356297,
+            127290523,
+            2611356295,
+            2611356298,
+            2611356338,
+            2611356339,
+            127289570,
+            65144822
+        ],
+        "tags": {
+            "area": "yes",
+            "bicycle": "yes",
+            "highway": "pedestrian",
+            "lit": "yes",
+            "name": "Schlossplatz",
+            "smoothness": "bad",
+            "surface": "sett"
+        },
+        "sub_id": 4,
+        "length": 0.08824592665349973
+    },
+    {
+        "type": "way",
+        "id": 48535196,
+        "nodes": [
+            4057919318,
+            616591810
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "3"
+        },
+        "sub_id": 4,
+        "length": 0.004435561504634738
+    },
+    {
+        "type": "way",
+        "id": 48535264,
+        "nodes": [
+            616592504,
+            616592506
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        },
+        "sub_id": 4,
+        "length": 0.005202767484307351
+    },
+    {
+        "type": "way",
+        "id": 48535270,
+        "nodes": [
+            616592502,
+            616592486
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        },
+        "sub_id": 4,
+        "length": 0.0009435076685284517
+    },
+    {
+        "type": "way",
+        "id": 48535364,
+        "nodes": [
+            618264377,
+            616593758,
+            4057919293,
+            616593759
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 4,
+        "length": 0.017415129503340687
+    },
+    {
+        "type": "way",
+        "id": 48535376,
+        "nodes": [
+            619778124,
+            616591841
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "paved",
+            "width": "3"
+        },
+        "sub_id": 4,
+        "length": 0.01890516504189293
+    },
+    {
+        "type": "way",
+        "id": 48535381,
+        "nodes": [
+            616593841,
+            616593842,
+            616593843
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        },
+        "sub_id": 4,
+        "length": 0.018062363093677238
+    },
+    {
+        "type": "way",
+        "id": 48700270,
+        "nodes": [
+            4057919167,
+            616592466
+        ],
+        "tags": {
+            "foot": "yes",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 4,
+        "length": 0.005919963553992409
+    },
+    {
+        "type": "way",
+        "id": 48851843,
+        "nodes": [
+            620401521,
+            616593888
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        },
+        "sub_id": 4,
+        "length": 0.013280849506706497
+    },
+    {
+        "type": "way",
+        "id": 48851854,
+        "nodes": [
+            619778008,
+            619778004
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "sub_id": 4,
+        "length": 0.004160423813126525
+    },
+    {
+        "type": "way",
+        "id": 111499289,
+        "nodes": [
+            180446005,
+            733941374
+        ],
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        },
+        "sub_id": 4,
+        "length": 0.04769637632184277
+    },
+    {
+        "type": "way",
+        "id": 122066100,
+        "nodes": [
+            2650585866,
+            2650585858,
+            7564858739,
+            7564858746,
+            1364839842
+        ],
+        "tags": {
+            "access": "private",
+            "highway": "service",
+            "surface": "asphalt"
+        },
+        "sub_id": 4,
+        "length": 0.10577589840186855
+    },
+    {
+        "type": "way",
+        "id": 206175597,
+        "nodes": [
+            6937288374,
+            616593853,
+            616593856
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        },
+        "sub_id": 4,
+        "length": 0.024440365952807852
+    },
+    {
+        "type": "way",
+        "id": 8068252,
+        "nodes": [
+            65144717,
+            4057919121
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 5,
+        "length": 0.03128865152213965
+    },
+    {
+        "type": "way",
+        "id": 8902445,
+        "nodes": [
+            65144582,
+            65145603
+        ],
+        "tags": {
+            "highway": "service",
+            "name": "Schlossplatz",
+            "surface": "sett"
+        },
+        "sub_id": 5,
+        "length": 0.013716360344896875
+    },
+    {
+        "type": "way",
+        "id": 8902469,
+        "nodes": [
+            65143490,
+            517738933
+        ],
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "designated",
+            "name": "Schlossplatz",
+            "surface": "asphalt"
+        },
+        "sub_id": 5,
+        "length": 0.03051938210892507
+    },
+    {
+        "type": "way",
+        "id": 8902477,
+        "nodes": [
+            65145440,
+            8691575959,
+            4057919117
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 5,
+        "length": 0.017614265221491718
+    },
+    {
+        "type": "way",
+        "id": 17438418,
+        "nodes": [
+            180444302,
+            65143417
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "compacted",
+            "width": "2.5"
+        },
+        "sub_id": 5,
+        "length": 0.052637201681294904
+    },
+    {
+        "type": "way",
+        "id": 41865875,
+        "nodes": [
+            65144822,
+            65144261
+        ],
+        "tags": {
+            "area": "yes",
+            "bicycle": "yes",
+            "highway": "pedestrian",
+            "lit": "yes",
+            "name": "Schlossplatz",
+            "smoothness": "bad",
+            "surface": "sett"
+        },
+        "sub_id": 5,
+        "length": 0.01876961370042948
+    },
+    {
+        "type": "way",
+        "id": 48535196,
+        "nodes": [
+            616591810,
+            616593888
+        ],
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "3"
+        },
+        "sub_id": 5,
+        "length": 0.006571593393395757
+    },
+    {
+        "type": "way",
+        "id": 48535364,
+        "nodes": [
+            616593759,
+            8690937512,
+            616592467
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 5,
+        "length": 0.008650144837901698
+    },
+    {
+        "type": "way",
+        "id": 48535381,
+        "nodes": [
+            616593843,
+            616593884
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        },
+        "sub_id": 5,
+        "length": 0.012145553525313255
+    },
+    {
+        "type": "way",
+        "id": 48851854,
+        "nodes": [
+            619778004,
+            4057919521
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "sub_id": 5,
+        "length": 0.0026423667025907917
+    },
+    {
+        "type": "way",
+        "id": 111499289,
+        "nodes": [
+            733941374,
+            8694737804
+        ],
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        },
+        "sub_id": 5,
+        "length": 0.01129851644261214
+    },
+    {
+        "type": "way",
+        "id": 8068252,
+        "nodes": [
+            4057919121,
+            8691575941,
+            60358428,
+            60358430,
+            4057919187,
+            60358432,
+            4057919321,
+            60358434,
+            60358436,
+            55480087
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 6,
+        "length": 0.18379027042260743
+    },
+    {
+        "type": "way",
+        "id": 8902445,
+        "nodes": [
+            65145603,
+            65144418,
+            8694801597,
+            65145749,
+            65144261
+        ],
+        "tags": {
+            "highway": "service",
+            "name": "Schlossplatz",
+            "surface": "sett"
+        },
+        "sub_id": 6,
+        "length": 0.030506193196619465
+    },
+    {
+        "type": "way",
+        "id": 8902469,
+        "nodes": [
+            517738933,
+            8694801596,
+            65144822
+        ],
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "designated",
+            "name": "Schlossplatz",
+            "surface": "asphalt"
+        },
+        "sub_id": 6,
+        "length": 0.0030196707873278495
+    },
+    {
+        "type": "way",
+        "id": 8902477,
+        "nodes": [
+            4057919117,
+            4057919118,
+            65143923,
+            4057919132,
+            65144486
+        ],
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        },
+        "sub_id": 6,
+        "length": 0.07897152636653287
+    },
+    {
+        "type": "way",
+        "id": 48535364,
+        "nodes": [
+            616592467,
+            8690937491,
+            616592466
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 6,
+        "length": 0.009138395660319636
+    },
+    {
+        "type": "way",
+        "id": 48851854,
+        "nodes": [
+            4057919521,
+            619778006
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        },
+        "sub_id": 6,
+        "length": 0.007048249991404345
+    },
+    {
+        "type": "way",
+        "id": 111499289,
+        "nodes": [
+            8694737804,
+            4057919556
+        ],
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        },
+        "sub_id": 6,
+        "length": 0.004806928693653765
+    },
+    {
+        "type": "way",
+        "id": 48535364,
+        "nodes": [
+            616592466,
+            6937288380,
+            620401538
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 7,
+        "length": 0.017572743830551085
+    },
+    {
+        "type": "way",
+        "id": 111499289,
+        "nodes": [
+            4057919556,
+            65145806
+        ],
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        },
+        "sub_id": 7,
+        "length": 0.055484571142937374
+    },
+    {
+        "type": "way",
+        "id": 48535364,
+        "nodes": [
+            620401538,
+            616593763
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 8,
+        "length": 0.01154536168855631
+    },
+    {
+        "type": "way",
+        "id": 111499289,
+        "nodes": [
+            65145806,
+            8694737797
+        ],
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        },
+        "sub_id": 8,
+        "length": 0.008001178965991788
+    },
+    {
+        "type": "way",
+        "id": 48535364,
+        "nodes": [
+            616593763,
+            616593764,
+            8690937503,
+            616593765,
+            616593766,
+            616593770
+        ],
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        },
+        "sub_id": 9,
+        "length": 0.03267309899348262
+    },
+    {
+        "type": "way",
+        "id": 111499289,
+        "nodes": [
+            8694737797,
+            4057919615
+        ],
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        },
+        "sub_id": 9,
+        "length": 0.00623452210441475
+    },
+    {
+        "type": "way",
+        "id": 111499289,
+        "nodes": [
+            4057919615,
+            4057919617,
+            8694737784
+        ],
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        },
+        "sub_id": 10,
+        "length": 0.05797015663851852
+    },
+    {
+        "type": "way",
+        "id": 111499289,
+        "nodes": [
+            8694737784,
+            6937292649
+        ],
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        },
+        "sub_id": 11,
+        "length": 0.06255875777811733
+    },
+    {
+        "type": "way",
+        "id": 111499289,
+        "nodes": [
+            6937292649,
+            55478243
+        ],
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        },
+        "sub_id": 12,
+        "length": 0.012833463324992928
+    },
+    {
+        "type": "way",
+        "id": 111499289,
+        "nodes": [
+            55478243,
+            65143760
+        ],
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        },
+        "sub_id": 13,
+        "length": 0.030963303558592326
+    },
+    {
+        "type": "way",
+        "id": 111499289,
+        "nodes": [
+            65143760,
+            4057919619
+        ],
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        },
+        "sub_id": 14,
+        "length": 0.012950149273730555
+    },
+    {
+        "type": "way",
+        "id": 111499289,
+        "nodes": [
+            4057919619,
+            55480211
+        ],
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        },
+        "sub_id": 15,
+        "length": 0.042588916667600486
+    },
+    {
+        "type": "way",
+        "id": 111499289,
+        "nodes": [
+            55480211,
+            4057919618,
+            55480048
+        ],
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        },
+        "sub_id": 16,
+        "length": 0.01996676094233952
+    }
+]
