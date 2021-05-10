@@ -1,0 +1,5563 @@
+[
+    {
+        "type": "node",
+        "id": 37634883,
+        "lat": 51.9654973,
+        "lon": 7.603396,
+        "tags": {
+            "bicycle": "use_sidepath",
+            "highway": "secondary",
+            "lanes": "2",
+            "lanes:backward": "1",
+            "lanes:forward": "1",
+            "lit": "yes",
+            "maxspeed": "50",
+            "name": "Einsteinstraße",
+            "old_ref": "L 843",
+            "ref": "K 4",
+            "segregated": "yes",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 6304454912,
+        "lat": 51.9674908,
+        "lon": 7.6098043,
+        "tags": {
+            "bicycle": "use_sidepath",
+            "highway": "secondary",
+            "lanes": "2",
+            "lanes:backward": "1",
+            "lanes:forward": "1",
+            "lit": "yes",
+            "maxspeed": "50",
+            "name": "Einsteinstraße",
+            "old_ref": "L 843",
+            "ref": "K 4",
+            "segregated": "yes",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 41662302,
+        "lat": 51.9611955,
+        "lon": 7.6078283,
+        "tags": {
+            "highway": "residential",
+            "lit": "yes",
+            "maxspeed": "30",
+            "name": "Am Schlossgarten",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 41662324,
+        "lat": 51.964234,
+        "lon": 7.6047435,
+        "tags": {
+            "highway": "residential",
+            "lit": "yes",
+            "maxspeed": "30",
+            "name": "Am Schlossgarten",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 445873099,
+        "lat": 51.9619448,
+        "lon": 7.6160587,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "service",
+            "motor_vehicle": "no",
+            "name": "Promenade",
+            "psv": "no",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65145426,
+        "lat": 51.9623785,
+        "lon": 7.6160816,
+        "tags": {
+            "highway": "cycleway",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 55478588,
+        "lat": 51.9645037,
+        "lon": 7.6076155,
+        "tags": {
+            "highway": "footway",
+            "lit": "no"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65143745,
+        "lat": 51.9648576,
+        "lon": 7.6131886,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 55478051,
+        "lat": 51.9646426,
+        "lon": 7.6074067,
+        "tags": {
+            "highway": "footway",
+            "lit": "no",
+            "source": "survey"
+        }
+    },
+    {
+        "type": "node",
+        "id": 988085940,
+        "lat": 51.9645118,
+        "lon": 7.607603,
+        "tags": {
+            "highway": "footway",
+            "lit": "no"
+        }
+    },
+    {
+        "type": "node",
+        "id": 55480087,
+        "lat": 51.9640994,
+        "lon": 7.6074362,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 55479836,
+        "lat": 51.9645783,
+        "lon": 7.6082373,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 2161805806,
+        "lat": 51.964833,
+        "lon": 7.6092259,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 55478243,
+        "lat": 51.9648414,
+        "lon": 7.6108845,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4882098573,
+        "lat": 51.9666089,
+        "lon": 7.6069439,
+        "tags": {
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted",
+            "width": "1"
+        }
+    },
+    {
+        "type": "node",
+        "id": 55479266,
+        "lat": 51.9656303,
+        "lon": 7.607996,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "source": "survey"
+        }
+    },
+    {
+        "type": "node",
+        "id": 55480048,
+        "lat": 51.9648128,
+        "lon": 7.6093465,
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "grass_paver"
+        }
+    },
+    {
+        "type": "node",
+        "id": 55480211,
+        "lat": 51.9648415,
+        "lon": 7.6096261,
+        "tags": {
+            "highway": "service",
+            "oneway": "yes",
+            "service": "parking_aisle",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 55479266,
+        "lat": 51.9656303,
+        "lon": 7.607996,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "source": "survey"
+        }
+    },
+    {
+        "type": "node",
+        "id": 55478051,
+        "lat": 51.9646426,
+        "lon": 7.6074067,
+        "tags": {
+            "highway": "footway",
+            "lit": "no",
+            "source": "survey"
+        }
+    },
+    {
+        "type": "node",
+        "id": 60358403,
+        "lat": 51.962482,
+        "lon": 7.6127643,
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919136,
+        "lat": 51.9632448,
+        "lon": 7.610258,
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 60358414,
+        "lat": 51.9623646,
+        "lon": 7.6127518,
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 55480087,
+        "lat": 51.9640994,
+        "lon": 7.6074362,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 60358414,
+        "lat": 51.9623646,
+        "lon": 7.6127518,
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 55478588,
+        "lat": 51.9645037,
+        "lon": 7.6076155,
+        "tags": {
+            "highway": "footway",
+            "lit": "no"
+        }
+    },
+    {
+        "type": "node",
+        "id": 60358476,
+        "lat": 51.9616138,
+        "lon": 7.6085996,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 60358523,
+        "lat": 51.9623466,
+        "lon": 7.6084959,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 336101881,
+        "lat": 51.9635116,
+        "lon": 7.6160621,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "lit": "no",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 5211743623,
+        "lat": 51.9635302,
+        "lon": 7.6155671,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "service",
+            "motor_vehicle": "private",
+            "name": "Schlossplatz",
+            "smoothness": "bad",
+            "surface": "cobblestone"
+        }
+    },
+    {
+        "type": "node",
+        "id": 55478106,
+        "lat": 51.9646664,
+        "lon": 7.6073716,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no"
+        }
+    },
+    {
+        "type": "node",
+        "id": 2327128424,
+        "lat": 51.9631727,
+        "lon": 7.605907,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no"
+        }
+    },
+    {
+        "type": "node",
+        "id": 60358413,
+        "lat": 51.9634959,
+        "lon": 7.6075238,
+        "tags": {
+            "highway": "footway",
+            "lit": "no"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65144486,
+        "lat": 51.9633522,
+        "lon": 7.6072953,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 60358420,
+        "lat": 51.9624681,
+        "lon": 7.6104457,
+        "tags": {
+            "highway": "footway",
+            "lit": "no"
+        }
+    },
+    {
+        "type": "node",
+        "id": 60358506,
+        "lat": 51.9623706,
+        "lon": 7.6103535,
+        "tags": {
+            "highway": "footway",
+            "lit": "no"
+        }
+    },
+    {
+        "type": "node",
+        "id": 60779193,
+        "lat": 51.9631017,
+        "lon": 7.6127995,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 60779208,
+        "lat": 51.9629996,
+        "lon": 7.6119135,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 60358398,
+        "lat": 51.9629399,
+        "lon": 7.6118989,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 8690937486,
+        "lat": 51.9624569,
+        "lon": 7.6107715,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 60358417,
+        "lat": 51.9624288,
+        "lon": 7.6115877,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 60358503,
+        "lat": 51.9623645,
+        "lon": 7.6114949,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 127290728,
+        "lat": 51.9630607,
+        "lon": 7.6138557,
+        "tags": {
+            "highway": "service",
+            "name": "Schlossplatz",
+            "surface": "sett"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65144261,
+        "lat": 51.9640966,
+        "lon": 7.6139392,
+        "tags": {
+            "area": "yes",
+            "bicycle": "yes",
+            "highway": "pedestrian",
+            "lit": "yes",
+            "name": "Schlossplatz",
+            "smoothness": "bad",
+            "surface": "sett"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919615,
+        "lat": 51.9648026,
+        "lon": 7.6128221,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919611,
+        "lat": 51.9647705,
+        "lon": 7.6104363,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65145085,
+        "lat": 51.9651961,
+        "lon": 7.6155914,
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "private",
+            "surface": "sett"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65145085,
+        "lat": 51.9651961,
+        "lon": 7.6155914,
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "private",
+            "surface": "sett"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65145139,
+        "lat": 51.965606,
+        "lon": 7.6143766,
+        "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "segregated": "no",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65144822,
+        "lat": 51.9641055,
+        "lon": 7.6136665,
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "designated",
+            "name": "Schlossplatz",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65144112,
+        "lat": 51.9667106,
+        "lon": 7.6163627,
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "private",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65145569,
+        "lat": 51.9654653,
+        "lon": 7.6156263,
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "private",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65144203,
+        "lat": 51.9650699,
+        "lon": 7.61546,
+        "tags": {
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 1368587522,
+        "lat": 51.964533,
+        "lon": 7.6144351,
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "private",
+            "name": "Schlossplatz",
+            "surface": "sett"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65144486,
+        "lat": 51.9633522,
+        "lon": 7.6072953,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65143698,
+        "lat": 51.9638207,
+        "lon": 7.6061415,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 60358439,
+        "lat": 51.9622749,
+        "lon": 7.6118039,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65144486,
+        "lat": 51.9633522,
+        "lon": 7.6072953,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65145085,
+        "lat": 51.9651961,
+        "lon": 7.6155914,
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "private",
+            "surface": "sett"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65144203,
+        "lat": 51.9650699,
+        "lon": 7.61546,
+        "tags": {
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65145057,
+        "lat": 51.9644833,
+        "lon": 7.6143749,
+        "tags": {
+            "highway": "footway",
+            "surface": "sett"
+        }
+    },
+    {
+        "type": "node",
+        "id": 8694801595,
+        "lat": 51.9645375,
+        "lon": 7.614223,
+        "tags": {
+            "highway": "footway",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 5387963316,
+        "lat": 51.9655513,
+        "lon": 7.6156303,
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "private",
+            "name": "Schlossplatz",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65145139,
+        "lat": 51.965606,
+        "lon": 7.6143766,
+        "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "segregated": "no",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65144582,
+        "lat": 51.9642225,
+        "lon": 7.6144644,
+        "tags": {
+            "highway": "service",
+            "surface": "sett"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65144634,
+        "lat": 51.9643693,
+        "lon": 7.6143509,
+        "tags": {
+            "highway": "service",
+            "surface": "sett"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65144099,
+        "lat": 51.9649191,
+        "lon": 7.6137135,
+        "tags": {
+            "highway": "track",
+            "lit": "no",
+            "surface": "asphalt",
+            "tracktype": "grade1"
+        }
+    },
+    {
+        "type": "node",
+        "id": 8694737780,
+        "lat": 51.9649087,
+        "lon": 7.6135601,
+        "tags": {
+            "highway": "track",
+            "lit": "no",
+            "surface": "compacted",
+            "tracktype": "grade2"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65145412,
+        "lat": 51.9647815,
+        "lon": 7.6137002,
+        "tags": {
+            "highway": "service",
+            "service": "parking_aisle"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65146016,
+        "lat": 51.9647725,
+        "lon": 7.6141871,
+        "tags": {
+            "highway": "footway",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65144203,
+        "lat": 51.9650699,
+        "lon": 7.61546,
+        "tags": {
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65145256,
+        "lat": 51.9641941,
+        "lon": 7.6153832,
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "private",
+            "surface": "sett"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65143760,
+        "lat": 51.9648357,
+        "lon": 7.6104341,
+        "tags": {
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65144778,
+        "lat": 51.9645558,
+        "lon": 7.6102238,
+        "tags": {
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65145503,
+        "lat": 51.9657646,
+        "lon": 7.6088822,
+        "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 55478218,
+        "lat": 51.9655609,
+        "lon": 7.609403,
+        "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65145494,
+        "lat": 51.9648768,
+        "lon": 7.6132981,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65145617,
+        "lat": 51.9651804,
+        "lon": 7.613438,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65144717,
+        "lat": 51.9628138,
+        "lon": 7.6085756,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65145440,
+        "lat": 51.9627357,
+        "lon": 7.608242,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 60358499,
+        "lat": 51.9640429,
+        "lon": 7.6064842,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 55479071,
+        "lat": 51.9642815,
+        "lon": 7.6073765,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 336101885,
+        "lat": 51.9627028,
+        "lon": 7.6160012,
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 43600848,
+        "lat": 51.9620395,
+        "lon": 7.6152677,
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 336101876,
+        "lat": 51.9643106,
+        "lon": 7.6161208,
+        "tags": {
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 127289520,
+        "lat": 51.9643265,
+        "lon": 7.6153915,
+        "tags": {
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 166868548,
+        "lat": 51.9622424,
+        "lon": 7.6146291,
+        "tags": {
+            "highway": "service",
+            "service": "parking_aisle",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 166869147,
+        "lat": 51.9626696,
+        "lon": 7.6143748,
+        "tags": {
+            "highway": "service",
+            "service": "parking_aisle",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 166868391,
+        "lat": 51.9625372,
+        "lon": 7.6144474,
+        "tags": {
+            "highway": "service",
+            "service": "parking_aisle",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 166868991,
+        "lat": 51.9625187,
+        "lon": 7.6151694,
+        "tags": {
+            "highway": "service",
+            "service": "parking_aisle",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 166868204,
+        "lat": 51.9645522,
+        "lon": 7.614457,
+        "tags": {
+            "highway": "service",
+            "name": "Schlossplatz",
+            "service": "parking_aisle",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 3405206348,
+        "lat": 51.9645464,
+        "lon": 7.6146714,
+        "tags": {
+            "highway": "service",
+            "name": "Schlossplatz",
+            "service": "parking_aisle",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 166865279,
+        "lat": 51.9619687,
+        "lon": 7.6147509,
+        "tags": {
+            "highway": "service",
+            "service": "parking_aisle",
+            "smoothness": "bad",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 166868120,
+        "lat": 51.9629021,
+        "lon": 7.6143313,
+        "tags": {
+            "highway": "service",
+            "service": "parking_aisle",
+            "smoothness": "bad",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 336101870,
+        "lat": 51.9650378,
+        "lon": 7.6161741,
+        "tags": {
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65144203,
+        "lat": 51.9650699,
+        "lon": 7.61546,
+        "tags": {
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 166868337,
+        "lat": 51.9648376,
+        "lon": 7.6144746,
+        "tags": {
+            "highway": "service",
+            "name": "Schlossplatz",
+            "service": "parking_aisle",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 3405206354,
+        "lat": 51.9648312,
+        "lon": 7.6146948,
+        "tags": {
+            "highway": "service",
+            "name": "Schlossplatz",
+            "service": "parking_aisle",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 166864904,
+        "lat": 51.9623658,
+        "lon": 7.6145532,
+        "tags": {
+            "highway": "service",
+            "service": "parking_aisle",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 166867224,
+        "lat": 51.9623515,
+        "lon": 7.615167,
+        "tags": {
+            "highway": "service",
+            "service": "parking_aisle",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 180445100,
+        "lat": 51.9664695,
+        "lon": 7.610119,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "source": "survey"
+        }
+    },
+    {
+        "type": "node",
+        "id": 180445244,
+        "lat": 51.9673927,
+        "lon": 7.609642,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "source": "survey"
+        }
+    },
+    {
+        "type": "node",
+        "id": 180444302,
+        "lat": 51.9644182,
+        "lon": 7.6109848,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted",
+            "width": "2.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 180445483,
+        "lat": 51.964216,
+        "lon": 7.611359,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted",
+            "width": "2.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 6156010690,
+        "lat": 51.9672237,
+        "lon": 7.6128072,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "source": "survey"
+        }
+    },
+    {
+        "type": "node",
+        "id": 180445395,
+        "lat": 51.9663549,
+        "lon": 7.608838,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "source": "survey"
+        }
+    },
+    {
+        "type": "node",
+        "id": 180445395,
+        "lat": 51.9663549,
+        "lon": 7.608838,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "source": "survey"
+        }
+    },
+    {
+        "type": "node",
+        "id": 5237073179,
+        "lat": 51.9668848,
+        "lon": 7.6081975,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "source": "survey"
+        }
+    },
+    {
+        "type": "node",
+        "id": 180446005,
+        "lat": 51.9636334,
+        "lon": 7.6128298,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "compacted",
+            "width": "2.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65143417,
+        "lat": 51.9647349,
+        "lon": 7.6104159,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "compacted",
+            "width": "2.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 55479043,
+        "lat": 51.9648375,
+        "lon": 7.608612,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 55479836,
+        "lat": 51.9645783,
+        "lon": 7.6082373,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 505164545,
+        "lat": 51.9621348,
+        "lon": 7.6127326,
+        "tags": {
+            "bicycle": "permissive",
+            "bridge": "yes",
+            "foot": "permissive",
+            "highway": "service",
+            "layer": "1",
+            "maxweight:signed": "no",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 60358414,
+        "lat": 51.9623646,
+        "lon": 7.6127518,
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 55479126,
+        "lat": 51.9619893,
+        "lon": 7.6127225,
+        "tags": {
+            "bicycle": "permissive",
+            "bridge": "yes",
+            "foot": "permissive",
+            "highway": "service",
+            "layer": "1",
+            "maxweight:signed": "no",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 505164545,
+        "lat": 51.9621348,
+        "lon": 7.6127326,
+        "tags": {
+            "bicycle": "permissive",
+            "bridge": "yes",
+            "foot": "permissive",
+            "highway": "service",
+            "layer": "1",
+            "maxweight:signed": "no",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65144261,
+        "lat": 51.9640966,
+        "lon": 7.6139392,
+        "tags": {
+            "area": "yes",
+            "bicycle": "yes",
+            "highway": "pedestrian",
+            "lit": "yes",
+            "name": "Schlossplatz",
+            "smoothness": "bad",
+            "surface": "sett"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65144261,
+        "lat": 51.9640966,
+        "lon": 7.6139392,
+        "tags": {
+            "area": "yes",
+            "bicycle": "yes",
+            "highway": "pedestrian",
+            "lit": "yes",
+            "name": "Schlossplatz",
+            "smoothness": "bad",
+            "surface": "sett"
+        }
+    },
+    {
+        "type": "node",
+        "id": 517738928,
+        "lat": 51.9630876,
+        "lon": 7.6135811,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 60779193,
+        "lat": 51.9631017,
+        "lon": 7.6127995,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 446138395,
+        "lat": 51.9631783,
+        "lon": 7.6114549,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "asphalt",
+            "width": "2.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919138,
+        "lat": 51.9631771,
+        "lon": 7.6114981,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "compacted",
+            "width": "2.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 60358396,
+        "lat": 51.9629538,
+        "lon": 7.611424,
+        "tags": {
+            "highway": "service",
+            "lit": "yes",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 523343730,
+        "lat": 51.9629931,
+        "lon": 7.6105792,
+        "tags": {
+            "highway": "service",
+            "lit": "yes",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 644931297,
+        "lat": 51.9637813,
+        "lon": 7.6097861,
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "name": "Erlebnispfad Duft- und Riechgarten",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "tunnel": "building_passage",
+            "width": "1"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919339,
+        "lat": 51.9638898,
+        "lon": 7.6097534,
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "name": "Erlebnispfad Duft- und Riechgarten",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "1"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616591841,
+        "lat": 51.9641634,
+        "lon": 7.609742,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "paved",
+            "width": "4"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593888,
+        "lat": 51.9636629,
+        "lon": 7.6099299,
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616592506,
+        "lat": 51.9634326,
+        "lon": 7.6114717,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616592506,
+        "lat": 51.9634326,
+        "lon": 7.6114717,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616592480,
+        "lat": 51.9632423,
+        "lon": 7.6114278,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616592489,
+        "lat": 51.9633159,
+        "lon": 7.6114742,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593770,
+        "lat": 51.9635429,
+        "lon": 7.6113143,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616592504,
+        "lat": 51.9634169,
+        "lon": 7.611543,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616592484,
+        "lat": 51.9633411,
+        "lon": 7.6114126,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616592501,
+        "lat": 51.9633312,
+        "lon": 7.6114654,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616592504,
+        "lat": 51.9634169,
+        "lon": 7.611543,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616592497,
+        "lat": 51.9633365,
+        "lon": 7.6114906,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616592488,
+        "lat": 51.9633094,
+        "lon": 7.6115551,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616592502,
+        "lat": 51.9633215,
+        "lon": 7.6114991,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616592486,
+        "lat": 51.9633155,
+        "lon": 7.6114894,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616592486,
+        "lat": 51.9633155,
+        "lon": 7.6114894,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919498,
+        "lat": 51.9640569,
+        "lon": 7.6113299,
+        "tags": {
+            "highway": "footway",
+            "surface": "paved",
+            "width": "4"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616591841,
+        "lat": 51.9641634,
+        "lon": 7.609742,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "paved",
+            "width": "4"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593770,
+        "lat": 51.9635429,
+        "lon": 7.6113143,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593776,
+        "lat": 51.9638113,
+        "lon": 7.6111603,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593757,
+        "lat": 51.9638114,
+        "lon": 7.6108342,
+        "tags": {
+            "highway": "path",
+            "surface": "grass"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593772,
+        "lat": 51.9639008,
+        "lon": 7.6113787,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593792,
+        "lat": 51.9640906,
+        "lon": 7.6109213,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593770,
+        "lat": 51.9635429,
+        "lon": 7.6113143,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919364,
+        "lat": 51.964002,
+        "lon": 7.6113504,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593772,
+        "lat": 51.9639008,
+        "lon": 7.6113787,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919535,
+        "lat": 51.9641297,
+        "lon": 7.610461,
+        "tags": {
+            "highway": "footway",
+            "surface": "paving_stones",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593791,
+        "lat": 51.9640625,
+        "lon": 7.6108706,
+        "tags": {
+            "highway": "footway",
+            "surface": "paving_stones",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593811,
+        "lat": 51.9634442,
+        "lon": 7.6079682,
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "surface": "ground",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 620405364,
+        "lat": 51.9631799,
+        "lon": 7.6085035,
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "surface": "ground",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593869,
+        "lat": 51.9637378,
+        "lon": 7.6081008,
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "ground",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593818,
+        "lat": 51.9636216,
+        "lon": 7.6078923,
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "ground",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919162,
+        "lat": 51.9635258,
+        "lon": 7.6076835,
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "surface": "ground",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593854,
+        "lat": 51.9634996,
+        "lon": 7.6080407,
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "ground",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057926097,
+        "lat": 51.9637346,
+        "lon": 7.6079534,
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "ground",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593830,
+        "lat": 51.963658,
+        "lon": 7.6077319,
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "surface": "ground",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593818,
+        "lat": 51.9636216,
+        "lon": 7.6078923,
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "ground",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919310,
+        "lat": 51.9637549,
+        "lon": 7.6079896,
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "surface": "ground",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593892,
+        "lat": 51.9641965,
+        "lon": 7.6086251,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "paved",
+            "width": "3"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616591841,
+        "lat": 51.9641634,
+        "lon": 7.609742,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "paved",
+            "width": "4"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593843,
+        "lat": 51.9631334,
+        "lon": 7.6093866,
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593885,
+        "lat": 51.9629356,
+        "lon": 7.6094812,
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593845,
+        "lat": 51.9629703,
+        "lon": 7.6094513,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593835,
+        "lat": 51.9632429,
+        "lon": 7.6085497,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593858,
+        "lat": 51.9636866,
+        "lon": 7.6085041,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593884,
+        "lat": 51.9632108,
+        "lon": 7.6095112,
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593841,
+        "lat": 51.9630932,
+        "lon": 7.609133,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593884,
+        "lat": 51.9632108,
+        "lon": 7.6095112,
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919332,
+        "lat": 51.9638513,
+        "lon": 7.6111847,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593794,
+        "lat": 51.9640204,
+        "lon": 7.6109436,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 618264378,
+        "lat": 51.9637714,
+        "lon": 7.6106083,
+        "tags": {
+            "foot": "yes",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616592466,
+        "lat": 51.963516,
+        "lon": 7.6105309,
+        "tags": {
+            "foot": "yes",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616592511,
+        "lat": 51.9635166,
+        "lon": 7.611478,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593784,
+        "lat": 51.9636298,
+        "lon": 7.6115639,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619777972,
+        "lat": 51.9639494,
+        "lon": 7.6098011,
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619777974,
+        "lat": 51.9638997,
+        "lon": 7.6098217,
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778131,
+        "lat": 51.9639678,
+        "lon": 7.6097938,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 620401521,
+        "lat": 51.963611,
+        "lon": 7.6097559,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619777904,
+        "lat": 51.9639506,
+        "lon": 7.6095359,
+        "tags": {
+            "highway": "footway",
+            "surface": "pebblestone",
+            "width": "1"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778080,
+        "lat": 51.9639853,
+        "lon": 7.6094532,
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593889,
+        "lat": 51.9641938,
+        "lon": 7.6087967,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "paved",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593888,
+        "lat": 51.9636629,
+        "lon": 7.6099299,
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778108,
+        "lat": 51.964117,
+        "lon": 7.6096735,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "paved",
+            "width": "4"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778133,
+        "lat": 51.9639637,
+        "lon": 7.6097685,
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "surface": "gravel",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778108,
+        "lat": 51.964117,
+        "lon": 7.6096735,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "paved",
+            "width": "4"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778082,
+        "lat": 51.9640256,
+        "lon": 7.6095254,
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616591841,
+        "lat": 51.9641634,
+        "lon": 7.609742,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "paved",
+            "width": "4"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778108,
+        "lat": 51.964117,
+        "lon": 7.6096735,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "paved",
+            "width": "4"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778082,
+        "lat": 51.9640256,
+        "lon": 7.6095254,
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919352,
+        "lat": 51.9639546,
+        "lon": 7.6094624,
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778093,
+        "lat": 51.9640526,
+        "lon": 7.609556,
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778126,
+        "lat": 51.9641374,
+        "lon": 7.6094586,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "paved",
+            "width": "3"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778112,
+        "lat": 51.9641045,
+        "lon": 7.6096523,
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778126,
+        "lat": 51.9641374,
+        "lon": 7.6094586,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "paved",
+            "width": "3"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778080,
+        "lat": 51.9639853,
+        "lon": 7.6094532,
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778126,
+        "lat": 51.9641374,
+        "lon": 7.6094586,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "paved",
+            "width": "3"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778126,
+        "lat": 51.9641374,
+        "lon": 7.6094586,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "paved",
+            "width": "3"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778124,
+        "lat": 51.9641751,
+        "lon": 7.6094676,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "paved",
+            "width": "3"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778086,
+        "lat": 51.9640456,
+        "lon": 7.6093352,
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778006,
+        "lat": 51.9640546,
+        "lon": 7.6087417,
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778004,
+        "lat": 51.9640934,
+        "lon": 7.6088679,
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919540,
+        "lat": 51.9641503,
+        "lon": 7.6087904,
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778008,
+        "lat": 51.9641047,
+        "lon": 7.6089256,
+        "tags": {
+            "highway": "path"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778025,
+        "lat": 51.9641255,
+        "lon": 7.6088332,
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778008,
+        "lat": 51.9641047,
+        "lon": 7.6089256,
+        "tags": {
+            "highway": "path"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778031,
+        "lat": 51.9641882,
+        "lon": 7.6089923,
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778030,
+        "lat": 51.9641647,
+        "lon": 7.6089896,
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778002,
+        "lat": 51.9641028,
+        "lon": 7.6089999,
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778033,
+        "lat": 51.9640969,
+        "lon": 7.6091224,
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778039,
+        "lat": 51.9640518,
+        "lon": 7.6093106,
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778040,
+        "lat": 51.96409,
+        "lon": 7.6092826,
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778051,
+        "lat": 51.9641781,
+        "lon": 7.6093463,
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778053,
+        "lat": 51.9641315,
+        "lon": 7.6093604,
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778100,
+        "lat": 51.964111,
+        "lon": 7.6094452,
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778042,
+        "lat": 51.964102,
+        "lon": 7.6092907,
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778047,
+        "lat": 51.9641226,
+        "lon": 7.6090952,
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616591816,
+        "lat": 51.9636855,
+        "lon": 7.6100593,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "cobblestone",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919318,
+        "lat": 51.9637574,
+        "lon": 7.6098826,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "cobblestone",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 620401538,
+        "lat": 51.963456,
+        "lon": 7.610767,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919148,
+        "lat": 51.9633764,
+        "lon": 7.6108051,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 620401516,
+        "lat": 51.9633916,
+        "lon": 7.6101313,
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919136,
+        "lat": 51.9632448,
+        "lon": 7.610258,
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593884,
+        "lat": 51.9632108,
+        "lon": 7.6095112,
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 620401532,
+        "lat": 51.9634666,
+        "lon": 7.6101694,
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593888,
+        "lat": 51.9636629,
+        "lon": 7.6099299,
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 620401532,
+        "lat": 51.9634666,
+        "lon": 7.6101694,
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 733941374,
+        "lat": 51.9640613,
+        "lon": 7.6128713,
+        "tags": {
+            "foot": "yes",
+            "highway": "footway",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 517738933,
+        "lat": 51.9641155,
+        "lon": 7.6136378,
+        "tags": {
+            "foot": "yes",
+            "highway": "footway",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 180446127,
+        "lat": 51.9645992,
+        "lon": 7.6111046,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted",
+            "width": "2.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 6937292649,
+        "lat": 51.9648398,
+        "lon": 7.6110712,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted",
+            "width": "2.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 8692906127,
+        "lat": 51.9643831,
+        "lon": 7.6088155,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "paved",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593889,
+        "lat": 51.9641938,
+        "lon": 7.6087967,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "paved",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 988085940,
+        "lat": 51.9645118,
+        "lon": 7.607603,
+        "tags": {
+            "highway": "footway",
+            "lit": "no"
+        }
+    },
+    {
+        "type": "node",
+        "id": 55478588,
+        "lat": 51.9645037,
+        "lon": 7.6076155,
+        "tags": {
+            "highway": "footway",
+            "lit": "no"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65145717,
+        "lat": 51.9650957,
+        "lon": 7.6144692,
+        "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "segregated": "no",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65145139,
+        "lat": 51.965606,
+        "lon": 7.6143766,
+        "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "segregated": "no",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 1123662065,
+        "lat": 51.9623952,
+        "lon": 7.6130503,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 1123662060,
+        "lat": 51.9629431,
+        "lon": 7.6132477,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 1123662058,
+        "lat": 51.96309,
+        "lon": 7.6135187,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 60358414,
+        "lat": 51.9623646,
+        "lon": 7.6127518,
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 60358414,
+        "lat": 51.9623646,
+        "lon": 7.6127518,
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 55480048,
+        "lat": 51.9648128,
+        "lon": 7.6093465,
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "grass_paver"
+        }
+    },
+    {
+        "type": "node",
+        "id": 180445395,
+        "lat": 51.9663549,
+        "lon": 7.608838,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "source": "survey"
+        }
+    },
+    {
+        "type": "node",
+        "id": 55479266,
+        "lat": 51.9656303,
+        "lon": 7.607996,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "source": "survey"
+        }
+    },
+    {
+        "type": "node",
+        "id": 245424236,
+        "lat": 51.9667103,
+        "lon": 7.6153279,
+        "tags": {
+            "access": "private",
+            "highway": "service",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 1364839842,
+        "lat": 51.9670456,
+        "lon": 7.6133267,
+        "tags": {
+            "access": "private",
+            "highway": "service",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 1368587527,
+        "lat": 51.9646027,
+        "lon": 7.613323,
+        "tags": {
+            "highway": "footway"
+        }
+    },
+    {
+        "type": "node",
+        "id": 8694737806,
+        "lat": 51.9643544,
+        "lon": 7.6133049,
+        "tags": {
+            "highway": "footway"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65144634,
+        "lat": 51.9643693,
+        "lon": 7.6143509,
+        "tags": {
+            "highway": "service",
+            "surface": "sett"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65143490,
+        "lat": 51.9643897,
+        "lon": 7.6136492,
+        "tags": {
+            "highway": "service",
+            "surface": "sett"
+        }
+    },
+    {
+        "type": "node",
+        "id": 55479965,
+        "lat": 51.9650532,
+        "lon": 7.6093595,
+        "tags": {
+            "highway": "service",
+            "oneway": "yes",
+            "service": "parking_aisle",
+            "surface": "grass_paver"
+        }
+    },
+    {
+        "type": "node",
+        "id": 55479965,
+        "lat": 51.9650532,
+        "lon": 7.6093595,
+        "tags": {
+            "highway": "service",
+            "oneway": "yes",
+            "service": "parking_aisle",
+            "surface": "grass_paver"
+        }
+    },
+    {
+        "type": "node",
+        "id": 180444707,
+        "lat": 51.9645016,
+        "lon": 7.611709,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 8694737784,
+        "lat": 51.9648257,
+        "lon": 7.6119811,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "source": "Bing",
+            "surface": "compacted",
+            "width": "2.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 2087752665,
+        "lat": 51.9646951,
+        "lon": 7.6144688,
+        "tags": {
+            "highway": "service",
+            "service": "parking_aisle"
+        }
+    },
+    {
+        "type": "node",
+        "id": 2087752664,
+        "lat": 51.9646912,
+        "lon": 7.6146477,
+        "tags": {
+            "highway": "path",
+            "surface": "paved"
+        }
+    },
+    {
+        "type": "node",
+        "id": 2087753148,
+        "lat": 51.9647752,
+        "lon": 7.6139509,
+        "tags": {
+            "highway": "service",
+            "service": "parking_aisle",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 8694801602,
+        "lat": 51.9644439,
+        "lon": 7.6136591,
+        "tags": {
+            "highway": "service",
+            "service": "parking_aisle",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65146016,
+        "lat": 51.9647725,
+        "lon": 7.6141871,
+        "tags": {
+            "highway": "footway",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65143768,
+        "lat": 51.9645815,
+        "lon": 7.6141844,
+        "tags": {
+            "highway": "service",
+            "service": "parking_aisle"
+        }
+    },
+    {
+        "type": "node",
+        "id": 2161805806,
+        "lat": 51.964833,
+        "lon": 7.6092259,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 2161805809,
+        "lat": 51.9640232,
+        "lon": 7.60758,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 55480048,
+        "lat": 51.9648128,
+        "lon": 7.6093465,
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "grass_paver"
+        }
+    },
+    {
+        "type": "node",
+        "id": 2161805809,
+        "lat": 51.9640232,
+        "lon": 7.60758,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 620405424,
+        "lat": 51.9641508,
+        "lon": 7.6084324,
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593856,
+        "lat": 51.9634192,
+        "lon": 7.60838,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        }
+    },
+    {
+        "type": "node",
+        "id": 2650589500,
+        "lat": 51.9655382,
+        "lon": 7.6125103,
+        "tags": {
+            "access": "no",
+            "highway": "service",
+            "service": "parking_aisle"
+        }
+    },
+    {
+        "type": "node",
+        "id": 2650589503,
+        "lat": 51.965977,
+        "lon": 7.6125663,
+        "tags": {
+            "access": "no",
+            "highway": "service",
+            "service": "parking_aisle"
+        }
+    },
+    {
+        "type": "node",
+        "id": 2650596249,
+        "lat": 51.9658655,
+        "lon": 7.6113892,
+        "tags": {
+            "access": "no",
+            "highway": "service",
+            "service": "parking_aisle"
+        }
+    },
+    {
+        "type": "node",
+        "id": 2650591588,
+        "lat": 51.9658092,
+        "lon": 7.6125449,
+        "tags": {
+            "access": "no",
+            "highway": "service",
+            "service": "parking_aisle"
+        }
+    },
+    {
+        "type": "node",
+        "id": 2650592660,
+        "lat": 51.9655614,
+        "lon": 7.6115608,
+        "tags": {
+            "access": "no",
+            "highway": "service",
+            "service": "parking_aisle"
+        }
+    },
+    {
+        "type": "node",
+        "id": 2650592657,
+        "lat": 51.965855,
+        "lon": 7.6116037,
+        "tags": {
+            "access": "no",
+            "highway": "service",
+            "service": "parking_aisle"
+        }
+    },
+    {
+        "type": "node",
+        "id": 2650593673,
+        "lat": 51.9655647,
+        "lon": 7.611872,
+        "tags": {
+            "access": "no",
+            "highway": "service",
+            "service": "parking_aisle"
+        }
+    },
+    {
+        "type": "node",
+        "id": 2650593675,
+        "lat": 51.9658398,
+        "lon": 7.6119154,
+        "tags": {
+            "access": "no",
+            "highway": "service",
+            "service": "parking_aisle"
+        }
+    },
+    {
+        "type": "node",
+        "id": 2650594548,
+        "lat": 51.9655548,
+        "lon": 7.6121938,
+        "tags": {
+            "access": "no",
+            "highway": "service",
+            "service": "parking_aisle"
+        }
+    },
+    {
+        "type": "node",
+        "id": 2650594550,
+        "lat": 51.9658244,
+        "lon": 7.6122316,
+        "tags": {
+            "access": "no",
+            "highway": "service",
+            "service": "parking_aisle"
+        }
+    },
+    {
+        "type": "node",
+        "id": 2650597297,
+        "lat": 51.9658456,
+        "lon": 7.6107669,
+        "tags": {
+            "access": "no",
+            "area": "yes",
+            "highway": "service"
+        }
+    },
+    {
+        "type": "node",
+        "id": 2650597297,
+        "lat": 51.9658456,
+        "lon": 7.6107669,
+        "tags": {
+            "access": "no",
+            "area": "yes",
+            "highway": "service"
+        }
+    },
+    {
+        "type": "node",
+        "id": 2650598308,
+        "lat": 51.9664316,
+        "lon": 7.6141855,
+        "tags": {
+            "access": "no",
+            "highway": "service",
+            "service": "parking_aisle"
+        }
+    },
+    {
+        "type": "node",
+        "id": 1364839816,
+        "lat": 51.9660478,
+        "lon": 7.6143044,
+        "tags": {
+            "access": "no",
+            "highway": "service",
+            "service": "parking_aisle"
+        }
+    },
+    {
+        "type": "node",
+        "id": 2650600465,
+        "lat": 51.9663332,
+        "lon": 7.6123986,
+        "tags": {
+            "access": "no",
+            "highway": "service",
+            "service": "parking_aisle"
+        }
+    },
+    {
+        "type": "node",
+        "id": 2650585866,
+        "lat": 51.9663806,
+        "lon": 7.6122378,
+        "tags": {
+            "access": "no",
+            "highway": "service",
+            "service": "parking_aisle"
+        }
+    },
+    {
+        "type": "node",
+        "id": 3394695348,
+        "lat": 51.9635972,
+        "lon": 7.612932,
+        "tags": {
+            "highway": "footway"
+        }
+    },
+    {
+        "type": "node",
+        "id": 3394695349,
+        "lat": 51.9635975,
+        "lon": 7.6129052,
+        "tags": {
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 3394695347,
+        "lat": 51.9635968,
+        "lon": 7.6129563,
+        "tags": {
+            "highway": "footway"
+        }
+    },
+    {
+        "type": "node",
+        "id": 3394695348,
+        "lat": 51.9635972,
+        "lon": 7.612932,
+        "tags": {
+            "highway": "footway"
+        }
+    },
+    {
+        "type": "node",
+        "id": 3394695349,
+        "lat": 51.9635975,
+        "lon": 7.6129052,
+        "tags": {
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 3394695350,
+        "lat": 51.9635969,
+        "lon": 7.6128266,
+        "tags": {
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 2291087403,
+        "lat": 51.963587,
+        "lon": 7.6132957,
+        "tags": {
+            "highway": "steps",
+            "incline": "down",
+            "step.condition": "even",
+            "step_count": "3"
+        }
+    },
+    {
+        "type": "node",
+        "id": 3401699487,
+        "lat": 51.963587,
+        "lon": 7.6133171,
+        "tags": {
+            "highway": "steps",
+            "incline": "down",
+            "step.condition": "even",
+            "step_count": "3"
+        }
+    },
+    {
+        "type": "node",
+        "id": 3405206351,
+        "lat": 51.9647216,
+        "lon": 7.6147178,
+        "tags": {
+            "bridge": "yes",
+            "highway": "path",
+            "layer": "1",
+            "level": "1"
+        }
+    },
+    {
+        "type": "node",
+        "id": 3405206352,
+        "lat": 51.9647226,
+        "lon": 7.6146859,
+        "tags": {
+            "handrail:left": "yes",
+            "highway": "steps",
+            "incline": "down",
+            "layer": "1",
+            "material": "metal",
+            "ramp": "no",
+            "wheelchair": "no"
+        }
+    },
+    {
+        "type": "node",
+        "id": 3405206348,
+        "lat": 51.9645464,
+        "lon": 7.6146714,
+        "tags": {
+            "highway": "service",
+            "name": "Schlossplatz",
+            "service": "parking_aisle",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 3405206349,
+        "lat": 51.9646443,
+        "lon": 7.6146796,
+        "tags": {
+            "handrail:right": "yes",
+            "highway": "steps",
+            "incline": "down",
+            "layer": "1",
+            "material": "metal",
+            "ramp": "no",
+            "wheelchair": "no"
+        }
+    },
+    {
+        "type": "node",
+        "id": 3405206350,
+        "lat": 51.9647215,
+        "lon": 7.6147178,
+        "tags": {
+            "highway": "path",
+            "surface": "paved"
+        }
+    },
+    {
+        "type": "node",
+        "id": 2087752664,
+        "lat": 51.9646912,
+        "lon": 7.6146477,
+        "tags": {
+            "highway": "path",
+            "surface": "paved"
+        }
+    },
+    {
+        "type": "node",
+        "id": 3405206352,
+        "lat": 51.9647226,
+        "lon": 7.6146859,
+        "tags": {
+            "handrail:left": "yes",
+            "highway": "steps",
+            "incline": "down",
+            "layer": "1",
+            "material": "metal",
+            "ramp": "no",
+            "wheelchair": "no"
+        }
+    },
+    {
+        "type": "node",
+        "id": 3405206349,
+        "lat": 51.9646443,
+        "lon": 7.6146796,
+        "tags": {
+            "handrail:right": "yes",
+            "highway": "steps",
+            "incline": "down",
+            "layer": "1",
+            "material": "metal",
+            "ramp": "no",
+            "wheelchair": "no"
+        }
+    },
+    {
+        "type": "node",
+        "id": 3405206354,
+        "lat": 51.9648312,
+        "lon": 7.6146948,
+        "tags": {
+            "highway": "service",
+            "name": "Schlossplatz",
+            "service": "parking_aisle",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 3405206353,
+        "lat": 51.9648003,
+        "lon": 7.6146921,
+        "tags": {
+            "handrail:left": "yes",
+            "highway": "steps",
+            "incline": "down",
+            "layer": "1",
+            "material": "metal",
+            "ramp": "no",
+            "wheelchair": "no"
+        }
+    },
+    {
+        "type": "node",
+        "id": 3405206352,
+        "lat": 51.9647226,
+        "lon": 7.6146859,
+        "tags": {
+            "handrail:left": "yes",
+            "highway": "steps",
+            "incline": "down",
+            "layer": "1",
+            "material": "metal",
+            "ramp": "no",
+            "wheelchair": "no"
+        }
+    },
+    {
+        "type": "node",
+        "id": 3405206353,
+        "lat": 51.9648003,
+        "lon": 7.6146921,
+        "tags": {
+            "handrail:left": "yes",
+            "highway": "steps",
+            "incline": "down",
+            "layer": "1",
+            "material": "metal",
+            "ramp": "no",
+            "wheelchair": "no"
+        }
+    },
+    {
+        "type": "node",
+        "id": 2472513739,
+        "lat": 51.9620754,
+        "lon": 7.614601,
+        "tags": {
+            "highway": "footway",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 984785570,
+        "lat": 51.9629069,
+        "lon": 7.614187,
+        "tags": {
+            "highway": "footway",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 3966596468,
+        "lat": 51.962089,
+        "lon": 7.6153932,
+        "tags": {
+            "highway": "cycleway",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65143992,
+        "lat": 51.9623326,
+        "lon": 7.6159703,
+        "tags": {
+            "highway": "cycleway",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619777931,
+        "lat": 51.9637573,
+        "lon": 7.6097986,
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "name": "Erlebnispfad Duft- und Riechgarten",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "1"
+        }
+    },
+    {
+        "type": "node",
+        "id": 644931297,
+        "lat": 51.9637813,
+        "lon": 7.6097861,
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "name": "Erlebnispfad Duft- und Riechgarten",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "tunnel": "building_passage",
+            "width": "1"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616591810,
+        "lat": 51.9637191,
+        "lon": 7.6099005,
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "name": "Erlebnispfad Duft- und Riechgarten",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "1"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619777931,
+        "lat": 51.9637573,
+        "lon": 7.6097986,
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "name": "Erlebnispfad Duft- und Riechgarten",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "pebblestone",
+            "width": "1"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919294,
+        "lat": 51.9636763,
+        "lon": 7.6106207,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593763,
+        "lat": 51.9634258,
+        "lon": 7.6109277,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway"
+        }
+    },
+    {
+        "type": "node",
+        "id": 2161805806,
+        "lat": 51.964833,
+        "lon": 7.6092259,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 8694737804,
+        "lat": 51.9641626,
+        "lon": 7.6128827,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919521,
+        "lat": 51.9640822,
+        "lon": 7.608834,
+        "tags": {
+            "highway": "path"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919507,
+        "lat": 51.9640612,
+        "lon": 7.6089368,
+        "tags": {
+            "highway": "path"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593795,
+        "lat": 51.9640002,
+        "lon": 7.6113674,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "paved",
+            "width": "4"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593795,
+        "lat": 51.9640002,
+        "lon": 7.6113674,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "paved",
+            "width": "4"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919320,
+        "lat": 51.9637975,
+        "lon": 7.6112171,
+        "tags": {
+            "highway": "path",
+            "surface": "grass"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919303,
+        "lat": 51.9637096,
+        "lon": 7.6106909,
+        "tags": {
+            "highway": "path",
+            "surface": "grass"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919299,
+        "lat": 51.9636954,
+        "lon": 7.6106941,
+        "tags": {
+            "highway": "path",
+            "surface": "grass"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919177,
+        "lat": 51.9636203,
+        "lon": 7.61134,
+        "tags": {
+            "highway": "path",
+            "surface": "grass"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919602,
+        "lat": 51.9646723,
+        "lon": 7.6128323,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65145806,
+        "lat": 51.9647032,
+        "lon": 7.6129426,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919545,
+        "lat": 51.9641632,
+        "lon": 7.6107096,
+        "tags": {
+            "highway": "footway",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919549,
+        "lat": 51.9641813,
+        "lon": 7.6107097,
+        "tags": {
+            "highway": "footway",
+            "surface": "paving_stones",
+            "tunnel": "building_passage"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919117,
+        "lat": 51.9628826,
+        "lon": 7.6081514,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919121,
+        "lat": 51.9629915,
+        "lon": 7.6082228,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919549,
+        "lat": 51.9641813,
+        "lon": 7.6107097,
+        "tags": {
+            "highway": "footway",
+            "surface": "paving_stones",
+            "tunnel": "building_passage"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919563,
+        "lat": 51.9642276,
+        "lon": 7.6107147,
+        "tags": {
+            "highway": "footway"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919309,
+        "lat": 51.9637225,
+        "lon": 7.6106846,
+        "tags": {
+            "highway": "path",
+            "surface": "grass"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593757,
+        "lat": 51.9638114,
+        "lon": 7.6108342,
+        "tags": {
+            "highway": "path",
+            "surface": "grass"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919172,
+        "lat": 51.9635957,
+        "lon": 7.6106634,
+        "tags": {
+            "highway": "path",
+            "surface": "grass"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919181,
+        "lat": 51.9636307,
+        "lon": 7.610797,
+        "tags": {
+            "highway": "path",
+            "surface": "grass"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919514,
+        "lat": 51.9640761,
+        "lon": 7.608915,
+        "tags": {
+            "highway": "path"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619778008,
+        "lat": 51.9641047,
+        "lon": 7.6089256,
+        "tags": {
+            "highway": "path"
+        }
+    },
+    {
+        "type": "node",
+        "id": 55480117,
+        "lat": 51.9651035,
+        "lon": 7.6101536,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919619,
+        "lat": 51.9648372,
+        "lon": 7.6102457,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593812,
+        "lat": 51.9634876,
+        "lon": 7.6079118,
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "surface": "ground",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593854,
+        "lat": 51.9634996,
+        "lon": 7.6080407,
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "ground",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919169,
+        "lat": 51.9635751,
+        "lon": 7.6106583,
+        "tags": {
+            "highway": "path",
+            "surface": "grass"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919167,
+        "lat": 51.9635621,
+        "lon": 7.6105739,
+        "tags": {
+            "highway": "path",
+            "surface": "grass"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593835,
+        "lat": 51.9632429,
+        "lon": 7.6085497,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593882,
+        "lat": 51.9632266,
+        "lon": 7.6090203,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "2"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919566,
+        "lat": 51.9642657,
+        "lon": 7.6120795,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 180444707,
+        "lat": 51.9645016,
+        "lon": 7.611709,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593830,
+        "lat": 51.963658,
+        "lon": 7.6077319,
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "surface": "ground",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919162,
+        "lat": 51.9635258,
+        "lon": 7.6076835,
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "surface": "ground",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919159,
+        "lat": 51.9634588,
+        "lon": 7.6109413,
+        "tags": {
+            "highway": "path",
+            "surface": "grass"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919180,
+        "lat": 51.963623,
+        "lon": 7.6106203,
+        "tags": {
+            "highway": "path",
+            "surface": "grass"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919505,
+        "lat": 51.9640636,
+        "lon": 7.6096098,
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "surface": "gravel",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 619777925,
+        "lat": 51.9639554,
+        "lon": 7.6096625,
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "surface": "gravel",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919561,
+        "lat": 51.9642149,
+        "lon": 7.6122355,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919556,
+        "lat": 51.9642057,
+        "lon": 7.6128875,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593797,
+        "lat": 51.9640904,
+        "lon": 7.6116487,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "paved",
+            "width": "4"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919381,
+        "lat": 51.9640292,
+        "lon": 7.6114222,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "paved",
+            "width": "4"
+        }
+    },
+    {
+        "type": "node",
+        "id": 180445443,
+        "lat": 51.9642566,
+        "lon": 7.6117606,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919297,
+        "lat": 51.9636894,
+        "lon": 7.6126553,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919289,
+        "lat": 51.9636643,
+        "lon": 7.6106835,
+        "tags": {
+            "highway": "path"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919315,
+        "lat": 51.9637396,
+        "lon": 7.6106144,
+        "tags": {
+            "highway": "path"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919563,
+        "lat": 51.9642276,
+        "lon": 7.6107147,
+        "tags": {
+            "highway": "footway"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919576,
+        "lat": 51.9643798,
+        "lon": 7.6110494,
+        "tags": {
+            "highway": "footway"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919610,
+        "lat": 51.9647514,
+        "lon": 7.6127494,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919110,
+        "lat": 51.9625353,
+        "lon": 7.612667,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593866,
+        "lat": 51.9637832,
+        "lon": 7.6082365,
+        "tags": {
+            "highway": "path"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919185,
+        "lat": 51.9636551,
+        "lon": 7.6084749,
+        "tags": {
+            "highway": "path"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616592467,
+        "lat": 51.9635704,
+        "lon": 7.6104322,
+        "tags": {
+            "highway": "footway"
+        }
+    },
+    {
+        "type": "node",
+        "id": 618264377,
+        "lat": 51.9637481,
+        "lon": 7.6105363,
+        "tags": {
+            "highway": "footway"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919543,
+        "lat": 51.9641473,
+        "lon": 7.6073692,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919313,
+        "lat": 51.9637466,
+        "lon": 7.6063225,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 60779208,
+        "lat": 51.9629996,
+        "lon": 7.6119135,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919138,
+        "lat": 51.9631771,
+        "lon": 7.6114981,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "compacted",
+            "width": "2.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 336101841,
+        "lat": 51.9653102,
+        "lon": 7.6164077,
+        "tags": {
+            "highway": "service",
+            "loc_name": "Hindenburgplatz",
+            "motor_vehicle": "private",
+            "name": "Schlossplatz",
+            "surface": "sett"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65144511,
+        "lat": 51.9653243,
+        "lon": 7.6158757,
+        "tags": {
+            "highway": "service",
+            "loc_name": "Hindenburgplatz",
+            "motor_vehicle": "private",
+            "name": "Schlossplatz",
+            "surface": "sett"
+        }
+    },
+    {
+        "type": "node",
+        "id": 60778440,
+        "lat": 51.9635091,
+        "lon": 7.6161694,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "service",
+            "motor_vehicle": "private",
+            "name": "Schlossplatz",
+            "smoothness": "bad",
+            "surface": "cobblestone"
+        }
+    },
+    {
+        "type": "node",
+        "id": 336101881,
+        "lat": 51.9635116,
+        "lon": 7.6160621,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "lit": "no",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 336101881,
+        "lat": 51.9635116,
+        "lon": 7.6160621,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "lit": "no",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65143992,
+        "lat": 51.9623326,
+        "lon": 7.6159703,
+        "tags": {
+            "highway": "cycleway",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65143992,
+        "lat": 51.9623326,
+        "lon": 7.6159703,
+        "tags": {
+            "highway": "cycleway",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 336101891,
+        "lat": 51.9620231,
+        "lon": 7.6159401,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65143992,
+        "lat": 51.9623326,
+        "lon": 7.6159703,
+        "tags": {
+            "highway": "cycleway",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65145426,
+        "lat": 51.9623785,
+        "lon": 7.6160816,
+        "tags": {
+            "highway": "cycleway",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 5626447462,
+        "lat": 51.962686,
+        "lon": 7.6153268,
+        "tags": {
+            "highway": "footway",
+            "surface": "sett"
+        }
+    },
+    {
+        "type": "node",
+        "id": 166869280,
+        "lat": 51.9626858,
+        "lon": 7.6151761,
+        "tags": {
+            "highway": "footway",
+            "surface": "sett"
+        }
+    },
+    {
+        "type": "node",
+        "id": 5626447457,
+        "lat": 51.9623614,
+        "lon": 7.6128484,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 5626447443,
+        "lat": 51.9631004,
+        "lon": 7.6128899,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 336101867,
+        "lat": 51.9653167,
+        "lon": 7.6161962,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "lit": "no",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 336101881,
+        "lat": 51.9635116,
+        "lon": 7.6160621,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "lit": "no",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 127289635,
+        "lat": 51.9627258,
+        "lon": 7.61533,
+        "tags": {
+            "highway": "footway",
+            "surface": "sett"
+        }
+    },
+    {
+        "type": "node",
+        "id": 127289099,
+        "lat": 51.9628597,
+        "lon": 7.6153401,
+        "tags": {
+            "highway": "footway",
+            "surface": "sett"
+        }
+    },
+    {
+        "type": "node",
+        "id": 5626447474,
+        "lat": 51.963896,
+        "lon": 7.6117146,
+        "tags": {
+            "highway": "path",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 5626447470,
+        "lat": 51.9639705,
+        "lon": 7.6118616,
+        "tags": {
+            "highway": "path",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 6425521874,
+        "lat": 51.9654949,
+        "lon": 7.6037518,
+        "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "path",
+            "oneway": "yes",
+            "segregated": "yes",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 249810668,
+        "lat": 51.967493,
+        "lon": 7.6102473,
+        "tags": {
+            "bicycle": "designated",
+            "foot": "designated",
+            "highway": "path",
+            "oneway": "yes",
+            "segregated": "yes",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593818,
+        "lat": 51.9636216,
+        "lon": 7.6078923,
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "ground",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 6937288376,
+        "lat": 51.963576,
+        "lon": 7.6080644,
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "ground",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593854,
+        "lat": 51.9634996,
+        "lon": 7.6080407,
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "ground",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 6937288374,
+        "lat": 51.9636229,
+        "lon": 7.6082535,
+        "tags": {
+            "bicycle": "no",
+            "foot": "yes",
+            "highway": "path",
+            "horse": "no",
+            "ski": "no",
+            "snowmobile": "no",
+            "surface": "ground",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593867,
+        "lat": 51.9637215,
+        "lon": 7.6082211,
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "surface": "ground",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919310,
+        "lat": 51.9637549,
+        "lon": 7.6079896,
+        "tags": {
+            "bicycle": "no",
+            "highway": "path",
+            "horse": "no",
+            "surface": "ground",
+            "width": "0.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 8065152824,
+        "lat": 51.9635462,
+        "lon": 7.6100766,
+        "tags": {
+            "highway": "footway"
+        }
+    },
+    {
+        "type": "node",
+        "id": 8065152847,
+        "lat": 51.9632854,
+        "lon": 7.6097922,
+        "tags": {
+            "highway": "footway"
+        }
+    },
+    {
+        "type": "node",
+        "id": 8418049695,
+        "lat": 51.9658893,
+        "lon": 7.6139278,
+        "tags": {
+            "highway": "service",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 8418049700,
+        "lat": 51.9657618,
+        "lon": 7.6149731,
+        "tags": {
+            "highway": "service",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 60779208,
+        "lat": 51.9629996,
+        "lon": 7.6119135,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 60358398,
+        "lat": 51.9629399,
+        "lon": 7.6118989,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593784,
+        "lat": 51.9636298,
+        "lon": 7.6115639,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593772,
+        "lat": 51.9639008,
+        "lon": 7.6113787,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919110,
+        "lat": 51.9625353,
+        "lon": 7.612667,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 2161805809,
+        "lat": 51.9640232,
+        "lon": 7.60758,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919138,
+        "lat": 51.9631771,
+        "lon": 7.6114981,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "compacted",
+            "width": "2.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 5515171294,
+        "lat": 51.9640694,
+        "lon": 7.6116204,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "yes",
+            "surface": "compacted",
+            "width": "2.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593772,
+        "lat": 51.9639008,
+        "lon": 7.6113787,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593784,
+        "lat": 51.9636298,
+        "lon": 7.6115639,
+        "tags": {
+            "bicycle": "no",
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1"
+        }
+    },
+    {
+        "type": "node",
+        "id": 8690937476,
+        "lat": 51.9622247,
+        "lon": 7.6098919,
+        "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 8690937485,
+        "lat": 51.9624868,
+        "lon": 7.609904,
+        "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 8690937506,
+        "lat": 51.9623249,
+        "lon": 7.6098795,
+        "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 8690937493,
+        "lat": 51.9623553,
+        "lon": 7.6098818,
+        "tags": {
+            "bicycle": "yes",
+            "foot": "yes",
+            "highway": "path",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919502,
+        "lat": 51.9640601,
+        "lon": 7.6089491,
+        "tags": {
+            "highway": "path"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919515,
+        "lat": 51.9640735,
+        "lon": 7.6089993,
+        "tags": {
+            "highway": "path"
+        }
+    },
+    {
+        "type": "node",
+        "id": 620401532,
+        "lat": 51.9634666,
+        "lon": 7.6101694,
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593759,
+        "lat": 51.9636361,
+        "lon": 7.610366,
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919502,
+        "lat": 51.9640601,
+        "lon": 7.6089491,
+        "tags": {
+            "highway": "path"
+        }
+    },
+    {
+        "type": "node",
+        "id": 4057919502,
+        "lat": 51.9640601,
+        "lon": 7.6089491,
+        "tags": {
+            "highway": "path"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593888,
+        "lat": 51.9636629,
+        "lon": 7.6099299,
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593759,
+        "lat": 51.9636361,
+        "lon": 7.610366,
+        "tags": {
+            "highway": "footway",
+            "surface": "compacted",
+            "width": "1.5"
+        }
+    },
+    {
+        "type": "node",
+        "id": 55479923,
+        "lat": 51.9644567,
+        "lon": 7.6084706,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 8693726802,
+        "lat": 51.9644474,
+        "lon": 7.6086379,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 55478855,
+        "lat": 51.9648306,
+        "lon": 7.6083183,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 55479923,
+        "lat": 51.9644567,
+        "lon": 7.6084706,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "lit": "no",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593834,
+        "lat": 51.9640463,
+        "lon": 7.607698,
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "grass_paver"
+        }
+    },
+    {
+        "type": "node",
+        "id": 620405424,
+        "lat": 51.9641508,
+        "lon": 7.6084324,
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 55480048,
+        "lat": 51.9648128,
+        "lon": 7.6093465,
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "grass_paver"
+        }
+    },
+    {
+        "type": "node",
+        "id": 616593834,
+        "lat": 51.9640463,
+        "lon": 7.607698,
+        "tags": {
+            "bicycle": "permissive",
+            "foot": "permissive",
+            "highway": "service",
+            "lit": "yes",
+            "maxspeed": "10",
+            "motor_vehicle": "destination",
+            "name": "Schlossgarten",
+            "surface": "grass_paver"
+        }
+    },
+    {
+        "type": "node",
+        "id": 55480117,
+        "lat": 51.9651035,
+        "lon": 7.6101536,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 6937292640,
+        "lat": 51.9650901,
+        "lon": 7.6100545,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 2161805807,
+        "lat": 51.96448,
+        "lon": 7.6083264,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 8693733040,
+        "lat": 51.9643904,
+        "lon": 7.6083089,
+        "tags": {
+            "bicycle": "yes",
+            "highway": "footway",
+            "segregated": "no",
+            "surface": "compacted"
+        }
+    },
+    {
+        "type": "node",
+        "id": 8694737780,
+        "lat": 51.9649087,
+        "lon": 7.6135601,
+        "tags": {
+            "highway": "track",
+            "lit": "no",
+            "surface": "compacted",
+            "tracktype": "grade2"
+        }
+    },
+    {
+        "type": "node",
+        "id": 8694737797,
+        "lat": 51.9647686,
+        "lon": 7.6128942,
+        "tags": {
+            "highway": "track",
+            "lit": "no",
+            "surface": "compacted",
+            "tracktype": "grade2"
+        }
+    },
+    {
+        "type": "node",
+        "id": 1368587520,
+        "lat": 51.9644588,
+        "lon": 7.6133134,
+        "tags": {
+            "highway": "footway"
+        }
+    },
+    {
+        "type": "node",
+        "id": 1368587521,
+        "lat": 51.9644843,
+        "lon": 7.6136665,
+        "tags": {
+            "highway": "footway"
+        }
+    },
+    {
+        "type": "node",
+        "id": 3405206348,
+        "lat": 51.9645464,
+        "lon": 7.6146714,
+        "tags": {
+            "highway": "service",
+            "name": "Schlossplatz",
+            "service": "parking_aisle",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 166864918,
+        "lat": 51.9645368,
+        "lon": 7.6150958,
+        "tags": {
+            "highway": "service",
+            "name": "Schlossplatz",
+            "service": "parking_aisle",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 8694801598,
+        "lat": 51.9643815,
+        "lon": 7.6139305,
+        "tags": {
+            "foot": "yes",
+            "highway": "path",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 2087753150,
+        "lat": 51.9644383,
+        "lon": 7.6139396,
+        "tags": {
+            "foot": "yes",
+            "highway": "path",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 3405206354,
+        "lat": 51.9648312,
+        "lon": 7.6146948,
+        "tags": {
+            "highway": "service",
+            "name": "Schlossplatz",
+            "service": "parking_aisle",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 166864770,
+        "lat": 51.9648212,
+        "lon": 7.6151141,
+        "tags": {
+            "highway": "service",
+            "name": "Schlossplatz",
+            "service": "parking_aisle",
+            "surface": "paving_stones"
+        }
+    },
+    {
+        "type": "node",
+        "id": 8694801595,
+        "lat": 51.9645375,
+        "lon": 7.614223,
+        "tags": {
+            "highway": "footway",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65146016,
+        "lat": 51.9647725,
+        "lon": 7.6141871,
+        "tags": {
+            "highway": "footway",
+            "surface": "asphalt"
+        }
+    },
+    {
+        "type": "node",
+        "id": 1368587522,
+        "lat": 51.964533,
+        "lon": 7.6144351,
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "private",
+            "name": "Schlossplatz",
+            "surface": "sett"
+        }
+    },
+    {
+        "type": "node",
+        "id": 65145603,
+        "lat": 51.9642288,
+        "lon": 7.6142651,
+        "tags": {
+            "highway": "service",
+            "motor_vehicle": "private",
+            "name": "Schlossplatz",
+            "surface": "sett"
+        }
+    }
+]

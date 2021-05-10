@@ -6,7 +6,7 @@ import copy
 
 print("Beginning preprocessing...")
 
-#read dataset (GeoJSON file)
+#read dataset (JSON file from Overpass Turbo API)
 with open('data/schlosspark.json') as f:
   data = json.load(f)["elements"]
 
@@ -27,6 +27,9 @@ for d in data:
         #search for first and last node in total list of nodes
         search_first_node = list(filter(lambda entry: entry['id'] == first_node_id, data))[0] 
         search_last_node = list(filter(lambda entry: entry['id'] == last_node_id, data))[0]
+        # add tags from way also to the node to use as sets later on
+        search_first_node["tags"] = d["tags"]
+        search_last_node["tags"] = d["tags"]
         # add them to result list
         nodes.append(search_first_node)
         nodes.append(search_last_node)
@@ -40,7 +43,7 @@ for w in ways:
         counter = w["sub_id"]
     else:
         counter=0 
-    # look at every node in way except first and last (already in nodes df)
+    # look at every node in way except first and last (already in nodes dict)
     for n in w["nodes"][1:-1]:
         node_ids = copy.deepcopy([n['id'] for n in nodes])
         new_way = []
@@ -61,6 +64,7 @@ for w in ways:
             ways.append(new_way)
             nodes_already_split.append(n)
     
+
 # calculate length of every way and store it for later usage
 for w in ways:
     length = helpers.getWayLength(w, data)
@@ -89,10 +93,11 @@ print("There are " + str(len(nodes)) + " nodes acting as way start- and endpoint
 
 #print(helpers.getWayLength(ways[11], data))
 #print(helpers.getNodeDistance(nodes[2], nodes[3]))
-#print(helpers.getTourLength([ways[1], ways[2]], data))
-
+print(helpers.getTourLength([ways[1], ways[2]], data))
 
 # write preprocessed data to file
 with open('data/preprocessed_ways.json', 'w', encoding='utf-8') as f:
     json.dump(ways, f, ensure_ascii=False, indent=4)
-print("Done. Results written to file.")
+with open('data/preprocessed_nodes.json', 'w', encoding='utf-8') as f:
+    json.dump(nodes, f, ensure_ascii=False, indent=4)
+print("Done. Results written to files.")

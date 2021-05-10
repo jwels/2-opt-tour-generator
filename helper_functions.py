@@ -1,4 +1,5 @@
 import geopy.distance
+import random
 
 # get distance between two (lat, lon) coordinate pairs
 def getCoordDistance(first_lat, first_lon, second_lat, second_lon):
@@ -29,5 +30,17 @@ def getTourLength(list_of_ways, all_nodes):
         total_length = total_length + way_length
     return total_length
 
-
+def getRandomTour(all_ways, all_nodes):
+    tour = []
+    # append first way to tour
+    start_way = random.choice(all_ways)
+    tour.append(start_way)
+    next_way = random.choice(all_ways)
+    while not tour[len(tour)-1]["nodes"][-1] == start_way["nodes"][0]:
+        print(tour)
+        print(tour[len(tour)-1]["nodes"][-1])
+        while not next_way["nodes"][0] == start_way["nodes"][len(start_way["nodes"])-1]:
+            next_way = random.choice(all_ways)
+        tour.append(next_way)
+    return tour
     
