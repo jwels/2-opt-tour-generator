@@ -42,7 +42,8 @@ for w in ways:
     if "sub_id" in w:
         counter = w["sub_id"]
     else:
-        counter=0 
+        w["sub_id"] = 0
+        counter=1 
     # look at every node in way except first and last (already in nodes dict)
     for n in w["nodes"][1:-1]:
         node_ids = copy.deepcopy([n['id'] for n in nodes])
@@ -66,9 +67,25 @@ for w in ways:
     
 
 # calculate length of every way and store it for later usage
+# also create duplicate for every way with reversed start and endpoint
+# this is to account for the undirected nature of the graph
+reverse_ways_list = []
 for w in ways:
+    w["is_reversed"] = 0
     length = helpers.getWayLength(w, data)
     w["length"] = length
+    w["start_node"] = w["nodes"][0]
+    w["end_node"] = w["nodes"][-1]
+    reverse = copy.deepcopy(w)
+    reverse["nodes"] = w["nodes"][::-1]
+    reverse["start_node"] = w["end_node"]
+    reverse["end_node"] = w["start_node"]
+    reverse["is_reversed"] = 1
+    reverse_ways_list.append(reverse)
+
+# add previously created list of reversed ways to list of all ways
+for r in reverse_ways_list:
+    ways.append(r)
 
 # get tags used on OSM ways to define sets
 # only used for exploring possible sets
@@ -88,7 +105,7 @@ for w in ways:
         tags.append("bridge="+w["tags"]["bridge"])
 tags = set(tags)
 
-print("There are " + str(len(ways)) + " ways in the current dataset.")
+print("There are " + str(len(ways)/2) + " undirected ways in the current dataset. (" + str(len(ways)) + " in total)")
 print("There are " + str(len(nodes)) + " nodes acting as way start- and endpoints in the current dataset.")
 
 #print(helpers.getWayLength(ways[11], data))
