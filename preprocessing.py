@@ -87,6 +87,13 @@ for w in ways:
 for r in reverse_ways_list:
     ways.append(r)
 
+# create unique ID because OSM ID isnt unique anymore since ways have been split into sub sections of ways
+for w in ways:
+    # differencing between every way, way section and whether it is reversed or not
+    w["unique_id"] = str(w["id"])+"_"+str(w["sub_id"])+"_"+str(w["is_reversed"])
+    # reversed way has same section id as its counter part, makes filtering for them easier
+    w["section_id"] = str(w["id"])+"_"+str(w["sub_id"])
+
 # get tags used on OSM ways to define sets
 # only used for exploring possible sets
 tags = []

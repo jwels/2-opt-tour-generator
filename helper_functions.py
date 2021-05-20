@@ -1,6 +1,9 @@
 import geopy.distance
+from numpy import Infinity
 import pandas as pd
 from string import Template
+
+from pandas.core.frame import DataFrame
 
 # get distance between two (lat, lon) coordinate pairs
 def getCoordDistance(first_lat, first_lon, second_lat, second_lon):
@@ -14,7 +17,6 @@ def getNodeDistance(first_node, second_node):
 def getWayLength(way, all_nodes):
     way_nodes = way["nodes"]
     way_length = 0
-    node_coordinates = []
     # for every node in the given way, look up the coordinates in the complete list of nodes
     for i, e in enumerate(way_nodes[:-1]):
         current_node = list(filter(lambda entry: entry['id'] == e, all_nodes))[0]
@@ -88,14 +90,83 @@ def getRandomTour(ways_df, nodes_df, max_tour_length, budget):
 
 # try to find an alternative way from a given start_node to an end_node
 # way should have length of way_length + target_diff (optimally)
-def getAlternativeWay(start_node, end_node, old_way_length, ways_df, target_diff):
+def getAlternativeWay(start_node, end_node, old_way_length, current_tour, ways_df, target_diff, blacklist = DataFrame(data = {'section_id': []})):
+    #calculate target length of replacement
     way_target_length = old_way_length + target_diff
     if way_target_length < 0:
         way_target_length = 0
-    possible_ways = ways_df[(ways_df.start_node.eq(start_node) & ways_df.end_node.eq(end_node))]
 
+    #try to find replacement directly conencting start and end node (1 way, no additional nodes)
+    possible_ways = ways_df[(ways_df.start_node.eq(start_node) & ways_df.end_node.eq(end_node) & ~ways_df.section_id.isin(current_tour.section_id)) | (ways_df.start_node.eq(end_node) & ways_df.end_node.eq(start_node) & ~ways_df.section_id.isin(current_tour.section_id))]
     if len(possible_ways)>1:
-        #TODO: filter for best solution
+        possible_ways = possible_ways.sort_values(by='length', key=lambda x: abs(way_target_length-x),ascending=True,inplace=False)
         possible_ways = possible_ways.iloc[0]
+    # return result if matching way was found
+    if len(possible_ways)>0 and ( way_target_length-possible_ways["length"] < way_target_length-old_way_length):
+        return possible_ways
 
-    return possible_ways
+    # try to finde replacement conencting start and end node with one node in between (common neighbour)
+    # this is only done if no direct connection was found in previous step, as it is more resource intensive
+    # blacklist for ways not to consider as solutions (already in tour or solution of previous function call not in tour yet (i-k main loop))
+    blacklist = current_tour.append(blacklist)
+    possible_ways_double = ways_df[
+        (ways_df.start_node.eq(start_node) & ~ways_df.section_id.isin(blacklist.section_id))
+        | (ways_df.end_node.eq(end_node) & ~ways_df.section_id.isin(blacklist.section_id))
+    ]
+    unique_nodes =  possible_ways_double.start_node.append(possible_ways_double.end_node).unique()
+    
+    curr_best_option = pd.DataFrame(columns=ways_df.columns)
+    curr_best_difference = Infinity
+    curr_difference = 0
+    for option in unique_nodes:
+        # get possible ways from the start node to the (possibly) common neighbour and from the neighbour to the end node
+        possible_ways_from_start = ways_df[(ways_df.start_node.eq(start_node)) & (ways_df.end_node.eq(option))] #  | ways_df.end_node.eq(start_node) & ways_df.start_node.eq(option)
+        possible_ways_to_end = ways_df[(ways_df.start_node.eq(option)) & (ways_df.end_node.eq(end_node))] # | ways_df.end_node.eq(option) & ways_df.start_node.eq(end_node)
+        possible_ways_to_end = possible_ways_to_end[~possible_ways_to_end.section_id.isin(possible_ways_from_start.section_id)]
+        # take the ways with most imporvement, if multiple solutions exist
+        if len(possible_ways_from_start)>1:
+            possible_ways_from_start = possible_ways_from_start.sort_values(by='length', key=lambda x: abs(way_target_length-x),ascending=True,inplace=False)
+            possible_ways_from_start = possible_ways_from_start.iloc[0]
+        if len(possible_ways_to_end)>1:
+            possible_ways_to_end = possible_ways_to_end.sort_values(by='length', key=lambda x: abs(way_target_length-x),ascending=True,inplace=False)
+            possible_ways_to_end = possible_ways_to_end.iloc[0]
+
+        if(start_node==616593759 and end_node==618264377):
+            print("-------------------------------------")
+            print(curr_best_difference)
+            print("possible ways")
+            print(possible_ways_from_start)
+            print(possible_ways_to_end)
+        # if a way exists connectiong start and end point to the neighbour (then its a common neighbour), check if its new best option
+        if len(possible_ways_from_start)>0 and len(possible_ways_to_end)>0: #and (possible_ways_from_start["section_id"]!=possible_ways_to_end["section_id"]
+            curr_difference = abs(way_target_length - (float(possible_ways_from_start["length"])+float(possible_ways_to_end["length"])))
+            if curr_difference < curr_best_difference:
+                # print("-- Alt Way Finder ----------------------------------------------------------------------")
+                # print("Start/End: "+str(start_node)+", "+str(end_node))
+                # print("Curr Option: " + str(option))
+                # print("Ways start-option: "+str(possible_ways_from_start))
+                # print("Ways end-option: "+str(possible_ways_to_end))
+                
+                #delete previous best solution and append new one
+                curr_best_option = curr_best_option[0:0] 
+                curr_best_option = curr_best_option.append(possible_ways_from_start)
+                curr_best_option = curr_best_option.append(possible_ways_to_end)
+                curr_best_difference = curr_difference
+
+    return curr_best_option
+
+def printDebugInformation(tour, i, k, way_i, way_k, replacement_way_i, replacement_way_k, case):
+            print("--- "+case + " - Iterations: i="+str(i) + " k=" + str(k) + " ----------------------------------------")
+            print("(i) Looking for way from node " + str(way_i.start_node) + " to " + str(way_k.start_node))
+            print("(i) Replacing:")
+            print(tour.iloc[i])
+            print("(i) with:")
+            print(replacement_way_i)
+            print("(k) Looking for way from node " + str(way_i.end_node) + " to " + str(way_k.end_node))
+            print("(k) Replacing:")
+            print(tour.iloc[k])
+            print("(k) with:")
+            print(replacement_way_k)
+            print("Tour:")
+            print(tour)
+            input("Press something to coninue...")
