@@ -1,9 +1,11 @@
 import geopy.distance
 from numpy import Infinity
+import numpy
 import pandas as pd
 from string import Template
 
 from pandas.core.frame import DataFrame
+from pandas.core.series import Series
 
 # get distance between two (lat, lon) coordinate pairs
 def getCoordDistance(first_lat, first_lon, second_lat, second_lon):
@@ -39,15 +41,24 @@ def getTourLengthDF(tours_df):
 
 def getStaticExampleTour(ways_df):
     result = pd.DataFrame(columns=ways_df.columns)
-    result = result.append(ways_df[ways_df.id.eq(48535361) & ways_df.is_reversed.eq(0)])
-    result = result.append(ways_df[ways_df.id.eq(48535196) & ways_df.is_reversed.eq(0)])
-    result = result.append(ways_df[ways_df.id.eq(938318461) & ways_df.is_reversed.eq(0)])
-    result = result.append(ways_df[ways_df.id.eq(48535364) & ways_df.sub_id.eq(5) & ways_df.is_reversed.eq(0)])
-    result = result.append(ways_df[ways_df.id.eq(48535364) & ways_df.sub_id.eq(4) & ways_df.is_reversed.eq(0)])
-    result = result.append(ways_df[ways_df.id.eq(48535364) & ways_df.sub_id.eq(3) & ways_df.is_reversed.eq(0)])
-    result = result.append(ways_df[ways_df.id.eq(48535363) & ways_df.is_reversed.eq(0)])
-    result = result.append(ways_df[ways_df.id.eq(48535365) & ways_df.is_reversed.eq(0)])
-    result = result.append(ways_df[ways_df.id.eq(403444412) & ways_df.sub_id.eq(2) & ways_df.is_reversed.eq(0)])
+    result = result.append(ways_df[ways_df.unique_id.eq(4853536110)])
+    result = result.append(ways_df[ways_df.unique_id.eq(4853536120)])
+    result = result.append(ways_df[ways_df.unique_id.eq(4853519610)])
+    result = result.append(ways_df[ways_df.unique_id.eq(4853519620)])
+    result = result.append(ways_df[ways_df.unique_id.eq(4853519630)])
+    result = result.append(ways_df[ways_df.unique_id.eq(4853519640)])
+    result = result.append(ways_df[ways_df.unique_id.eq(4853519650)])
+    result = result.append(ways_df[ways_df.unique_id.eq(4853519660)])
+    result = result.append(ways_df[ways_df.unique_id.eq(93831846110)])
+    result = result.append(ways_df[ways_df.unique_id.eq(93831846120)])
+    result = result.append(ways_df[ways_df.unique_id.eq(4853536451)])#
+    result = result.append(ways_df[ways_df.unique_id.eq(4853536441)])
+    result = result.append(ways_df[ways_df.unique_id.eq(4853536431)])
+    result = result.append(ways_df[ways_df.unique_id.eq(4853536310)])
+    result = result.append(ways_df[ways_df.unique_id.eq(4853536320)])
+    result = result.append(ways_df[ways_df.unique_id.eq(4853536330)])
+    result = result.append(ways_df[ways_df.unique_id.eq(4853536501)])
+    result = result.append(ways_df[ways_df.unique_id.eq(40344441220)])
     result = result.reset_index()
     return result
 
@@ -97,12 +108,12 @@ def getAlternativeWay(start_node, end_node, old_way_length, current_tour, ways_d
         way_target_length = 0
 
     #try to find replacement directly conencting start and end node (1 way, no additional nodes)
-    possible_ways = ways_df[(ways_df.start_node.eq(start_node) & ways_df.end_node.eq(end_node) & ~ways_df.section_id.isin(current_tour.section_id)) | (ways_df.start_node.eq(end_node) & ways_df.end_node.eq(start_node) & ~ways_df.section_id.isin(current_tour.section_id))]
+    possible_ways = ways_df[(ways_df.start_node.eq(start_node) & ways_df.end_node.eq(end_node) & ~ways_df.section_id.isin(current_tour.section_id))]
     if len(possible_ways)>1:
         possible_ways = possible_ways.sort_values(by='length', key=lambda x: abs(way_target_length-x),ascending=True,inplace=False)
         possible_ways = possible_ways.iloc[0]
     # return result if matching way was found
-    if len(possible_ways)>0 and ( way_target_length-possible_ways["length"] < way_target_length-old_way_length):
+    if len(possible_ways)>0:
         return possible_ways
 
     # try to finde replacement conencting start and end node with one node in between (common neighbour)
@@ -170,3 +181,16 @@ def printDebugInformation(tour, i, k, way_i, way_k, replacement_way_i, replaceme
             print("Tour:")
             print(tour)
             input("Press something to coninue...")
+
+# check wether a list of ways is in a tour or not
+def isWayInTour(way_list, tour):
+    new_ways = way_list.section_id
+    existing_ways = tour.section_id
+
+    if(isinstance(new_ways, Series)):
+        return new_ways.isin(existing_ways).any()
+    if(isinstance(new_ways, numpy.int64)):
+        return new_ways in existing_ways
+    else:
+        print("List of ways is not a Series, as was expected.")
+        return True
