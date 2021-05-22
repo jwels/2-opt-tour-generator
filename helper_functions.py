@@ -142,12 +142,6 @@ def getAlternativeWay(start_node, end_node, old_way_length, current_tour, ways_d
             possible_ways_to_end = possible_ways_to_end.sort_values(by='length', key=lambda x: abs(way_target_length-x),ascending=True,inplace=False)
             possible_ways_to_end = possible_ways_to_end.iloc[0]
 
-        if(start_node==616593759 and end_node==618264377):
-            print("-------------------------------------")
-            print(curr_best_difference)
-            print("possible ways")
-            print(possible_ways_from_start)
-            print(possible_ways_to_end)
         # if a way exists connectiong start and end point to the neighbour (then its a common neighbour), check if its new best option
         if len(possible_ways_from_start)>0 and len(possible_ways_to_end)>0: #and (possible_ways_from_start["section_id"]!=possible_ways_to_end["section_id"]
             curr_difference = abs(way_target_length - (float(possible_ways_from_start["length"])+float(possible_ways_to_end["length"])))
