@@ -1,22 +1,43 @@
 from numpy import Infinity
 import helper_functions as helpers
 import pandas as pd
+import time
+
+# take the time for benchmarking
+start = time.time()
+iter_times = []
 
 # algorithm parameters
+# if budget < len(start_tour) not all possibile changes will be tested
 budget = 50
-target_length = 2
+# the length the solution tour should have
+target_length = 1
+# Choose between random or static start tour. Using the static tour makes results more comparable and is much faster.
+# generating a random tour in a not fully TODO
+random_start_tour = False
+# The tour to use:
+# 0 = 9 ways and ~270m length
+# 1 = 17 ways and ~300m length
+# 2 = 41 ways and ~1.48km length.
+tour_id = 2
+# If true -> go through algorithm step by step with more debugging information
 verbose = False
 
+
 # load data set (execute preprocessing.py previously)
-nodes = pd.read_json("data/preprocessed_nodes.json")
 ways = pd.read_json("data/preprocessed_ways.json")
 
 
 # inital values and start solution/tour
 num_of_iterations = 0
-start_tour = helpers.getStaticExampleTour(ways)
+if(random_start_tour):
+  start_tour = helpers.getRandomTour(ways, n_of_ways=25, budget=500000)
+else:
+  start_tour = helpers.getStaticExampleTour(ways, tour_id=tour_id)
 helpers.prepareOverpassPlotScriptForTour(start_tour, "plot-nodes-init-solution")
 print(start_tour)
+print("Initial tour length:")
+print(str(helpers.getTourLengthDF(start_tour)) + " km")
 start_tour.to_csv("data/start_tour.csv")
 # at first, the tour used by the algorithm is the start solution
 tour = start_tour
@@ -31,10 +52,11 @@ reached_tour_end = False
 
 # main algorithm loop. Find better solutions from initial solution until budget is reached
 # Based on 2-opt but implementation differs in several regards:
-# - OSM data is not a fully connected graph. So reversing order of a section of the tour is not always possible.
-# - Instead, 2 edges will be removed and replaced by new edges connecting any 2 of the 4 "free" nodes
+# - OSM data is not a fully connected graph. So reconnecting the two removed edges (case 4 below) is very rarley possible.
+# - Instead, 2 additional 2-opt moves are introduced (case 2 and 3 below) too increase the likelihood of finding an improvement
 # - Additionally, the algorithm aims for a target length instead of minimizing the length
 while num_of_iterations < budget:
+    iter_start_time = time.time()
     print("------ITERATION START--------")
     print("Iteration: " + str(num_of_iterations))
     # iterate over every way in the tour
@@ -61,8 +83,6 @@ while num_of_iterations < budget:
             if(verbose):
               helpers.printDebugInformation(tour, i, k, way_i, way_k, replacement_way_i, replacement_way_k, "Case 2")
             tour = tour.drop(tour.index[i:k]) #note: slicing is [inclusive:exclusive]
-            print("heyo")
-            print(tour)
             first_section = tour.loc[:i].append(replacement_way_i, ignore_index=True)
             second_section = tour.loc[k:]
             tour = pd.concat([first_section, second_section]).reset_index(drop=True)
@@ -77,11 +97,7 @@ while num_of_iterations < budget:
             # debugging output if verbose = True (see at the top)
             if(verbose):
               helpers.printDebugInformation(tour, i, k, way_i, way_k, replacement_way_i, replacement_way_k, "Case 3")        
-              print(way_i)
-              print("------")
             tour = tour.drop(tour.index[(i+1):(k+1)]) #note: slicing is [inclusive:exclusive]
-            print("heyo")
-            print(tour)
             first_section = tour.loc[:i+1].append(replacement_way_k, ignore_index=True)
             second_section = tour.loc[k+1:]
             tour = pd.concat([first_section, second_section]).reset_index(drop=True)
@@ -121,14 +137,20 @@ while num_of_iterations < budget:
       elif i==len(tour)-1:
         reached_tour_end = True
 
+    # meassure time of iteration
+    iter_end_time = time.time()
+    iter_times.append(iter_end_time-iter_start_time)
+    # count the number of times no improvement was made
+    # break the loop if it matches the tour length (everything was checked without improvement)
     if(improvement==0):
       no_improvement_counter = no_improvement_counter + 1
     if(no_improvement_counter>=len(tour) or reached_tour_end):
+      reached_tour_end = True
       break
   
     # set differences for stopping criterion and increase budget counter
     prev_diff = curr_diff
-    curr_diff = abs(helpers.getTourLengthDF(tour)-target_length)
+    curr_diff = target_length-helpers.getTourLengthDF(tour)
     improvement = prev_diff-curr_diff
     num_of_iterations = num_of_iterations + 1
     changes_made = False
@@ -139,6 +161,14 @@ while num_of_iterations < budget:
     helpers.prepareOverpassPlotScriptForTour(tour, "plot-nodes-algo-output")
 
 print("---------------------------TERMINATED------------------------------------")
+if(num_of_iterations==budget):
+  print("Budget reached. Try increasing the budget to find a better solution.")
+if(reached_tour_end):
+  print("All possibilities compared. No further improvements can be made based on the given starting tour.")
+print("Result tour:")
 print(tour)
 print("Target length: "+str(target_length)+" km")
 print("Result length: "+str(helpers.getTourLengthDF(tour))+" km")
+end = time.time()
+print("Total run-time: " + str(end-start) +"s")
+print("Average iteration time: " + str(sum(iter_times)/len(iter_times)))

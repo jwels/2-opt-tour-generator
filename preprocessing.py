@@ -115,10 +115,6 @@ tags = set(tags)
 print("There are " + str(len(ways)/2) + " undirected ways in the current dataset. (" + str(len(ways)) + " in total)")
 print("There are " + str(len(nodes)) + " nodes acting as way start- and endpoints in the current dataset.")
 
-#print(helpers.getWayLength(ways[11], data))
-#print(helpers.getNodeDistance(nodes[2], nodes[3]))
-print(helpers.getTourLength([ways[1], ways[2]], data))
-
 # write preprocessed data to file
 with open('data/preprocessed_ways.json', 'w', encoding='utf-8') as f:
     json.dump(ways, f, ensure_ascii=False, indent=4)

@@ -39,26 +39,79 @@ def getTourLength(list_of_ways, all_nodes):
 def getTourLengthDF(tours_df):
     return sum(tours_df["length"])
 
-def getStaticExampleTour(ways_df):
+def getStaticExampleTour(ways_df, tour_id):
     result = pd.DataFrame(columns=ways_df.columns)
-    result = result.append(ways_df[ways_df.unique_id.eq(4853536110)])
-    result = result.append(ways_df[ways_df.unique_id.eq(4853536120)])
-    result = result.append(ways_df[ways_df.unique_id.eq(4853519610)])
-    result = result.append(ways_df[ways_df.unique_id.eq(4853519620)])
-    result = result.append(ways_df[ways_df.unique_id.eq(4853519630)])
-    result = result.append(ways_df[ways_df.unique_id.eq(4853519640)])
-    result = result.append(ways_df[ways_df.unique_id.eq(4853519650)])
-    result = result.append(ways_df[ways_df.unique_id.eq(4853519660)])
-    result = result.append(ways_df[ways_df.unique_id.eq(93831846110)])
-    result = result.append(ways_df[ways_df.unique_id.eq(93831846120)])
-    result = result.append(ways_df[ways_df.unique_id.eq(4853536451)])#
-    result = result.append(ways_df[ways_df.unique_id.eq(4853536441)])
-    result = result.append(ways_df[ways_df.unique_id.eq(4853536431)])
-    result = result.append(ways_df[ways_df.unique_id.eq(4853536310)])
-    result = result.append(ways_df[ways_df.unique_id.eq(4853536320)])
-    result = result.append(ways_df[ways_df.unique_id.eq(4853536330)])
-    result = result.append(ways_df[ways_df.unique_id.eq(4853536501)])
-    result = result.append(ways_df[ways_df.unique_id.eq(40344441220)])
+    if(tour_id==0): # tour with 9 ways and around 270m length
+        result = result.append(ways_df[ways_df.unique_id.eq(1743841860)])
+        result = result.append(ways_df[ways_df.unique_id.eq(890250521)])
+        result = result.append(ways_df[ways_df.unique_id.eq(890250511)])
+        result = result.append(ways_df[ways_df.unique_id.eq(111499289141)])
+        result = result.append(ways_df[ways_df.unique_id.eq(111499289131)])
+        result = result.append(ways_df[ways_df.unique_id.eq(111499289121)])
+        result = result.append(ways_df[ways_df.unique_id.eq(18509405901)])
+        result = result.append(ways_df[ways_df.unique_id.eq(1743836921)])
+        result = result.append(ways_df[ways_df.unique_id.eq(1743836911)])
+    if(tour_id==1): # tour with 17 ways and around 300m length
+        result = result.append(ways_df[ways_df.unique_id.eq(4853536110)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4853536120)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4853519610)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4853519620)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4853519630)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4853519640)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4853519650)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4853519660)])
+        result = result.append(ways_df[ways_df.unique_id.eq(93831846110)])
+        result = result.append(ways_df[ways_df.unique_id.eq(93831846120)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4853536451)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4853536441)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4853536431)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4853536310)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4853536320)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4853536330)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4853536501)])
+        result = result.append(ways_df[ways_df.unique_id.eq(40344441220)])
+    elif(tour_id==2): # Tour with 41 nodes and 1.48 km length
+        result = result.append(ways_df[ways_df.unique_id.eq(806825210)])
+        result = result.append(ways_df[ways_df.unique_id.eq(811019300)])
+        result = result.append(ways_df[ways_df.unique_id.eq(890247720)])
+        result = result.append(ways_df[ways_df.unique_id.eq(890247730)])
+        result = result.append(ways_df[ways_df.unique_id.eq(890247740)])
+        result = result.append(ways_df[ways_df.unique_id.eq(890247750)])
+        result = result.append(ways_df[ways_df.unique_id.eq(890253901)])
+        result = result.append(ways_df[ways_df.unique_id.eq(806825260)])
+        result = result.append(ways_df[ways_df.unique_id.eq(806825270)])
+        result = result.append(ways_df[ways_df.unique_id.eq(20617559221)])
+        result = result.append(ways_df[ways_df.unique_id.eq(93840712300)])
+        result = result.append(ways_df[ways_df.unique_id.eq(93840712130)])
+        result = result.append(ways_df[ways_df.unique_id.eq(93840712000)])
+        result = result.append(ways_df[ways_df.unique_id.eq(20617559710)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4853537610)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4885184310)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4885185521)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4885185601)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4885185441)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4885185831)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4885185910)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4885185920)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4885185411)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4885185211)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4885184201)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4885184140)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4885184350)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4889363510)])
+        result = result.append(ways_df[ways_df.unique_id.eq(86528770400)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4889363320)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4889363200)])
+        result = result.append(ways_df[ways_df.unique_id.eq(806825051)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4211053000)])
+        result = result.append(ways_df[ways_df.unique_id.eq(93810347110)])
+        result = result.append(ways_df[ways_df.unique_id.eq(58920994500)])
+        result = result.append(ways_df[ways_df.unique_id.eq(1743841821)])
+        result = result.append(ways_df[ways_df.unique_id.eq(1743841811)])
+        result = result.append(ways_df[ways_df.unique_id.eq(11149928941)])
+        result = result.append(ways_df[ways_df.unique_id.eq(11149928931)])
+        result = result.append(ways_df[ways_df.unique_id.eq(11149928921)])
+        result = result.append(ways_df[ways_df.unique_id.eq(11149928911)])
     result = result.reset_index()
     return result
 
@@ -80,23 +133,26 @@ def prepareOverpassPlotScriptForTour(tour, filename):
         f.write(result)
 
 # generate a random starting solution
-def getRandomTour(ways_df, nodes_df, max_tour_length, budget):
+def getRandomTour(ways, n_of_ways, budget):
+    result = pd.DataFrame(columns=ways.columns)
     current_tour_length = 0
     num_of_iterations = 0
     print("Start brute-forcing valid inital solution...")
     while num_of_iterations <= budget:
-        tour = []
         # append first way to tour
-        start_way = ways_df.sample()
-        tour.append(start_way)
+        start_way = ways.sample()
+        result.append(start_way)
         num_of_iterations = num_of_iterations + 1
-        while current_tour_length < max_tour_length:
-            possible_next_ways = ways_df[ways_df.start_node.eq(int(start_way["end_node"]))]
+        while current_tour_length < n_of_ways:
+            possible_next_ways = ways[ways.start_node.eq(int(start_way["end_node"]))]
             next_way = possible_next_ways.sample()
-            tour.append(next_way)
+            result.append(next_way)
             current_tour_length = current_tour_length + 1
-            if int(tour[-1]["end_node"])==int(start_way["start_node"]):
-                return tour
+            if len(result)>0 and int(result["end_node"].iloc[-1]["end_node"])==int(start_way["start_node"]):
+                result = result.reset_index()
+                print("heyo")
+                print(result)
+                return result
     return "Budget expired without finding a valid starting solution."
 
 # try to find an alternative way from a given start_node to an end_node
@@ -116,7 +172,7 @@ def getAlternativeWay(start_node, end_node, old_way_length, current_tour, ways_d
     if len(possible_ways)>0:
         return possible_ways
 
-    # try to finde replacement conencting start and end node with one node in between (common neighbour)
+    # try to finde replacement connecting start and end node with one node in between (common neighbour)
     # this is only done if no direct connection was found in previous step, as it is more resource intensive
     # blacklist for ways not to consider as solutions (already in tour or solution of previous function call not in tour yet (i-k main loop))
     blacklist = current_tour.append(blacklist)
@@ -145,13 +201,7 @@ def getAlternativeWay(start_node, end_node, old_way_length, current_tour, ways_d
         # if a way exists connectiong start and end point to the neighbour (then its a common neighbour), check if its new best option
         if len(possible_ways_from_start)>0 and len(possible_ways_to_end)>0: #and (possible_ways_from_start["section_id"]!=possible_ways_to_end["section_id"]
             curr_difference = abs(way_target_length - (float(possible_ways_from_start["length"])+float(possible_ways_to_end["length"])))
-            if curr_difference < curr_best_difference:
-                # print("-- Alt Way Finder ----------------------------------------------------------------------")
-                # print("Start/End: "+str(start_node)+", "+str(end_node))
-                # print("Curr Option: " + str(option))
-                # print("Ways start-option: "+str(possible_ways_from_start))
-                # print("Ways end-option: "+str(possible_ways_to_end))
-                
+            if curr_difference < curr_best_difference:            
                 #delete previous best solution and append new one
                 curr_best_option = curr_best_option[0:0] 
                 curr_best_option = curr_best_option.append(possible_ways_from_start)
