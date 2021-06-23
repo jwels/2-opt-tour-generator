@@ -13,7 +13,7 @@ budget = 50
 # the length the solution tour should have
 target_length = 1
 # Choose between random or static start tour. Using the static tour makes results more comparable and is much faster.
-# generating a random tour in a not fully TODO
+# generating random start tours does not work without brute forcing yet. Using the static starting tours is recommended.
 random_start_tour = False
 # The tour to use:
 # 0 = 9 ways and ~270m length
@@ -126,7 +126,7 @@ while num_of_iterations < budget:
               first_section,
               middle_section,
               last_section  
-              ], axis=0).reset_index(drop=True) #tour.append(replacement_way_i).reset_index(drop=True)
+              ], axis=0).reset_index(drop=True)
             # indicate that a change was made, used to restart outer for loop to keep loop and dataframe indices in sync
             changes_made = True
       
