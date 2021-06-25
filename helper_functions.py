@@ -163,7 +163,7 @@ def getAlternativeWay(start_node, end_node, old_way_length, current_tour, ways_d
     if way_target_length < 0:
         way_target_length = 0
 
-    #try to find replacement directly conencting start and end node (1 way, no additional nodes)
+    #try to find replacement directly connecting start and end node (1 way, no additional nodes)
     possible_ways = ways_df[(ways_df.start_node.eq(start_node) & ways_df.end_node.eq(end_node) & ~ways_df.section_id.isin(current_tour.section_id))]
     if len(possible_ways)>1:
         possible_ways = possible_ways.sort_values(by='length', key=lambda x: abs(way_target_length-x),ascending=True,inplace=False)
@@ -174,7 +174,7 @@ def getAlternativeWay(start_node, end_node, old_way_length, current_tour, ways_d
 
     # try to finde replacement connecting start and end node with one node in between (common neighbour)
     # this is only done if no direct connection was found in previous step, as it is more resource intensive
-    # blacklist for ways not to consider as solutions (already in tour or solution of previous function call not in tour yet (i-k main loop))
+    # blacklist is for ways not to consider as solutions (already in tour or solution of previous function call not in tour yet (i-k main loop))
     blacklist = current_tour.append(blacklist)
     possible_ways_double = ways_df[
         (ways_df.start_node.eq(start_node) & ~ways_df.section_id.isin(blacklist.section_id))
