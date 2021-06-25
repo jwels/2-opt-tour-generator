@@ -11,15 +11,15 @@ iter_times = []
 # if budget < len(start_tour) not all possibile changes will be tested
 budget = 50
 # the length the solution tour should have
-target_length = 1
+target_length = 2
 # Choose between random or static start tour. Using the static tour makes results more comparable and is much faster.
 # generating random start tours does not work without brute forcing yet. Using the static starting tours is recommended.
 random_start_tour = False
 # The tour to use:
 # 0 = 9 ways and ~270m length
-# 1 = 17 ways and ~300m length
+# 1 = 19 ways and ~310m length
 # 2 = 41 ways and ~1.48km length.
-tour_id = 2
+tour_id = 1
 # If true -> go through algorithm step by step with more debugging information
 verbose = False
 
@@ -158,7 +158,6 @@ while num_of_iterations < budget:
     print("Iteration: " + str(num_of_iterations-1))
     print("Improvement: " + str(improvement))
     print("Difference to target: " + str(curr_diff))
-    helpers.prepareOverpassPlotScriptForTour(tour, "plot-nodes-algo-output")
 
 print("---------------------------TERMINATED------------------------------------")
 if(num_of_iterations==budget):
@@ -170,5 +169,6 @@ print(tour)
 print("Target length: "+str(target_length)+" km")
 print("Result length: "+str(helpers.getTourLengthDF(tour))+" km")
 end = time.time()
+helpers.prepareOverpassPlotScriptForTour(tour, "plot-nodes-algo-output")
 print("Total run-time: " + str(end-start) +"s")
 print("Average iteration time: " + str(sum(iter_times)/len(iter_times)))

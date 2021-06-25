@@ -54,7 +54,11 @@ def getStaticExampleTour(ways_df, tour_id):
     if(tour_id==1): # tour with 17 ways and around 300m length
         result = result.append(ways_df[ways_df.unique_id.eq(4853536110)])
         result = result.append(ways_df[ways_df.unique_id.eq(4853536120)])
-        result = result.append(ways_df[ways_df.unique_id.eq(4853519610)])
+        #result = result.append(ways_df[ways_df.unique_id.eq(4853519610)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4885184800)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4885184600)])
+        result = result.append(ways_df[ways_df.unique_id.eq(4885184111)])
+        # 
         result = result.append(ways_df[ways_df.unique_id.eq(4853519620)])
         result = result.append(ways_df[ways_df.unique_id.eq(4853519630)])
         result = result.append(ways_df[ways_df.unique_id.eq(4853519640)])
